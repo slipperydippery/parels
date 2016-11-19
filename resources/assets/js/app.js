@@ -14,7 +14,12 @@ require('./bootstrap');
  */
 
 Vue.component('example', require('./components/Example.vue'));
+Vue.component('pearls', require('./components/Pearls.vue'));
+Vue.component('pearl', require('./components/Pearl.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#pearls',
+
+    components: {
+    }
 });
