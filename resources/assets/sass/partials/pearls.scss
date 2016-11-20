@@ -1,9 +1,14 @@
+.pearls .row {
+	margin: 2rem 0;
+}
+
 .pearllist {
 	margin: 2rem 0;
 }
 
 .pearl {
 	padding: 15px;
+	cursor: pointer;
 
 	.ring {
 		position: absolute;

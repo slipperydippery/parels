@@ -2,6 +2,7 @@
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Doppio+One');
 
 // Variables
 @import "variables";
@@ -12,6 +13,7 @@
 // Site
 @import "partials/site";
 @import "partials/pearlconfig";
+@import "partials/fonts";
 @import "partials/header";
 @import "partials/lists";
 @import "partials/pearls";
