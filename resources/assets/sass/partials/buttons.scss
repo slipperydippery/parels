@@ -22,3 +22,18 @@
 .pearls .category-3 {
 	background: $color3;
 }
+
+// .pearls .category-1.nonactive {
+// 	background: desaturate($color1, 100%);
+// }
+// .pearls .category-2.nonactive {
+// 	background: desaturate($color2, 100%);
+// }
+// .pearls .category-3.nonactive {
+// 	background: desaturate($color3, 100%);
+// }
+
+.pearls .nonactive {
+	background: rgba(0,0,0,0.3);
+}
+

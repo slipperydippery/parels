@@ -9818,4 +9818,7 @@ ul, li {
 .pearls .category-3 {
   background: #a0ce99; }
 
+.pearls .nonactive {
+  background: rgba(0, 0, 0, 0.3); }
+
 /*# sourceMappingURL=app.css.map */

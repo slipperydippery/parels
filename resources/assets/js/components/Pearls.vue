@@ -6,7 +6,7 @@
             >
                 <div 
                     class="btn"
-                    :class="'category-' + category.id"
+                    :class="['category-' + category.id, nonActive(category)]"
                     @click="setActive(category)"
                 >
                     {{ category.title }}
@@ -33,7 +33,7 @@
     			pearls: [],
                 filteredpearls: [],
                 categories: [],
-                active: [],
+                active: {},
     		}
     	},
 
@@ -60,9 +60,24 @@
             },
 
             setActive: function (category) {
+                if (category.id == this.active.id) {
+                    this.filteredpearls = this.pearls;
+                    this.active = {};
+                    return
+                }
+                this.active = category;
                 this.filteredpearls = this.pearls.filter( function(pearl){
                     return pearl.categories[0].id == category.id;
                 })
+            },
+
+            nonActive(category) {
+                if (this.active != {}) {
+                    if (this.active.id != category.id) {
+                        return 'nonactive'
+                    }
+                }
+                return;
             },
         }
     }
