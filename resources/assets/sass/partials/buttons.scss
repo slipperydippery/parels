@@ -1,0 +1,24 @@
+.pearls .btn {
+	cursor: pointer;
+	border: 0;
+	color: #fff;
+	font-family: 'Karla', Arial;
+	text-decoration: none;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-weight: normal;
+	border-radius: 3px;
+	float: left;
+}
+
+.pearls .category-1 {
+	background: $color1;
+}
+.pearls .category-2 {
+	background: $color2;
+}
+.pearls .category-3 {
+	background: $color3;
+}

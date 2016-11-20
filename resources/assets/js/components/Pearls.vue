@@ -1,11 +1,26 @@
 <template>
-    <div class="">
-        <pearl
-            v-for="pearl in pearls"
-            :pearl="pearl"
-        >
-        </pearl>
-    </div>
+    <div class="pearls">
+        <div class="row">
+            <div class="col-md-4"
+                v-for="category in categories"
+            >
+                <div 
+                    class="btn"
+                    :class="'category-' + category.id"
+                    @click="setActive(category)"
+                >
+                    {{ category.title }}
+                </div>
+            </div>
+        </div>
+        <div class="row pearllist">
+            <pearl
+                v-for="pearl in filteredpearls"
+                :pearl="pearl"
+            >
+            </pearl>
+        </div>
+    </div> 
 
 </template>
 
@@ -16,12 +31,16 @@
     	data() {
     		return {
     			pearls: [],
+                filteredpearls: [],
+                categories: [],
+                active: [],
     		}
     	},
 
         mounted() {
             console.log('Parels ready.');
             this.getPearls();
+            this.getCategories();
         },
 
 		methods: {
@@ -29,8 +48,22 @@
         	    this.$http.get('/api/pearl/')
         	        .then(response => {
         	            this.pearls = response.data;
+                        this.filteredpearls = response.data;
         	        });
         	},
+
+            getCategories: function () {
+                this.$http.get('/api/category')
+                    .then(response => {
+                        this.categories = response.data;
+                    });
+            },
+
+            setActive: function (category) {
+                this.filteredpearls = this.pearls.filter( function(pearl){
+                    return pearl.categories[0].id == category.id;
+                })
+            },
         }
     }
 </script>

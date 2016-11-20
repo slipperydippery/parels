@@ -53,7 +53,7 @@
                 <div id="search-progress">
                     <h4>Er wordt gezocht op <strong>{0}</strong> <span id="progress"></span></h4>
                 </div>
-                <img src="/Content/images/loader.gif" id="searchLoader" />
+                <img src="/img/loader.gif" id="searchLoader" />
             </div>
 
             <div id="addthis">

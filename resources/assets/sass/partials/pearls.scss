@@ -1,0 +1,45 @@
+.pearllist {
+	margin: 2rem 0;
+}
+
+.pearl {
+	padding: 15px;
+
+	.ring {
+		position: absolute;
+		top: 5%;
+		left: 5%;
+		width: 90%;
+		height: 90%;
+		border-radius: 100%;
+		background: transparent;
+	    border: 2rem solid rgba(255, 150, 75, 0.8);
+	}
+
+	.ring-1 {
+		border-color: $color1;
+	}
+
+	.ring-2 {
+		border-color: $color2;
+	}
+
+	.ring-3 {
+		border-color: $color3;
+	}
+
+	img.tsquare {
+		width: 100%;
+		height: auto;
+	}
+
+	span {
+		position: absolute;
+		left: 0;
+		top: 45%;
+		width: 100%;
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 500;
+	}
+}

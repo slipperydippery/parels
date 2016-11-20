@@ -14,7 +14,7 @@ class ApiPearlsController extends Controller
      */
     public function index()
     {
-        return Pearl::all();
+        return Pearl::with('categories')->get();
     }
 
     /**

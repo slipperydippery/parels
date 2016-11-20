@@ -3,7 +3,7 @@ header, footer, nav, section { display: block; }
 a { color: #d1174d; text-decoration: underline; }
 a:focus, a:hover { color: #90052e; outline: 0; }
 h1.description { display: none; }
-.sprite { background: url(/content/images/sprite.png) top left no-repeat; }
+.sprite { background: url(/img/sprite.png) top left no-repeat; }
 label { font-weight: 400; }
 
 .showonmobile {display:none;}
@@ -82,7 +82,7 @@ label { font-weight: 400; }
 #portal-items .item { float: left; margin-bottom: 30px; padding: 0 0 10px 0; background: #daeaea; }
 #portal-items .item h3 { height: 42px; overflow: hidden; font-family: 'Doppio One', Arial; font-size: 18px; line-height: 21px; font-weight: normal; margin: 25px 10px 0 10px; padding: 0; }
 #portal-items .item p { height: 110px; margin: 16px 10px 0 10px; overflow: hidden; }
-#portal-items .item a.btn { margin: 20px 10px 0 0; float: right; background: url(/Content/images/btn_rose.jpg) no-repeat top right; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#portal-items .item a.btn { margin: 20px 10px 0 0; float: right; background: url(/img/btn_rose.jpg) no-repeat top right; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .item span.modelthumbnail { width: 100%; height: 165px; background: #fff; color: #000; display: block; }
 .item img.modelthumbnail { width: 100%; height: 165px; display: block; }
 
@@ -127,7 +127,7 @@ label { font-weight: 400; }
 #footer { background: #e8e9e6; overflow: hidden; color: #777777; margin: 0 0 30px 0; }
 #footer h3 { margin-top: 0; }
 #footer .kolom { margin: 20px 0 0 0; }
-#footer .last .btn { cursor: pointer; border: 0; margin: 13px 10px 0 0; float: right; background: url(/Content/images/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#footer .last .btn { cursor: pointer; border: 0; margin: 13px 10px 0 0; float: right; background: url(/img/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #footer .kolom ul { margin: 0 0 15px 0; clear: both; float: left; width: 202px; }
 #footer span, #footer a span { font-weight: bold; color: #000; font-family: 'Karla', Arial; font-size: 16px; margin: 0 0 6px 0; clear: both; float: left; }
 #footer a { text-decoration: none; color: #777777; }
@@ -201,7 +201,7 @@ label { font-weight: 400; }
 #contactformulier #Aanvraag_Email { padding-bottom: 20px; background-color: transparent; }
 /* fix voor inbrowser validatie op inputtype email */
 #Aanvraag_Beveiliging { height: 1px; width: 1px; margin: 0; padding: 0; border: 0; background: #fae7ed; }
-.content-form .btn { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/Content/images/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.content-form .btn { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/img/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 span.field-validation-error { color: red; position: absolute; right: 25px; top: 10px; }
 
 #contact-address-map { float: left; width: 306px; margin: -50px 0 20px 0; }
@@ -263,7 +263,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 #programma-nieuws-en-cursussen .blokken li a span.cursussen_datum,
 #programma-nieuws-en-cursussen .blokken li a span.nieuws_datum { font-size: 10px; display: block; line-height: 12px; }
 #programma-nieuws-en-cursussen .cursussen-blok { margin: 0; }
-#programma-nieuws-en-cursussen a.btn { display: block; position: absolute; bottom: 10px; right: 10px; margin: 0; background: url(/Content/images/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#programma-nieuws-en-cursussen a.btn { display: block; position: absolute; bottom: 10px; right: 10px; margin: 0; background: url(/img/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #programma-nieuws-en-cursussen .wrap_breed { width: 100%; height: 1px; clear: both; float: left; }
 
 /*ONDERWERP*/
@@ -610,7 +610,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 
 .nieuws .filter input { float: left; }
 .nieuws .filter label { height: 19px; display: block; float: left; padding: 1px 0 0 10px; font-weight: 400; }
-.nieuws .filter .btn { cursor: pointer; background: url(/Content/images/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
+.nieuws .filter .btn { cursor: pointer; background: url(/img/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
 .nieuws .filter .btnnieuwsbrief { cursor: pointer; background: url(/Content/images/btn_nieuwsbrief.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
 
 .nieuws #year { width: 100%; height: 25px; margin: 0 0 10px 0; }
@@ -705,7 +705,7 @@ ul.mpFormTable .mpFormField input.mpMultipleInput { width: 10px; margin: 0 10px 
 ul.mpFormTable .mpFormField input[type="radio"] { display: inline-block; margin-right: 10px; width: 10px; }
 ul.mpFormTable .mpFormField textarea { width: 100%; font-family: Verdana; font-size: 14px; }
 ul.mpFormTable .mpFormField ul li { float: left; margin: 0 0 5px; width: 100%; }
-ul.mpFormTable input.submitButton { margin: 0; background: url(/Content/images/btn_rose.jpg) top right no-repeat; width: auto; float: left; padding: 3px 28px 3px 7px; color: #fff; border: 0; font-family: 'Karla', Arial; font-size: 14px; font-weight: normal; text-transform: lowercase; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; cursor: pointer; }
+ul.mpFormTable input.submitButton { margin: 0; background: url(/img/btn_rose.jpg) top right no-repeat; width: auto; float: left; padding: 3px 28px 3px 7px; color: #fff; border: 0; font-family: 'Karla', Arial; font-size: 14px; font-weight: normal; text-transform: lowercase; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; cursor: pointer; }
 ul.mpFormTable .sublabel { margin: 5px 0 0 0; }
 ul.mpFormTable .mpRadioButtonTable input { float: left; }
 ul.mpFormTable .mpRadioButtonTable label { display: block; width: 230px; float: left; }
@@ -723,7 +723,7 @@ iframe#mailplusiframe td { font-family: Arial !important; font-size: 14px; }
 .form_instrument .row { clear: both; float: left; margin: 0 0 10px 0; }
 .form_instrument label { width: 120px; float: left; }
 .form_instrument input { width: 150px; float: left; }
-.form_instrument .btn { background: url(/Content/images/btn_rose.jpg) top right no-repeat; width: auto; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 0; }
+.form_instrument .btn { background: url(/img/btn_rose.jpg) top right no-repeat; width: auto; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 0; }
 
 /*SITEMAP*/
 .sitemap h1 { font-family: 'Doppio One', Arial; line-height: 36px; font-weight: normal; font-size: 36px; color: #d1174d; margin: 10px 0 30px 0; }
@@ -799,7 +799,7 @@ a.s-ti:visited { color: #969; }
 .default-filter #type2 label { background: url(/Content/images/ico_downloads.jpg) 8px 0 no-repeat; padding: 1px 0 0 30px; }
 .default-filter #type3 label { background: url(/Content/images/ico_praktijkverhalen.jpg) 8px 0 no-repeat; padding: 1px 0 0 30px; }
 .default-filter #type4 label { background: url(/Content/images/ico_multimedia.jpg) 8px 0 no-repeat; padding: 1px 0 0 30px; }
-.default-filter .btn { cursor: pointer; background: url(/Content/images/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
+.default-filter .btn { cursor: pointer; background: url(/img/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
 
 .default-filter strong { display: block; margin: 10px; font-weight: normal; }
 .default-filter .labeledcheckbox { margin: 10px; padding: 1px 0; }
@@ -965,7 +965,7 @@ body.pagina.contact .contentelement h4 { background: #d1174d; color: #fff; paddi
 body.pagina.contact .content-form { margin: 20px 0 0 0; background: #fae7ed; padding: 1px; }
 .content-form form { margin: 20px; }
 body.pagina.contact label { color: #d1174d; font-style: italic; font-size: 14px; }
-body.pagina.contact .content-form input[type=submit] { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/Content/images/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+body.pagina.contact .content-form input[type=submit] { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/img/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 
 .templateblok-clear { clear: both; margin: 10px 0; height: 1px; }
 #sitemap h2,

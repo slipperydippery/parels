@@ -18,3 +18,5 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:api');
 
 Route::get('/pearl', 'ApiPearlsController@index');
+
+Route::get('/category', 'ApiCategoriesController@index');
