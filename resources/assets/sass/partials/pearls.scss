@@ -20,7 +20,7 @@
 .pearl {
 	padding: 15px;
 	cursor: pointer;
-
+	margin-bottom: 6rem;
 
 	.ring {
 		position: absolute;
@@ -33,6 +33,12 @@
 	    border: 2rem solid rgba(255, 150, 75, 0.8);
 	    background-size: 200%;
 	    background-position: center; 
+	    .playicon {
+	    	width: 5rem;
+	    	height: auto;
+	    	margin: 0 auto;
+	    	margin-top: 4.5rem;
+	    }
 	}
 
 	.ring-1 {
@@ -55,12 +61,11 @@
 	span {
 		position: absolute;
 		left: 0;
-		top: 40%;
+		top: 100%;
 		width: 100%;
-		padding: 0 3rem;
+		padding: 0 1rem;
 		text-align: center;
-		font-size: 1em;
-		font-weight: 500;
+		font-size: 1.2em;
 		hyphens: auto;
 	}
 }

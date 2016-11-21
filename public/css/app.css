@@ -9780,7 +9780,8 @@ ul, li {
 
 .pearl {
   padding: 15px;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 6rem; }
   .pearl .ring {
     position: absolute;
     top: 5%;
@@ -9791,6 +9792,11 @@ ul, li {
     border: 2rem solid rgba(255, 150, 75, 0.8);
     background-size: 200%;
     background-position: center; }
+    .pearl .ring .playicon {
+      width: 5rem;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 4.5rem; }
   .pearl .ring-1 {
     border-color: #ff964b; }
   .pearl .ring-2 {
@@ -9803,12 +9809,11 @@ ul, li {
   .pearl span {
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 100%;
     width: 100%;
-    padding: 0 3rem;
+    padding: 0 1rem;
     text-align: center;
-    font-size: 1em;
-    font-weight: 500;
+    font-size: 1.2em;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto; }
