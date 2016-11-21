@@ -9816,10 +9816,7 @@ ul, li {
     width: 100%;
     padding: 0 1rem;
     text-align: center;
-    font-size: 1.2em;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto; }
+    font-size: 1.2em; }
 
 .pearls .btn {
   cursor: pointer;
