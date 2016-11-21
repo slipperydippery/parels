@@ -9647,6 +9647,9 @@ ul.praktijklokalen {
   font-weight: normal;
   line-height: 44px; }
 
+.singlepearl h2 {
+  margin-top: 0; }
+
 #header {
   height: 102px; }
 
@@ -9820,5 +9823,13 @@ ul, li {
 
 .pearls .nonactive {
   background: rgba(0, 0, 0, 0.3); }
+
+.singlepearl .btn {
+  color: #fff;
+  background: #d2174e;
+  padding: 3px 0; }
+
+.singlepearl {
+  maring-top: 1rem; }
 
 /*# sourceMappingURL=app.css.map */

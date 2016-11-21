@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class CategoryPearlTableSeeder extends Seeder
+class PearlVideoTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,35 +11,35 @@ class CategoryPearlTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('category_pearl')->delete();
+        DB::table('pearl_video')->delete();
 
-        $category_pearl = [
+        $pearl_video = [
             [
-                'category_id' => '1',
                 'pearl_id' => '1',
+                'video_id' => '1',
             ],
             [
-                'category_id' => '2',
                 'pearl_id' => '2',
+                'video_id' => '2',
             ],
             [
-                'category_id' => '3',
                 'pearl_id' => '3',
+                'video_id' => '3',
             ],
             [
-                'category_id' => '1',
                 'pearl_id' => '4',
+                'video_id' => '1',
             ],
             [
-                'category_id' => '3',
                 'pearl_id' => '5',
+                'video_id' => '2',
             ],
             [
-                'category_id' => '2',
                 'pearl_id' => '6',
+                'video_id' => '3',
             ],
         ];
 
-        DB::table('category_pearl')->insert($category_pearl);
+        DB::table('pearl_video')->insert($pearl_video);
     }
 }

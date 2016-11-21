@@ -13,10 +13,19 @@
                 </div>
             </div>
         </div>
+        <div class="row openpearl">
+            <singlepearl
+                :pearl="activepearl"
+                v-if="activepearl.id != 0"
+            >
+                hey
+            </singlepearl>
+        </div>
         <div class="row pearllist">
             <pearl
                 v-for="pearl in filteredpearls"
                 :pearl="pearl"
+                @setactivepearl="setActivePearl"
             >
             </pearl>
         </div>
@@ -26,12 +35,14 @@
 
 <script>
     import pearl from '../components/Pearl.vue';
+    import singlepearl from '../components/Singlepearl.vue';
 
     export default {
     	data() {
     		return {
     			pearls: [],
                 filteredpearls: [],
+                activepearl: { id:0 },
                 categories: [],
                 active: {},
     		}
@@ -79,6 +90,11 @@
                 }
                 return;
             },
+
+            setActivePearl: function (pearl) {
+                console.log('here');
+                this.activepearl = pearl;
+            }
         }
     }
 </script>

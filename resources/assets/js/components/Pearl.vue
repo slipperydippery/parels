@@ -1,5 +1,8 @@
 <template>
-	<div class="pearl col-md-2">
+	<div 
+		class="pearl col-md-2"
+		@click="setThisActive()"
+	>
 		<img src="img/transparent.png" alt="" class="tsquare">
 		<div 
 			class="ring"
@@ -18,7 +21,15 @@
 
         props: [
         	'pearl'
-        ]
+        ],
+
+        methods: {
+        	setThisActive: function () {
+        		console.log('setting active');
+        		this.$emit('setactivepearl', this.pearl);
+        		console.log(this.pearl.id);
+        	}
+        }
 
     }
 </script>

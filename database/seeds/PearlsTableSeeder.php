@@ -34,6 +34,16 @@ class PearlsTableSeeder extends Seeder
                 'title' => 'Four',
                 'description' => '',
             ],
+            [
+                'id' => '5',
+                'title' => 'Five',
+                'description' => '',
+            ],
+            [
+                'id' => '6',
+                'title' => 'Six',
+                'description' => '',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);

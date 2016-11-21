@@ -15,5 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(PearlsTableSeeder::class);
         $this->call(CategoryPearlTableSeeder::class);
         $this->call(LinkPearlTableSeeder::class);
+        $this->call(VideosTableSeeder::class);
+        $this->call(PearlVideoTableSeeder::class);
     }
 }
