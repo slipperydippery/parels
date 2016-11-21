@@ -22,7 +22,7 @@
             </singlepearl>
         </div>
         <div class="row pearllist">
-            <h3 v-if="activepearl.id != 0">Gerelateerde parels:</h3>
+            <h3 v-if="activepearl.id != 0" class="parels_head">Gerelateerde parels:</h3>
             <pearl
                 v-for="pearl in filteredpearls"
                 :pearl="pearl"

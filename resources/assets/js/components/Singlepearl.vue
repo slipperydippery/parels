@@ -16,29 +16,31 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     <br>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="#" class="btn">factsheet</a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="btn">Casehandleiding</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="#" class="btn">Share</a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="btn">Geef reactie</a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" class="btn">Houd me op de hoogte</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
-        </div>            
-    </div> 
+        </div>    
+
+        <div class="col-md-12">
+            <div class="row linkrow">
+                <div class="col-md-2">
+                    <a href="#" class="btn">Factsheet</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn">Casehandleiding</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn">Share</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn">Geef reactie</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn">Houd me op de hoogte</a>
+                </div>
+            </div>
+            
+        </div> 
 
 </template>
 

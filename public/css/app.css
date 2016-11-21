@@ -9775,8 +9775,11 @@ ul, li {
 .pearls .row {
   margin: 2rem 0; }
 
+.parels_head {
+  margin-top: 0; }
+
 .pearllist {
-  margin: 2rem 0; }
+  margin: 0rem 0 4rem !important; }
 
 .pearl {
   padding: 15px;
@@ -9879,5 +9882,8 @@ ul, li {
   margin: 2rem 0;
   background: #daeaea;
   padding: 2rem 0; }
+
+.linkrow {
+  margin: 3rem 0 0 !important; }
 
 /*# sourceMappingURL=app.css.map */

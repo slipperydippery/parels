@@ -9,7 +9,7 @@
 			:class="'ring-' + pearl.categories[0].id"
             :style="{ backgroundImage: 'url(http://img.youtube.com/vi/' + pearl.videos[0].adress + '/sddefault.jpg)' }"
 		>
-            <img src="/img/play.png" alt="" class="playicon center-block">
+            <img src="/img/playtrans.png" alt="" class="playicon center-block">
 		</div>
 		<span>{{ pearl.title }}</span>
 	</div>
