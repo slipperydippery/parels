@@ -9762,6 +9762,16 @@ ul, li {
   vertical-align: baseline;
   background: transparent; }
 
+.pearlbar {
+  clear: both;
+  float: left;
+  width: 100%;
+  height: 85px;
+  background-color: #fff;
+  margin: 0;
+  background: url(/img/sprite.png) top left no-repeat;
+  background-position: 0 -496px; }
+
 .pearls .row {
   margin: 2rem 0; }
 
@@ -9778,7 +9788,6 @@ ul, li {
     width: 90%;
     height: 90%;
     border-radius: 100%;
-    background: transparent;
     border: 2rem solid rgba(255, 150, 75, 0.8); }
   .pearl .ring-1 {
     border-color: #ff964b; }
@@ -9796,7 +9805,7 @@ ul, li {
     width: 100%;
     padding: 0 3rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1em;
     font-weight: 500;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
@@ -9812,7 +9821,9 @@ ul, li {
   width: 100%;
   box-sizing: border-box;
   font-size: 14px;
+  line-height: 22px;
   font-weight: normal;
+  border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 3px;
   float: left; }
 
@@ -9825,8 +9836,32 @@ ul, li {
 .pearls .category-3 {
   background: #a0ce99; }
 
-.pearls .nonactive {
-  background: rgba(0, 0, 0, 0.3); }
+.pearls .category-1.nonactive {
+  background: #ff964b; }
+
+.pearls .category-2.nonactive {
+  background: #697cb4; }
+
+.pearls .category-3.nonactive {
+  background: #a0ce99; }
+
+.pearls .category-1.active {
+  background: none;
+  border: 2px solid #ff964b;
+  color: #ff964b;
+  box-shadow: none; }
+
+.pearls .category-2.active {
+  background: none;
+  border: 2px solid #697cb4;
+  color: #697cb4;
+  box-shadow: none; }
+
+.pearls .category-3.active {
+  background: none;
+  border: 2px solid #a0ce99;
+  color: #a0ce99;
+  box-shadow: none; }
 
 .singlepearl .btn {
   color: #fff;
@@ -9834,6 +9869,8 @@ ul, li {
   padding: 3px 0; }
 
 .singlepearl {
-  maring-top: 1rem; }
+  margin: 2rem 0;
+  background: #daeaea;
+  padding: 2rem 0; }
 
 /*# sourceMappingURL=app.css.map */

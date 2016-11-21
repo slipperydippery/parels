@@ -92,12 +92,13 @@
                         return 'nonactive'
                     }
                 }
-                return;
+                return 'active';
             },
 
             setActivePearl: function (pearl) {
                 console.log('here');
                 this.activepearl = pearl;
+                this.active = {};
                 this.filteredpearls = this.pearls.filter( function(thispearl){
                     for (var link in pearl.links) {
                         if(thispearl.id == pearl.links[link].id) {

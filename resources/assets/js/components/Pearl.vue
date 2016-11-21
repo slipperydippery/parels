@@ -7,6 +7,7 @@
 		<div 
 			class="ring"
 			:class="'ring-' + pearl.categories[0].id"
+            :style="{ backgroundImage: 'url(' + image + ')' }"
 		>
 		</div>
 		<span>{{ pearl.title }}</span>
@@ -19,6 +20,10 @@
             console.log('Parel ready ')
         },
 
+        data: {
+            image: "http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png"
+        },
+
         props: [
         	'pearl'
         ],
@@ -29,6 +34,12 @@
         		this.$emit('setactivepearl', this.pearl);
         		console.log(this.pearl.id);
         	}
+        },
+
+        computed: {
+            thumbURL: function () {
+                return 'http://img.youtube.com/vi/' + this.pearl.videos[0].adress + '/sddefault.jpg'
+            }
         }
 
     }

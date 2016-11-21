@@ -8,7 +8,9 @@
 	width: 100%;
 	box-sizing: border-box;
 	font-size: 14px;
+	line-height: 22px;
 	font-weight: normal;
+	border: 2px solid rgba(255,255,266,0);
 	border-radius: 3px;
 	float: left;
 }
@@ -23,18 +25,35 @@
 	background: $color3;
 }
 
-// .pearls .category-1.nonactive {
-// 	background: desaturate($color1, 100%);
-// }
-// .pearls .category-2.nonactive {
-// 	background: desaturate($color2, 100%);
-// }
-// .pearls .category-3.nonactive {
-// 	background: desaturate($color3, 100%);
-// }
+.pearls .category-1.nonactive {
+	background: $color1;
+}
+.pearls .category-2.nonactive {
+	background: $color2;
+}
+.pearls .category-3.nonactive {
+	background: $color3;
+}
 
-.pearls .nonactive {
-	background: rgba(0,0,0,0.3);
+.pearls .category-1.active {
+	background: none;
+	border: 2px solid $color1;
+	color: $color1;
+	box-shadow: none;
+}
+
+.pearls .category-2.active {
+	background: none;
+	border: 2px solid $color2;
+	color: $color2;
+	box-shadow: none;
+}
+
+.pearls .category-3.active {
+	background: none;
+	border: 2px solid $color3;
+	color: $color3;
+	box-shadow: none;
 }
 
 .singlepearl .btn {
