@@ -1,17 +1,24 @@
 <template>
     <div class="singlepearl clearfix">
         <div class="col-md-4">
-            <div class="flex-video widescreen ">
+            <div class="flex-video widescreen">
                 <iframe width="350" height="197"
                     :src="'https://www.youtube.com/embed/' + pearl.videos[0].adress + '?rel=0&amp;showinfo=0'" 
                     frameborder="0" allowfullscreen
+                    v-if="!isTablet"
+                >
+                </iframe>
+                <iframe width="283" height="159"
+                    :src="'https://www.youtube.com/embed/' + pearl.videos[0].adress + '?rel=0&amp;showinfo=0'" 
+                    frameborder="0" allowfullscreen
+                    v-if="isTablet"
                 >
                 </iframe>
             </div>
         </div>
         <div class="col-md-8">
             <div class="contentelement pearlinfo">
-                <h2>{{ pearl.title }}</h2>     
+                <h2>{{ pearl.title }} </h2>     
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
@@ -76,5 +83,14 @@
                 })
             },
         },
+
+        computed: {
+            isTablet: function () {
+                return window.innerWidth < 1200;
+            },
+            screenSize: function () {
+                return window.innerWidth;
+            },
+        }
     }
 </script>
