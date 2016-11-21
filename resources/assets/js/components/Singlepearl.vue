@@ -2,7 +2,7 @@
     <div class="singlepearl">
         <div class="col-md-4">
             <div class="flex-video widescreen ">
-                <iframe width="360" height="203" 
+                <iframe width="350" height="197"
                     :src="'https://www.youtube.com/embed/' + pearl.videos[0].adress + '?rel=0&amp;showinfo=0'" 
                     frameborder="0" allowfullscreen
                 >

@@ -9,7 +9,7 @@ class Pearl extends Model
 {
     public function links()
     {
-    	return $this->belongsToMany('App\Pearl');
+    	return $this->belongsToMany('App\Pearl', 'link_pearl', 'link_id', 'pearl_id');
     }
 
     public function categories()

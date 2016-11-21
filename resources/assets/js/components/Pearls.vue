@@ -22,6 +22,7 @@
             </singlepearl>
         </div>
         <div class="row pearllist">
+            <h3 v-if="activepearl.id != 0">Gerelateerde parels:</h3>
             <pearl
                 v-for="pearl in filteredpearls"
                 :pearl="pearl"
@@ -71,7 +72,10 @@
             },
 
             setActive: function (category) {
-                if (category.id == this.active.id) {
+                if (this.activepearl.id != 0) {
+                    this.activepearl = { id: 0 };
+                }
+                else if (category.id == this.active.id) {
                     this.filteredpearls = this.pearls;
                     this.active = {};
                     return
@@ -94,6 +98,14 @@
             setActivePearl: function (pearl) {
                 console.log('here');
                 this.activepearl = pearl;
+                this.filteredpearls = this.pearls.filter( function(thispearl){
+                    for (var link in pearl.links) {
+                        if(thispearl.id == pearl.links[link].id) {
+                            return true;
+                        }
+                    }
+                    return false;
+                });
             }
         }
     }

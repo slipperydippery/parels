@@ -16,17 +16,17 @@ class PearlsTableSeeder extends Seeder
         $pearls = [
             [
                 'id' => '1',
-                'title' => 'One',
+                'title' => 'Taakbeleid op de schop',
                 'description' => '',
             ],
             [
                 'id' => '2',
-                'title' => 'Two',
+                'title' => 'Professionalisering in het onderwijs',
                 'description' => '',
             ],
             [
                 'id' => '3',
-                'title' => 'Three',
+                'title' => 'Veilig werken in praktijklokalen',
                 'description' => '',
             ],
             [
