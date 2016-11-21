@@ -21,6 +21,7 @@
 	padding: 15px;
 	cursor: pointer;
 
+
 	.ring {
 		position: absolute;
 		top: 5%;
@@ -30,6 +31,8 @@
 		border-radius: 100%;
 		// background: transparent;
 	    border: 2rem solid rgba(255, 150, 75, 0.8);
+	    background-size: 200%;
+	    background-position: center; 
 	}
 
 	.ring-1 {

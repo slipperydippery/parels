@@ -9788,7 +9788,9 @@ ul, li {
     width: 90%;
     height: 90%;
     border-radius: 100%;
-    border: 2rem solid rgba(255, 150, 75, 0.8); }
+    border: 2rem solid rgba(255, 150, 75, 0.8);
+    background-size: 200%;
+    background-position: center; }
   .pearl .ring-1 {
     border-color: #ff964b; }
   .pearl .ring-2 {

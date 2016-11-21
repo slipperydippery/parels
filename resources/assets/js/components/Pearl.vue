@@ -7,7 +7,7 @@
 		<div 
 			class="ring"
 			:class="'ring-' + pearl.categories[0].id"
-            :style="{ backgroundImage: 'url(' + image + ')' }"
+            :style="{ backgroundImage: 'url(http://img.youtube.com/vi/' + pearl.videos[0].adress + '/sddefault.jpg)' }"
 		>
 		</div>
 		<span>{{ pearl.title }}</span>
