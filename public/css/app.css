@@ -9640,6 +9640,43 @@ ul.praktijklokalen {
   .table-medewerkers table td {
     display: block; } }
 
+img {
+  max-width: 100%; }
+
+.factsheet--sidebar {
+  padding-top: 5rem; }
+  .factsheet--sidebar img {
+    width: 80%; }
+
+.titleblock .imageblock {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  margin: 0 0 2rem 0; }
+
+.titleblock img {
+  width: 100%; }
+
+.titleblock p {
+  font-style: italic; }
+
+.interviewblock {
+  background: rgba(0, 0, 0, 0.05);
+  margin: 3rem 0 0 0; }
+  .interviewblock .interviewblock--title {
+    background: rgba(0, 0, 0, 0.1); }
+  .interviewblock .interviewblock--text {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px; }
+
+.socialblock {
+  margin: 3rem 0 0 0;
+  text-align: right; }
+
 .parel_ttl {
   color: #a0ce99;
   font-size: 36px;
@@ -9649,6 +9686,13 @@ ul.praktijklokalen {
 
 .singlepearl h2 {
   margin-top: 0; }
+
+.voiontitle {
+  margin: 0 30px 0 0;
+  font-size: 36px;
+  font-family: 'Doppio One', Arial;
+  font-weight: normal;
+  line-height: 44px; }
 
 #header {
   height: 102px; }
