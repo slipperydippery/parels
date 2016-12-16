@@ -33,7 +33,10 @@ class VideosTableSeeder extends Seeder
                 'adress' => 'XXdfvsQHcTU',
             ],
         ];
-
         DB::table('videos')->insert($videos);
     }
 }
+
+
+
+

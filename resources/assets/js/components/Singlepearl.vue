@@ -31,10 +31,13 @@
         <div class="col-md-12">
             <div class="row linkrow">
                 <div class="col-md-2">
+                    <a href="#" class="btn">Casebeschrijving</a>
+                </div>
+                <div class="col-md-2">
                     <a href="#" class="btn">Factsheet</a>
                 </div>
                 <div class="col-md-2">
-                    <a href="#" class="btn">Casehandleiding</a>
+                    <a href="#" class="btn">Handleiding</a>
                 </div>
                 <div class="col-md-2">
                     <a href="#" class="btn">Share</a>
