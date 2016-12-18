@@ -18,10 +18,9 @@
         </div>
         <div class="col-md-8">
             <div class="contentelement pearlinfo">
-                <h2>{{ pearl.title }} </h2>     
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <h2>{{ pearl.title }} </h2> 
+                <div v-html="rawHtml">
+                    {{ pearl.description }}
                     <br>
                     Neem contact op met <a href="#">de betrokkenen</a>
 
@@ -32,7 +31,7 @@
         <div class="col-md-12">
             <div class="row linkrow">
                 <div class="col-md-2">
-                    <a href="#" class="btn">Casebeschrijving</a>
+                    <a href="#" class="btn">Parelbeschrijving</a>
                 </div>
                 <div class="col-md-2">
                     <a href="#" class="btn">Factsheet</a>
