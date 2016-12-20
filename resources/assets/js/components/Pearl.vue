@@ -1,5 +1,5 @@
 <template>
-	<div 
+	<a href="#singlepearl"
 		class="pearl col-md-2"
 		@click="setThisActive()"
 	>
@@ -12,7 +12,7 @@
             <img src="/img/playtrans.png" alt="" class="playicon center-block">
 		</div>
 		<span>{{ pearl.title }}</span>
-	</div>
+	</a>
 </template>
 
 <script>

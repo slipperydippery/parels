@@ -9640,8 +9640,33 @@ ul.praktijklokalen {
   .table-medewerkers table td {
     display: block; } }
 
-.inblockvideo {
-  margin: 0 0 2rem 0; }
+.backheader {
+  margin: 0 0 1rem 0; }
+  .backheader a {
+    background: #d1174d;
+    padding: .5rem 1rem;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    top: 2rem;
+    text-decoration: none;
+    border: 1px solid white; }
+
+.backimg {
+  display: inline-block;
+  width: 6rem;
+  height: auto; }
+
+#overview .overview--video {
+  margin: 0; }
+
+#overview .overview--video row {
+  margin: 0 !important; }
+
+#overview .video-tabs-bottom {
+  display: inline-block;
+  margin: 0;
+  width: 33%; }
 
 img {
   max-width: 100%; }
