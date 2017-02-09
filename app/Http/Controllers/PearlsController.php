@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Pearl;
 use Illuminate\Http\Request;
 
 class PearlsController extends Controller
@@ -43,9 +44,10 @@ class PearlsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Pearl $pearl)
     {
-        //
+        $pearlid = $pearl->id;
+        return view('pearls.pearl', compact('pearl', 'pearlid'));
     }
 
     /**

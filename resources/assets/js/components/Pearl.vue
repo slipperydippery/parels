@@ -1,9 +1,8 @@
 <template>
-	<a href="#singlepearl"
+	<a :href="PearlAdress(pearl)"
 		class="pearl col-md-2"
-		@click="setThisActive()"
 	>
-		<img src="img/transparent.png" alt="" class="tsquare">
+		<img :src="returnRoot + '/img/transparent.png'" alt="" class="tsquare">
 		<div 
 			class="ring"
 			:class="'ring-' + pearl.categories[0].id"
@@ -30,17 +29,19 @@
         ],
 
         methods: {
-        	setThisActive: function () {
-        		console.log('setting active');
-        		this.$emit('setactivepearl', this.pearl);
-        		console.log(this.pearl.id);
-        	}
+            PearlAdress: function(pearl){
+                return this.returnRoot + '/pearls/' + pearl.id;
+            }
         },
 
         computed: {
             thumbURL: function () {
                 return 'http://img.youtube.com/vi/' + this.pearl.videos[0].adress + '/sddefault.jpg'
-            }
+            },
+
+            returnRoot: function () {
+                return (window.location.protocol + "//" + window.location.host);
+            },
         }
 
     }

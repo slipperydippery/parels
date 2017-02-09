@@ -17,7 +17,10 @@ Vue.component('example', require('./components/Example.vue'));
 Vue.component('pearls', require('./components/Pearls.vue'));
 Vue.component('pearl', require('./components/Pearl.vue'));
 Vue.component('singlepearl', require('./components/Singlepearl.vue'));
-
+Vue.component('pearllist', require('./components/Pearllist.vue'));
+Vue.component('relatedpearls', require('./components/Relatedpearls.vue'));
+Vue.component('pearllistfilter', require('./components/Pearllistfilter.vue'));
+window.Event = new Vue();
 const app = new Vue({
     el: '#pearls',
 
