@@ -44,7 +44,10 @@
                 this.$http.get('/api/pearl/')
                     .then(response => {
                         this.pearls = response.data;
-                        this.setRelatedPearls();
+                        this.filteredpearls = response.data;
+                        if(this.pearlid != 0) {
+                            this.setRelatedPearls();
+                        }
                     });
             },
 
