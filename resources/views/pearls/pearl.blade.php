@@ -47,6 +47,10 @@
                     <span>{!! $pearl->description !!}</span>
                     <br>
                     Neem contact op met <a href="#">de betrokkenen</a>
+                    <br>
+                    <a href="http://voion.nl/aanmelden">Houd me op de hoogte</a>
+                    <br>
+                    <a href="http://voion.nl/contact">Geef reactie</a>
 
                 </div>
             </div>           
