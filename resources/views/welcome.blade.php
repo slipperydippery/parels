@@ -21,15 +21,10 @@
                         >
                         </iframe>
                     </div>
-                    <div class="video-tabs-bottom">
-                        <div class="btn">
-                            title
-                        </div>
-                    </div>
+				        <pearllistfilter></pearllistfilter>
                 </div>
             </div>
         </div>
-        <pearllistfilter></pearllistfilter>
         <pearllist :pearlid=0></pearllist>
     </div>
 

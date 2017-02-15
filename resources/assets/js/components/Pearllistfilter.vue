@@ -1,7 +1,8 @@
 <template>
-    <div class="buttons">
+    <div class="pearllistbuttons">
         <div 
             v-for="category in categories"
+            class="video-tabs-bottom"
         >
             <div 
                 class="btn"
