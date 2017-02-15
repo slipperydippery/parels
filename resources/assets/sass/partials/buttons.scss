@@ -63,3 +63,40 @@
 	padding: 3px 0;
 }
 
+.icon--back{
+	fill: $color2;
+	width: 3rem;
+	height: auto;
+}
+
+.icons--social {
+	float: right;	
+}
+
+.icons {
+	.icon {
+	    width: 32px;
+	    height: 31px;
+	    margin-left: 1px;
+	    float: left;
+	    position: relative;
+	}
+	.icon--social {
+		background-image: url(/img/social-icons.gif);
+	    background-repeat: no-repeat;
+	    opacity: 1;
+	}
+	.linkedin {
+		background-position: 0 0;
+	}
+	.twitter {
+		background-position: -35px 0;
+	}
+	.facebook {
+		background-position: -70px 0;
+	}
+	.email {
+		background-position: -104px 0;
+	}
+}
+

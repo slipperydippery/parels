@@ -9848,7 +9848,7 @@ ul, li {
   background-position: 0 -496px; }
 
 .pearls .row {
-  margin: 2rem 0; }
+  margin: 0 0 2rem 0; }
 
 .parels_head {
   margin-top: 0; }
@@ -9950,6 +9950,38 @@ ul, li {
   color: #fff;
   background: #d2174e;
   padding: 3px 0; }
+
+.icon--back {
+  fill: #697cb4;
+  width: 3rem;
+  height: auto; }
+
+.icons--social {
+  float: right; }
+
+.icons .icon {
+  width: 32px;
+  height: 31px;
+  margin-left: 1px;
+  float: left;
+  position: relative; }
+
+.icons .icon--social {
+  background-image: url(/img/social-icons.gif);
+  background-repeat: no-repeat;
+  opacity: 1; }
+
+.icons .linkedin {
+  background-position: 0 0; }
+
+.icons .twitter {
+  background-position: -35px 0; }
+
+.icons .facebook {
+  background-position: -70px 0; }
+
+.icons .email {
+  background-position: -104px 0; }
 
 .singlepearl {
   margin: 2rem 0;
