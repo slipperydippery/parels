@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div id="pearls">
+    <div id="parelsuitderegio">
         <div class="pearls">
-            <div class="row" id="overview">
+            <div class="row entree" >
                 <div class="col-md-4">
                     <h1 class="programmalijn">Parels uit de regio</h1>   
                         <div clas="introtext">
@@ -25,7 +25,9 @@
                 </div>
             </div>
         </div>
-        <pearllist :pearlid=0></pearllist>
+        <div class="row">
+            <pearllist :pearlid=0></pearllist>
+        </div>
     </div>
 
 @stop

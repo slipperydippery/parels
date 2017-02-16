@@ -19,7 +19,7 @@
     import pearl from '../components/Pearl.vue';
 
     export default {
-        data() {
+        data: function() {
             return {
                 categories: [],
                 active: {},

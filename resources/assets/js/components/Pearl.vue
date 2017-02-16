@@ -20,8 +20,10 @@
             console.log('Parel ready ')
         },
 
-        data: {
-            image: "http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png"
+        data: function() {
+            return {
+                image: "http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png"
+            }
         },
 
         props: [

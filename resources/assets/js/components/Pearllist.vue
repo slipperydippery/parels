@@ -1,22 +1,20 @@
 <template>
-    <div class="pearls">
-        <div class="row pearllist">
-            <h3 class="parels_head" v-if="pearlid">Gerelateerde Parels:</h3>
-            <h3 class="parels_head" v-else>Parels:</h3>
-            <pearl
-                v-for="pearl in filteredpearls"
-                :pearl="pearl"
-            >
-            </pearl>
-        </div>
-    </div>  
+    <div class="pearllist">
+        <h3 class="parels_head" v-if="pearlid">Gerelateerde Parels:</h3>
+        <h3 class="parels_head" v-else>Parels:</h3>
+        <pearl
+            v-for="pearl in filteredpearls"
+            :pearl="pearl"
+        >
+        </pearl>
+    </div>
 </template>
 
 <script>
     import pearl from '../components/Pearl.vue';
 
     export default {
-        data() {
+        data: function() {
             return {
                 pearls: [],
                 filteredpearls: [],

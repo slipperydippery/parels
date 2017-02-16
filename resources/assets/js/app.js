@@ -22,7 +22,7 @@ Vue.component('relatedpearls', require('./components/Relatedpearls.vue'));
 Vue.component('pearllistfilter', require('./components/Pearllistfilter.vue'));
 window.Event = new Vue();
 const app = new Vue({
-    el: '#pearls',
+    el: '#parelsuitderegio',
 
     components: {
     }

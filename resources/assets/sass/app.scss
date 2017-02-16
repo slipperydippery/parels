@@ -11,13 +11,12 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 // Site
-@import "partials/site";
-@import "partials/pagelayout";
-@import "partials/overview";
-@import "partials/pearlconfig";
-@import "partials/global";
+@import "partials/site";     		// Old site CSS
+@import "partials/pagelayout";		// Old site Adaptation
+@import "partials/pearlconfig";		// SCSS variables
+@import "partials/fonts";			// Fonts and Typography
+@import "partials/global";			// Global Layout and varialbles
 @import "partials/factsheet";
-@import "partials/fonts";
 @import "partials/header";
 @import "partials/lists";
 @import "partials/pearls";

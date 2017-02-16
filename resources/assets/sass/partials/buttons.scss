@@ -63,6 +63,10 @@
 	padding: 3px 0;
 }
 
+.backicon {
+	margin: 1rem 0;
+}
+
 .icon--back{
 	fill: $color2;
 	width: 3rem;
@@ -70,7 +74,7 @@
 }
 
 .icons--social {
-	float: right;	
+	float: left;	
 }
 
 .icons {
@@ -97,6 +101,10 @@
 	}
 	.email {
 		background-position: -104px 0;
+	}
+
+	.aanmelden {
+		background-position: -139px 0;
 	}
 }
 
