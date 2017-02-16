@@ -16,35 +16,35 @@ class PearlsTableSeeder extends Seeder
         $pearls = [
             [
                 'id' => '1',
-                'title' => 'loopbaanscans',
+                'title' => 'Tweedegraads plus',
                 'description' => '
-<p>De vereniging Ons Middelbaar Onderwijs besloot om loopbaanscans af te nemen bij bij haar medewerkers om ziekteverzuim te voorkomen en om te helpen met doorstroom naar een andere baan. Met subsidie via het sectorplan, goede voorbereiding is het zover. De medewerkers krijgen de kans om zich in te schrijven. Maar er blijkt bijna geen animo en er zijn maar 10 inschrijvingen. De vereniging ontwikkeld een nieuw plan met een verbluffend resultaat.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
 
-<p>Wil je weten hoe Vereniging Ons Middelbaar Onderwijs dat gedaan heeft? In de parelbeschrijving lees je het hele verhaal. De factsheet laat je beknopt de feiten zien. En de infographic met een stappenplan helpt je bij het implementeren van je eigen loopbaanscans.</p>',
+<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>',
             ],
             [
                 'id' => '2',
-                'title' => 'Professionalisering in het onderwijs',
+                'title' => 'Slimmer werken T.V.',
                 'description' => '',
             ],
             [
                 'id' => '3',
-                'title' => 'Veilig werken in praktijklokalen',
+                'title' => 'Banen afspraak',
                 'description' => '',
             ],
             [
                 'id' => '4',
-                'title' => 'Taakbeleid op de schop',
+                'title' => '---',
                 'description' => '',
             ],
             [
                 'id' => '5',
-                'title' => 'Five',
+                'title' => '---',
                 'description' => '',
             ],
             [
                 'id' => '6',
-                'title' => 'Six',
+                'title' => '---',
                 'description' => '',
             ],
         ];
