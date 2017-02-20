@@ -21,3 +21,13 @@
 a {
 	text-decoration: none;
 }
+
+.introtext ul {
+	// list-style: inherit !important;
+	list-style: disc inside;
+	padding: 0 0 0 1rem;
+	margin: 1rem 0;
+	li {
+		list-style: disc inside;
+	}
+}

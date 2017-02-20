@@ -9677,6 +9677,13 @@ ul.praktijklokalen {
 a {
   text-decoration: none; }
 
+.introtext ul {
+  list-style: disc inside;
+  padding: 0 0 0 1rem;
+  margin: 1rem 0; }
+  .introtext ul li {
+    list-style: disc inside; }
+
 img {
   max-width: 100%; }
 
