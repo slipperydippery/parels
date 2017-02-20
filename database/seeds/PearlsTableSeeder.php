@@ -16,20 +16,19 @@ class PearlsTableSeeder extends Seeder
         $pearls = [
             [
                 'id' => '1',
-                'title' => 'Tweedegraads plus',
+                'title' => 'Tweedegraads PLUS',
                 'description' => '
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-
-<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>',
+                <p><b>Tweedegraads PLUS: professionaliseren met laagdrempelige modules</b></p>
+<p>Deze parel presenteert het inspirerende verhaal van de Rode Loper om tweedegraads docenten via laagdrempelige modules te professionaliseren. De Rode Loper is een samenwerkingsverband van 41 scholen in Den Haag, Rijswijk en Leidschendam-Voorburg. Omdat veel tweedegraads docenten in deze regio in de onderbouw onvoldoende zicht hebben op de eisen die er in de bovenbouw worden gesteld heeft de Rode Loper Tweedegraads PLUS modules ontwikkeld op masterniveau. Klik voor een impressie op de animatie of op een van de documenten hieronder voor de details over dit verhaal. </p>',
             ],
             [
                 'id' => '2',
-                'title' => 'Slimmer werken T.V.',
+                'title' => 'Slimmer werken TV',
                 'description' => '',
             ],
             [
                 'id' => '3',
-                'title' => 'Banen afspraak',
+                'title' => 'Banenafspraak',
                 'description' => '',
             ],
             [
