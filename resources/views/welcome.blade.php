@@ -9,7 +9,6 @@
                     <h1 class="programmalijn">Parels uit de regio</h1>   
                         <div clas="introtext">
                             <p>Voion presenteert 24 parels uit de regio. Prachtige succesverhalen van scholen in het Voortgezet Onderwijs die u inspireren en helpen bij: - opleiding & professionalisering, arbeidsmarkt en mobiliteit en veilig en gezond werken. Wij presenteren de parels dit jaar een voor een. In welke parel bent u geïnteresseerd?</p>
-                            <a href="#">Bekijk hier het Groeidocument / E-jaarboek</a>
                         </div>
                 </div>
 

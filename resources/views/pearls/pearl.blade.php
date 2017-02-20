@@ -56,7 +56,7 @@
             </div>           
              <div class="row ">
                 <div class="col-md-4">
-                    <a href="/pdf/casebeschrijving-v4.pdf" class="btn">Parelbeschrijving</a>
+                    <a href="/pdf/Parelbeschrijving2deGraadsPlus.pdf" class="btn">Parelbeschrijving</a>
                 </div>
                 <div class="col-md-4">
                     <a href="/pdf/factsheet-v3.pdf" class="btn">Factsheet</a>
