@@ -56,13 +56,13 @@
             </div>           
              <div class="row ">
                 <div class="col-md-4">
-                    <a href="/pdf/Parelbeschrijving2deGraadsPlus.pdf" class="btn">Parelbeschrijving</a>
+                    <a href="/pdf/ParelbeschrijvingTweedegraadsPLUS.pdf" class="btn">Parelbeschrijving</a>
                 </div>
                 <div class="col-md-4">
-                    <a href="/pdf/TipsAndTricks2deGraadsPlus.pdf" class="btn">Tips & Tricks</a>
+                    <a href="/pdf/FactsheetTweedegraadsPLUS.pdf" class="btn">Factsheet</a>
                 </div>
                 <div class="col-md-4">
-                    <a href="/pdf/Handleiding2deGraadsPlus.pdf" class="btn">Handleiding</a>
+                    <a href="/pdf/TipsAndTricksTweedegraadsPLUS.pdf" class="btn">Tips & Tricks</a>
                 </div>
 
             </div>
