@@ -19,7 +19,7 @@ class PearlsTableSeeder extends Seeder
                 'title' => 'Tweedegraads PLUS',
                 'description' => '
                 <p><b>Tweedegraads PLUS: professionaliseren met laagdrempelige modules</b></p>
-<p>Deze parel presenteert het inspirerende verhaal van de Rode Loper om tweedegraads docenten via laagdrempelige modules te professionaliseren. De Rode Loper is een samenwerkingsverband van 41 scholen in Den Haag, Rijswijk en Leidschendam-Voorburg. Omdat veel tweedegraads docenten in deze regio in de onderbouw onvoldoende zicht hebben op de eisen die er in de bovenbouw worden gesteld heeft de Rode Loper Tweedegraads PLUS modules ontwikkeld op masterniveau. Klik voor een impressie op de animatie of op een van de documenten hieronder voor de details over dit verhaal. </p>',
+                <p>Deze parel presenteert het inspirerende verhaal van de Rode Loper die laagdrempelige eerstegraads modules heeft ontwikkeld om tweedegraads docententen te professionaliseren. De Rode Loper is een samenwerkingsverband van 41 scholen in Den Haag, Rijswijk en Leidschendam-Voorburg. Omdat veel tweedegraads docenten in deze regio in de onderbouw onvoldoende zicht hebben op de eisen die er in de bovenbouw worden gesteld heeft de Rode Loper Tweedegraads PLUS modules ontwikkeld op masterniveau. Klik voor een impressie op de animatie of op een van de documenten hieronder voor de details over dit verhaal. </p>',
             ],
             [
                 'id' => '2',
