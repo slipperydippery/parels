@@ -23,7 +23,7 @@ class PearlsTableSeeder extends Seeder
             ],
             [
                 'id' => '2',
-                'title' => 'Slimmer werken TV',
+                'title' => 'Slimmer Werken TV',
                 'description' => '',
             ],
             [
