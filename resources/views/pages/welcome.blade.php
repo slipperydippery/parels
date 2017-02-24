@@ -26,6 +26,3 @@
 
             </div>
         </div>
-        <div class="row">
-            <pearllist :pearlid=0></pearllist>
-        </div>
