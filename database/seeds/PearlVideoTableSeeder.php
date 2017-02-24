@@ -25,18 +25,7 @@ class PearlVideoTableSeeder extends Seeder
             [
                 'pearl_id' => '3',
                 'video_id' => '3',
-            ],
-            [
-                'pearl_id' => '4',
-                'video_id' => '1',
-            ],
-            [
-                'pearl_id' => '5',
-                'video_id' => '2',
-            ],
-            [
-                'pearl_id' => '6',
-                'video_id' => '3',
+            ],'video_id' => '3',
             ],
         ];
 

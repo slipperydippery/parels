@@ -31,21 +31,6 @@ class PearlsTableSeeder extends Seeder
                 'title' => 'Banenafspraak',
                 'description' => '',
             ],
-            [
-                'id' => '4',
-                'title' => '---',
-                'description' => '',
-            ],
-            [
-                'id' => '5',
-                'title' => '---',
-                'description' => '',
-            ],
-            [
-                'id' => '6',
-                'title' => '---',
-                'description' => '',
-            ],
         ];
 
         DB::table('pearls')->insert($pearls);
