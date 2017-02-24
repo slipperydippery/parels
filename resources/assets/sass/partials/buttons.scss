@@ -16,24 +16,24 @@
 	float: left;
 }
 
-.pearls .category-1, .pearllistbuttons .category-1 {
-	background: $color1;
+.pearls .category-1, .pearllistbuttons .category-11 {
+	background: $color11;
 }
-.pearls .category-2, .pearllistbuttons .category-2 {
-	background: $color2;
+.pearls .category-2, .pearllistbuttons .category-12 {
+	background: $color12;
 }
-.pearls .category-3, .pearllistbuttons .category-3 {
-	background: $color3;
+.pearls .category-3, .pearllistbuttons .category-13 {
+	background: $color13;
 }
 
-.pearls .category-1.nonactive, .pearllistbuttons .category-1.nonactive {
-	background: $color1;
+.pearls .category-1.nonactive, .pearllistbuttons .category-11.nonactive {
+	background: $color11;
 }
-.pearls .category-2.nonactive, .pearllistbuttons .category-2.nonactive {
-	background: $color2;
+.pearls .category-2.nonactive, .pearllistbuttons .category-12.nonactive {
+	background: $color12;
 }
-.pearls .category-3.nonactive, .pearllistbuttons .category-3.nonactive {
-	background: $color3;
+.pearls .category-3.nonactive, .pearllistbuttons .category-13.nonactive {
+	background: $color13;
 }
 
 .pearls .category-1.active, .pearllistbuttons .category-1.active {

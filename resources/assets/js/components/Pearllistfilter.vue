@@ -6,7 +6,7 @@
         >
             <div 
                 class="btn"
-                :class="['category-' + category.id, nonActive(category)]"
+                :class="['category-1' + category.id, nonActive(category)]"
                 @click="setActive(category)"
             >
                 {{ category.title }}

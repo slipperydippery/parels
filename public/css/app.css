@@ -9890,11 +9890,11 @@ ul, li {
       margin: 0 auto;
       margin-top: 4.5rem; }
   .pearl .ring-1 {
-    border-color: #e93369; }
+    border-color: #ff964b; }
   .pearl .ring-2 {
-    border-color: #d2174e; }
+    border-color: #697cb4; }
   .pearl .ring-3 {
-    border-color: #a4123d; }
+    border-color: #a0ce99; }
   .pearl img.tsquare {
     width: 100%;
     height: auto; }
@@ -9924,40 +9924,40 @@ ul, li {
   border-radius: 3px;
   float: left; }
 
-.pearls .category-1, .pearllistbuttons .category-1 {
+.pearls .category-1, .pearllistbuttons .category-11 {
   background: #e93369; }
 
-.pearls .category-2, .pearllistbuttons .category-2 {
+.pearls .category-2, .pearllistbuttons .category-12 {
   background: #d2174e; }
 
-.pearls .category-3, .pearllistbuttons .category-3 {
+.pearls .category-3, .pearllistbuttons .category-13 {
   background: #a4123d; }
 
-.pearls .category-1.nonactive, .pearllistbuttons .category-1.nonactive {
+.pearls .category-1.nonactive, .pearllistbuttons .category-11.nonactive {
   background: #e93369; }
 
-.pearls .category-2.nonactive, .pearllistbuttons .category-2.nonactive {
+.pearls .category-2.nonactive, .pearllistbuttons .category-12.nonactive {
   background: #d2174e; }
 
-.pearls .category-3.nonactive, .pearllistbuttons .category-3.nonactive {
+.pearls .category-3.nonactive, .pearllistbuttons .category-13.nonactive {
   background: #a4123d; }
 
 .pearls .category-1.active, .pearllistbuttons .category-1.active {
   background: none;
-  border: 2px solid #e93369;
-  color: #e93369;
+  border: 2px solid #ff964b;
+  color: #ff964b;
   box-shadow: none; }
 
 .pearls .category-2.active, .pearllistbuttons .category-2.active {
   background: none;
-  border: 2px solid #d2174e;
-  color: #d2174e;
+  border: 2px solid #697cb4;
+  color: #697cb4;
   box-shadow: none; }
 
 .pearls .category-3.active, .pearllistbuttons .category-3.active {
   background: none;
-  border: 2px solid #a4123d;
-  color: #a4123d;
+  border: 2px solid #a0ce99;
+  color: #a0ce99;
   box-shadow: none; }
 
 .singlepearl .btn {
@@ -9969,7 +9969,7 @@ ul, li {
   margin: 1rem 0; }
 
 .icon--back {
-  fill: #d2174e;
+  fill: #697cb4;
   width: 3rem;
   height: auto; }
 
