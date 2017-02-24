@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('content')
+
+
 <div id="parelsuitderegio" >
-   <div class="pearls singlepearl clearfix">
+    @include('pages.welcome')
+   <div class="pearls singlepearl clearfix" name="singlepearl">
         <div class="col-md-4">
 
         <div class="icons">

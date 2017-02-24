@@ -32,7 +32,7 @@
 
         methods: {
             PearlAdress: function(pearl){
-                return this.returnRoot + '/pearls/' + pearl.id;
+                return this.returnRoot + '/pearls/' + pearl.id + '#singlepearl';
             }
         },
 

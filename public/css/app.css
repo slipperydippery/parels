@@ -9640,6 +9640,9 @@ ul.praktijklokalen {
   .table-medewerkers table td {
     display: block; } }
 
+body {
+  background-color: #fff; }
+
 .backheader {
   margin: 0 0 1rem 0; }
   .backheader a {
@@ -9689,9 +9692,7 @@ img {
 
 .entree .overview--video {
   margin: 0;
-  padding: 0;
-  width: 700px;
-  float: right; }
+  padding: 0; }
 
 .entree .overview--video row {
   margin: 0 !important; }
@@ -9700,6 +9701,9 @@ img {
   display: inline-block;
   margin: 0;
   width: 33.33%; }
+
+.overview--video img {
+  width: 100%; }
 
 .factsheet--sidebar {
   padding-top: 5rem; }
@@ -9886,11 +9890,11 @@ ul, li {
       margin: 0 auto;
       margin-top: 4.5rem; }
   .pearl .ring-1 {
-    border-color: #ff964b; }
+    border-color: #e93369; }
   .pearl .ring-2 {
-    border-color: #697cb4; }
+    border-color: #d2174e; }
   .pearl .ring-3 {
-    border-color: #a0ce99; }
+    border-color: #a4123d; }
   .pearl img.tsquare {
     width: 100%;
     height: auto; }
@@ -9921,39 +9925,39 @@ ul, li {
   float: left; }
 
 .pearls .category-1, .pearllistbuttons .category-1 {
-  background: #ff964b; }
+  background: #e93369; }
 
 .pearls .category-2, .pearllistbuttons .category-2 {
-  background: #697cb4; }
+  background: #d2174e; }
 
 .pearls .category-3, .pearllistbuttons .category-3 {
-  background: #a0ce99; }
+  background: #a4123d; }
 
 .pearls .category-1.nonactive, .pearllistbuttons .category-1.nonactive {
-  background: #ff964b; }
+  background: #e93369; }
 
 .pearls .category-2.nonactive, .pearllistbuttons .category-2.nonactive {
-  background: #697cb4; }
+  background: #d2174e; }
 
 .pearls .category-3.nonactive, .pearllistbuttons .category-3.nonactive {
-  background: #a0ce99; }
+  background: #a4123d; }
 
 .pearls .category-1.active, .pearllistbuttons .category-1.active {
   background: none;
-  border: 2px solid #ff964b;
-  color: #ff964b;
+  border: 2px solid #e93369;
+  color: #e93369;
   box-shadow: none; }
 
 .pearls .category-2.active, .pearllistbuttons .category-2.active {
   background: none;
-  border: 2px solid #697cb4;
-  color: #697cb4;
+  border: 2px solid #d2174e;
+  color: #d2174e;
   box-shadow: none; }
 
 .pearls .category-3.active, .pearllistbuttons .category-3.active {
   background: none;
-  border: 2px solid #a0ce99;
-  color: #a0ce99;
+  border: 2px solid #a4123d;
+  color: #a4123d;
   box-shadow: none; }
 
 .singlepearl .btn {
@@ -9965,7 +9969,7 @@ ul, li {
   margin: 1rem 0; }
 
 .icon--back {
-  fill: #697cb4;
+  fill: #d2174e;
   width: 3rem;
   height: auto; }
 
