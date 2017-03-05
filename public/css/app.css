@@ -5768,6 +5768,11 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: 'Doppio One';
+  src: url("/Content/fonts/doppioone-regular-webfont.eot");
+  src: url("/Content/fonts/doppioone-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/Content/fonts/doppioone-regular-webfont.woff") format("woff"), url("/Content/fonts/doppioone-regular-webfont.ttf") format("truetype"), url("/Content/fonts/doppioone-regular-webfont.svg#webfont") format("svg"); }
+
 body {
   font-size: 14px;
   line-height: 19px;
@@ -5789,7 +5794,7 @@ h1.description {
   display: none; }
 
 .sprite {
-  background: url(/img/sprite.png) top left no-repeat; }
+  background: url(/content/images/sprite.png) top left no-repeat; }
 
 label {
   font-weight: 400; }
@@ -6067,17 +6072,17 @@ label {
 #programmalijn-blokken .arbeidsmarkt-en-mobiliteit .link_meer {
   color: #ff964a; }
 
-#programmalijn-blokken .opleiding-en-professionalisering {
+#programmalijn-blokken .loopbaan-en-professionalisering {
   border-bottom: 1px solid #697cb4; }
 
-#programmalijn-blokken .opleiding-en-professionalisering a.titel {
+#programmalijn-blokken .loopbaan-en-professionalisering a.titel {
   color: #697cb4;
   border-top: 20px solid #697cb4; }
 
-#programmalijn-blokken .opleiding-en-professionalisering ul li {
+#programmalijn-blokken .loopbaan-en-professionalisering ul li {
   color: #697cb4; }
 
-#programmalijn-blokken .opleiding-en-professionalisering .link_meer {
+#programmalijn-blokken .loopbaan-en-professionalisering .link_meer {
   color: #697cb4; }
 
 #programmalijn-blokken .veilig-gezond-en-vitaal-werken {
@@ -6121,7 +6126,7 @@ label {
 #portal-items .item a.btn {
   margin: 20px 10px 0 0;
   float: right;
-  background: url(/img/btn_rose.jpg) no-repeat top right;
+  background: url(/Content/images/btn_rose.jpg) no-repeat top right;
   padding: 3px 28px 3px 7px;
   color: #fff;
   text-decoration: none;
@@ -6136,6 +6141,10 @@ label {
   background: #fff;
   color: #000;
   display: block; }
+
+.item span.modelthumbnail iframe {
+  max-width: 100%;
+  max-height: 100%; }
 
 .item img.modelthumbnail {
   width: 100%;
@@ -6270,7 +6279,7 @@ label {
   border: 0;
   margin: 13px 10px 0 0;
   float: right;
-  background: url(/img/btn_rose.jpg) top right no-repeat;
+  background: url(/Content/images/btn_rose.jpg) top right no-repeat;
   padding: 3px 28px 3px 7px;
   color: #fff;
   text-decoration: none;
@@ -6614,7 +6623,7 @@ label {
   height: 25px;
   padding: 0 28px 4px 7px;
   float: left;
-  background: url(/img/btn_rose.jpg) top right no-repeat;
+  background: url(/Content/images/btn_rose.jpg) top right no-repeat;
   color: #fff;
   text-decoration: none;
   font-family: 'Karla', Arial;
@@ -6702,16 +6711,16 @@ h1.programmalijn {
   border-top: 20px solid #ff964a;
   border-bottom: 1px solid #ff964a; }
 
-.programmalijn-opleiding-en-professionalisering h1.programmalijn {
+.programmalijn-loopbaan-en-professionalisering h1.programmalijn {
   color: #697cb4; }
 
-.programmalijn-opleiding-en-professionalisering #themablokken h3 {
+.programmalijn-loopbaan-en-professionalisering #themablokken h3 {
   color: #697cb4; }
 
-.programmalijn-opleiding-en-professionalisering #themablokken ul li {
+.programmalijn-loopbaan-en-professionalisering #themablokken ul li {
   color: #697cb4; }
 
-.programmalijn-opleiding-en-professionalisering #themablokken .blok {
+.programmalijn-loopbaan-en-professionalisering #themablokken .blok {
   border-top: 20px solid #697cb4;
   border-bottom: 1px solid #697cb4; }
 
@@ -6743,7 +6752,7 @@ h1.programmalijn {
 .programmalijn-arbeidsmarkt-en-mobiliteit .blokken {
   background: #ff964a; }
 
-.programmalijn-opleiding-en-professionalisering .blokken {
+.programmalijn-loopbaan-en-professionalisering .blokken {
   background: #697cb4; }
 
 .programmalijn-veilig-gezond-en-vitaal-werken .blokken {
@@ -6753,8 +6762,8 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit li.even {
   background-color: #FF9F59 !important; }
 
-.programmalijn-opleiding-en-professionalisering li.even,
-.in-programmalijn-opleiding-en-professionalisering li.even {
+.programmalijn-loopbaan-en-professionalisering li.even,
+.in-programmalijn-loopbaan-en-professionalisering li.even {
   background-color: #7587BA !important; }
 
 .programmalijn-veilig-gezond-en-vitaal-werken li.even,
@@ -6792,7 +6801,7 @@ h1.programmalijn {
   bottom: 10px;
   right: 10px;
   margin: 0;
-  background: url(/img/btn_rose.jpg) top right no-repeat;
+  background: url(/Content/images/btn_rose.jpg) top right no-repeat;
   padding: 3px 28px 3px 7px;
   color: #fff;
   text-decoration: none;
@@ -6941,28 +6950,28 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #onderwerp-tabsholder .knoppen li.active {
   border: 1px solid #ff964a; }
 
-.in-programmalijn-opleiding-en-professionalisering h1 {
+.in-programmalijn-loopbaan-en-professionalisering h1 {
   color: #697cb4; }
 
-.in-programmalijn-opleiding-en-professionalisering #titel_onderwerp {
+.in-programmalijn-loopbaan-en-professionalisering #titel_onderwerp {
   color: #697cb4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-submenu > ul {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-submenu > ul {
   border-bottom: 1px solid #697cb4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-submenu ul li {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-submenu ul li {
   color: #697cb4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-koppelingen .blok {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-koppelingen .blok {
   background: #697CB4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-tabsholder .knoppen {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-tabsholder .knoppen {
   border-bottom: 1px solid #697cb4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-tabsholder .knoppen li {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-tabsholder .knoppen li {
   background: #697cb4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-tabsholder .knoppen li.active {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-tabsholder .knoppen li.active {
   border: 1px solid #697cb4; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken h1 {
@@ -7002,7 +7011,7 @@ h1.programmalijn {
   background: #ff964a !important;
   color: #fff !important; }
 
-.in-programmalijn-opleiding-en-professionalisering .wrapper-onderwerp-submenu h4 {
+.in-programmalijn-loopbaan-en-professionalisering .wrapper-onderwerp-submenu h4 {
   background: #697cb4 !important;
   color: #fff !important; }
 
@@ -7173,7 +7182,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #titel_programma_sub {
   color: #ff964a; }
 
-.in-programmalijn-opleiding-en-professionalisering #titel_programma_sub {
+.in-programmalijn-loopbaan-en-professionalisering #titel_programma_sub {
   color: #697cb4; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_programma_sub {
@@ -7182,7 +7191,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #subonderwerp-koppelingen .blok {
   background-color: #ff964a; }
 
-.in-programmalijn-opleiding-en-professionalisering #subonderwerp-koppelingen .blok {
+.in-programmalijn-loopbaan-en-professionalisering #subonderwerp-koppelingen .blok {
   background-color: #697cb4; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken #subonderwerp-koppelingen .blok {
@@ -7273,7 +7282,7 @@ h1.programmalijn {
 #overzicht_publicaties li .in-programmalijn-arbeidsmarkt-en-mobiliteit, #overzicht_publicaties li .in-programmalijn-arbeidsmarkt-en-mobiliteit a {
   color: #ff7a1b; }
 
-#overzicht_publicaties li .in-programmalijn-opleiding-en-professionalisering, #overzicht_publicaties li .in-programmalijn-opleiding-en-professionalisering a {
+#overzicht_publicaties li .in-programmalijn-loopbaan-en-professionalisering, #overzicht_publicaties li .in-programmalijn-loopbaan-en-professionalisering a {
   color: #4768c6; }
 
 #overzicht_publicaties li .in-programmalijn-veilig-gezond-en-vitaal-werken, #overzicht_publicaties li .in-programmalijn-veilig-gezond-en-vitaal-werken a {
@@ -7422,7 +7431,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Algemeen {
   background-position: -940px -82px; }
 
-.in-programmalijn-opleiding-en-professionalisering .ico_Algemeen {
+.in-programmalijn-loopbaan-en-professionalisering .ico_Algemeen {
   background-position: -940px -10px; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Algemeen {
@@ -7434,7 +7443,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Downloads {
   background-position: -881px -82px; }
 
-.in-programmalijn-opleiding-en-professionalisering .ico_Downloads {
+.in-programmalijn-loopbaan-en-professionalisering .ico_Downloads {
   background-position: -881px -10px; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Downloads {
@@ -7446,7 +7455,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Praktijkverhalen {
   background-position: -763px -82px; }
 
-.in-programmalijn-opleiding-en-professionalisering .ico_Praktijkverhalen {
+.in-programmalijn-loopbaan-en-professionalisering .ico_Praktijkverhalen {
   background-position: -763px -10px; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Praktijkverhalen {
@@ -7458,7 +7467,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Multimedia {
   background-position: -822px -82px; }
 
-.in-programmalijn-opleiding-en-professionalisering .ico_Multimedia {
+.in-programmalijn-loopbaan-en-professionalisering .ico_Multimedia {
   background-position: -822px -10px; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Multimedia {
@@ -7470,7 +7479,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Overige {
   background-position: -940px -82px; }
 
-.in-programmalijn-opleiding-en-professionalisering .ico_Overige {
+.in-programmalijn-loopbaan-en-professionalisering .ico_Overige {
   background-position: -940px -10px; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Overige {
@@ -7482,7 +7491,7 @@ h1.programmalijn {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Onderzoeken {
   background-position: -822px -82px; }
 
-.in-programmalijn-opleiding-en-professionalisering .ico_Onderzoeken {
+.in-programmalijn-loopbaan-en-professionalisering .ico_Onderzoeken {
   background-position: -822px -10px; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Onderzoeken {
@@ -7540,7 +7549,7 @@ h1.programmalijn {
 .publicatie-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 {
   color: #ff7a1b; }
 
-.publicatie-details .in-programmalijn-opleiding-en-professionalisering h4 {
+.publicatie-details .in-programmalijn-loopbaan-en-professionalisering h4 {
   color: #4768c6; }
 
 .publicatie-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 {
@@ -7598,7 +7607,7 @@ h1.programmalijn {
 #overzicht_instrumenten li .in-programmalijn-arbeidsmarkt-en-mobiliteit, #overzicht_instrumenten li .in-programmalijn-arbeidsmarkt-en-mobiliteit a {
   color: #ff7a1b; }
 
-#overzicht_instrumenten li .in-programmalijn-opleiding-en-professionalisering, #overzicht_instrumenten li .in-programmalijn-opleiding-en-professionalisering a {
+#overzicht_instrumenten li .in-programmalijn-loopbaan-en-professionalisering, #overzicht_instrumenten li .in-programmalijn-loopbaan-en-professionalisering a {
   color: #4768c6; }
 
 #overzicht_instrumenten li .in-programmalijn-veilig-gezond-en-vitaal-werken, #overzicht_instrumenten li .in-programmalijn-veilig-gezond-en-vitaal-werken a {
@@ -7681,7 +7690,7 @@ h1.programmalijn {
 .instrument-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 {
   color: #ff7a1b; }
 
-.instrument-details .in-programmalijn-opleiding-en-professionalisering h4 {
+.instrument-details .in-programmalijn-loopbaan-en-professionalisering h4 {
   margin-top: 0;
   color: #4768c6; }
 
@@ -7869,8 +7878,8 @@ h1.programmalijn {
 .overzicht-nieuwsitems li .in-programmalijn-arbeidsmarkt-en-mobiliteit a {
   color: #ff7a1b; }
 
-.overzicht-nieuwsitems li .in-programmalijn-opleiding-en-professionalisering,
-.overzicht-nieuwsitems li .in-programmalijn-opleiding-en-professionalisering a {
+.overzicht-nieuwsitems li .in-programmalijn-loopbaan-en-professionalisering,
+.overzicht-nieuwsitems li .in-programmalijn-loopbaan-en-professionalisering a {
   color: #4768c6; }
 
 .overzicht-nieuwsitems li .in-programmalijn-veilig-gezond-en-vitaal-werken,
@@ -7916,7 +7925,7 @@ h1.programmalijn {
 
 .nieuws .filter .btn {
   cursor: pointer;
-  background: url(/img/btn_rose.jpg) top right;
+  background: url(/Content/images/btn_rose.jpg) top right;
   border: 0;
   color: #fff;
   font-family: 'Karla', Arial;
@@ -7972,7 +7981,7 @@ h1.programmalijn {
 .nieuwsitem-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 {
   color: #ff7a1b; }
 
-.nieuwsitem-details .in-programmalijn-opleiding-en-professionalisering h4 {
+.nieuwsitem-details .in-programmalijn-loopbaan-en-professionalisering h4 {
   color: #4768c6; }
 
 .nieuwsitem-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 {
@@ -8112,7 +8121,7 @@ span.w10 {
 #overzicht_evenementen li .in-programmalijn-arbeidsmarkt-en-mobiliteit, #overzicht_evenementen li .in-programmalijn-arbeidsmarkt-en-mobiliteit a {
   color: #ff7a1b; }
 
-#overzicht_evenementen li .in-programmalijn-opleiding-en-professionalisering, #overzicht_evenementen li .in-programmalijn-opleiding-en-professionalisering a {
+#overzicht_evenementen li .in-programmalijn-loopbaan-en-professionalisering, #overzicht_evenementen li .in-programmalijn-loopbaan-en-professionalisering a {
   color: #4768c6; }
 
 #overzicht_evenementen li .in-programmalijn-veilig-gezond-en-vitaal-werken, #overzicht_evenementen li .in-programmalijn-veilig-gezond-en-vitaal-werken a {
@@ -8192,7 +8201,7 @@ span.w10 {
 .evenement-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 {
   color: #ff7a1b; }
 
-.evenement-details .in-programmalijn-opleiding-en-professionalisering h4 {
+.evenement-details .in-programmalijn-loopbaan-en-professionalisering h4 {
   color: #4768c6; }
 
 .evenement-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 {
@@ -8270,7 +8279,7 @@ ul.mpFormTable .mpFormField ul li {
 
 ul.mpFormTable input.submitButton {
   margin: 0;
-  background: url(/img/btn_rose.jpg) top right no-repeat;
+  background: url(/Content/images/btn_rose.jpg) top right no-repeat;
   width: auto;
   float: left;
   padding: 3px 28px 3px 7px;
@@ -8340,7 +8349,7 @@ iframe#mailplusiframe td {
   float: left; }
 
 .form_instrument .btn {
-  background: url(/img/btn_rose.jpg) top right no-repeat;
+  background: url(/Content/images/btn_rose.jpg) top right no-repeat;
   width: auto;
   padding: 3px 28px 3px 7px;
   color: #fff;
@@ -8508,7 +8517,7 @@ a.s-ti:visited {
 .resultset .arbeidsmarkt-en-mobiliteit {
   color: #ff7b1b; }
 
-.resultset .opleiding-en-professionalisering {
+.resultset .loopbaan-en-professionalisering {
   color: #4868c7; }
 
 .resultset .veilig-gezond-en-vitaal-werken {
@@ -8615,7 +8624,7 @@ a.s-ti:visited {
 
 .default-filter .btn {
   cursor: pointer;
-  background: url(/img/btn_rose.jpg) top right;
+  background: url(/Content/images/btn_rose.jpg) top right;
   border: 0;
   color: #fff;
   font-family: 'Karla', Arial;
@@ -8922,11 +8931,11 @@ html.preview #preview-indicator {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .downloads-block {
   background: #ff964a !important; }
 
-.in-programmalijn-opleiding-en-professionalisering .downloads-block {
+.in-programmalijn-loopbaan-en-professionalisering .downloads-block {
   background: #697cb4 !important; }
 
-.in-programmalijn-opleiding-en-professionalisering .downloads-block h5,
-.in-programmalijn-opleiding-en-professionalisering .downloads-block p {
+.in-programmalijn-loopbaan-en-professionalisering .downloads-block h5,
+.in-programmalijn-loopbaan-en-professionalisering .downloads-block p {
   color: #D6DBEB !important; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken .downloads-block {
@@ -9009,8 +9018,8 @@ html.preview #preview-indicator {
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #subonderwerp-koppelingen .downloads-block {
   background-color: #ff964a; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-koppelingen .downloads-block,
-.in-programmalijn-opleiding-en-professionalisering #subonderwerp-koppelingen .downloads-block {
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-koppelingen .downloads-block,
+.in-programmalijn-loopbaan-en-professionalisering #subonderwerp-koppelingen .downloads-block {
   background-color: #697cb4; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken #onderwerp-koppelingen .downloads-block,
@@ -9085,7 +9094,7 @@ body.pagina.contact .content-form input[type=submit] {
   height: 25px;
   padding: 0 28px 4px 7px;
   float: left;
-  background: url(/img/btn_rose.jpg) top right no-repeat;
+  background: url(/Content/images/btn_rose.jpg) top right no-repeat;
   color: #fff;
   text-decoration: none;
   font-family: 'Karla', Arial;
@@ -9355,6 +9364,9 @@ ul.praktijklokalen {
 .praktijklokalen .pro {
   background: url(/Content/images/pro.png) no-repeat center center; }
 
+.praktijklokalen .bouwen {
+  background: url(/Content/images/bouwen.png) no-repeat center center; }
+
 .praktijklokalen .leeg {
   width: 213px;
   background: url(/Content/images/leeg.png) no-repeat center center; }
@@ -9594,7 +9606,7 @@ ul.praktijklokalen {
     padding: 5px 15px; }
   h2 {
     font-size: 24px; }
-  .programmalijn-opleiding-en-professionalisering h1.programmalijn, .programmalijn-opleiding-en-professionalisering #titel_onderwerp, .programmalijn-opleiding-en-professionalisering #titel_programma_sub {
+  .programmalijn-loopbaan-en-professionalisering h1.programmalijn, .programmalijn-loopbaan-en-professionalisering #titel_onderwerp, .programmalijn-loopbaan-en-professionalisering #titel_programma_sub {
     background: #697cb4; }
   .programmalijn-veilig-gezond-en-vitaal-werken h1.programmalijn, .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_onderwerp, .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_programma_sub {
     background: #a0ce99; }
@@ -9617,7 +9629,7 @@ ul.praktijklokalen {
     padding: 5px 15px !important; }
   .in-programmalijn-arbeidsmarkt-en-mobiliteit .wrapper-onderwerp-submenu h4 {
     background: rgba(255, 150, 74, 0.6) !important; }
-  .in-programmalijn-opleiding-en-professionalisering .wrapper-onderwerp-submenu h4 {
+  .in-programmalijn-loopbaan-en-professionalisering .wrapper-onderwerp-submenu h4 {
     background: rgba(105, 124, 180, 0.6) !important; }
   .in-programmalijn-veilig-gezond-en-vitaal-werken .wrapper-onderwerp-submenu h4 {
     background: rgba(160, 206, 153, 0.7) !important; }
@@ -9892,9 +9904,10 @@ ul, li {
     background-position: center; }
     .pearl .ring .playicon {
       width: 5rem;
+      max-width: 50% !important;
       height: auto;
       margin: 0 auto;
-      margin-top: 4.5rem; }
+      margin-top: 40%; }
   .pearl .ring-1 {
     border-color: #ff964b; }
   .pearl .ring-2 {

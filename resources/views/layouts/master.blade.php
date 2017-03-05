@@ -38,10 +38,6 @@
                 </div>
         </div>
         <div id="contentcontainer">
-            
-            <div id="breadcrumbs" >
-                <ul><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></li><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">Over Voion</li></ul>
-            </div>
 
             @yield('content')
 

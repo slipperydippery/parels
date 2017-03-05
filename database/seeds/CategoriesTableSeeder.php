@@ -21,7 +21,7 @@ class CategoriesTableSeeder extends Seeder
             ],
             [
                 'id' => '2',
-                'title' => 'Opleiding & professionalisering', 
+                'title' => 'Loopbaan & professionalisering', 
                 'description' => '',
             ],
             [

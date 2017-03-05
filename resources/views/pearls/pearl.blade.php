@@ -4,7 +4,6 @@
 
 
 <div id="parelsuitderegio" >
-    @include('pages.welcome')
    <div class="pearls singlepearl clearfix" name="singlepearl">
         <div class="col-md-4">
 
@@ -74,7 +73,6 @@
 
             
     </div>
-        <pearllistfilter></pearllistfilter>
         <pearllist pearlid="{{ $pearl->id }}"></pearllist>
 
 </div>

@@ -1,9 +1,19 @@
+@font-face{ 
+    font-family: 'Doppio One';
+    src: url('/Content/fonts/doppioone-regular-webfont.eot');
+    src: url('/Content/fonts/doppioone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/Content/fonts/doppioone-regular-webfont.woff') format('woff'),
+        url('/Content/fonts/doppioone-regular-webfont.ttf') format('truetype'),
+        url('/Content/fonts/doppioone-regular-webfont.svg#webfont') format('svg');
+}
+
+
 body { font-size: 14px; line-height: 19px; font-family: Arial, Helvetica, Sans-Serif; color: #666666; }
 header, footer, nav, section { display: block; }
 a { color: #d1174d; text-decoration: underline; }
 a:focus, a:hover { color: #90052e; outline: 0; }
 h1.description { display: none; }
-.sprite { background: url(/img/sprite.png) top left no-repeat; }
+.sprite { background: url(/content/images/sprite.png) top left no-repeat; }
 label { font-weight: 400; }
 
 .showonmobile {display:none;}
@@ -67,10 +77,10 @@ label { font-weight: 400; }
 #programmalijn-blokken .arbeidsmarkt-en-mobiliteit a.titel { color: #ff964a; border-top: 20px solid #ff964a; }
 #programmalijn-blokken .arbeidsmarkt-en-mobiliteit ul li { color: #ff964a; }
 #programmalijn-blokken .arbeidsmarkt-en-mobiliteit .link_meer { color: #ff964a; }
-#programmalijn-blokken .opleiding-en-professionalisering { border-bottom: 1px solid #697cb4; }
-#programmalijn-blokken .opleiding-en-professionalisering a.titel { color: #697cb4; border-top: 20px solid #697cb4; }
-#programmalijn-blokken .opleiding-en-professionalisering ul li { color: #697cb4; }
-#programmalijn-blokken .opleiding-en-professionalisering .link_meer { color: #697cb4; }
+#programmalijn-blokken .loopbaan-en-professionalisering { border-bottom: 1px solid #697cb4; }
+#programmalijn-blokken .loopbaan-en-professionalisering a.titel { color: #697cb4; border-top: 20px solid #697cb4; }
+#programmalijn-blokken .loopbaan-en-professionalisering ul li { color: #697cb4; }
+#programmalijn-blokken .loopbaan-en-professionalisering .link_meer { color: #697cb4; }
 #programmalijn-blokken .veilig-gezond-en-vitaal-werken { margin: 0; border-bottom: 1px solid #a0ce99; }
 #programmalijn-blokken .veilig-gezond-en-vitaal-werken a.titel { color: #a0ce99; border-top: 20px solid #a0ce99; }
 #programmalijn-blokken .veilig-gezond-en-vitaal-werken ul li { color: #a0ce99; }
@@ -82,8 +92,9 @@ label { font-weight: 400; }
 #portal-items .item { float: left; margin-bottom: 30px; padding: 0 0 10px 0; background: #daeaea; }
 #portal-items .item h3 { height: 42px; overflow: hidden; font-family: 'Doppio One', Arial; font-size: 18px; line-height: 21px; font-weight: normal; margin: 25px 10px 0 10px; padding: 0; }
 #portal-items .item p { height: 110px; margin: 16px 10px 0 10px; overflow: hidden; }
-#portal-items .item a.btn { margin: 20px 10px 0 0; float: right; background: url(/img/btn_rose.jpg) no-repeat top right; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#portal-items .item a.btn { margin: 20px 10px 0 0; float: right; background: url(/Content/images/btn_rose.jpg) no-repeat top right; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .item span.modelthumbnail { width: 100%; height: 165px; background: #fff; color: #000; display: block; }
+.item span.modelthumbnail iframe { max-width: 100%; max-height: 100%; }
 .item img.modelthumbnail { width: 100%; height: 165px; display: block; }
 
 .portal-date { font-size: 10px; line-height: 9px; margin: 10px 10px -19px 10px; }
@@ -93,7 +104,7 @@ label { font-weight: 400; }
 #portal-items .Special p { color: #fff; padding: 0 !important; }
 #portal-items .Special a.btn { background: url(/Content/images/btn_wit.jpg) top right no-repeat; color: #056d73; margin: 20px 10px 0 10px; }
 
-#portal-items .portal-evenementen { margin: 0; background: #6b5d81; padding: 10px 0px; width: 100% !important; height: 392px !important; position: relative; }
+#portal-items .portal-evenementen { margin: 0; background: #6b5d81; padding: 10px 0px; width: 100%!important; height: 392px!important; position: relative; }
 #portal-items.css6 .portal-evenementen { height: 862px!important; }
 
 #portal-items .portal-evenementen h3 { margin: 10px 0 0 10px; color: #fff; height: 24px; }
@@ -127,7 +138,7 @@ label { font-weight: 400; }
 #footer { background: #e8e9e6; overflow: hidden; color: #777777; margin: 0 0 30px 0; }
 #footer h3 { margin-top: 0; }
 #footer .kolom { margin: 20px 0 0 0; }
-#footer .last .btn { cursor: pointer; border: 0; margin: 13px 10px 0 0; float: right; background: url(/img/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#footer .last .btn { cursor: pointer; border: 0; margin: 13px 10px 0 0; float: right; background: url(/Content/images/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #footer .kolom ul { margin: 0 0 15px 0; clear: both; float: left; width: 202px; }
 #footer span, #footer a span { font-weight: bold; color: #000; font-family: 'Karla', Arial; font-size: 16px; margin: 0 0 6px 0; clear: both; float: left; }
 #footer a { text-decoration: none; color: #777777; }
@@ -201,7 +212,7 @@ label { font-weight: 400; }
 #contactformulier #Aanvraag_Email { padding-bottom: 20px; background-color: transparent; }
 /* fix voor inbrowser validatie op inputtype email */
 #Aanvraag_Beveiliging { height: 1px; width: 1px; margin: 0; padding: 0; border: 0; background: #fae7ed; }
-.content-form .btn { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/img/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.content-form .btn { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/Content/images/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 span.field-validation-error { color: red; position: absolute; right: 25px; top: 10px; }
 
 #contact-address-map { float: left; width: 306px; margin: -50px 0 20px 0; }
@@ -228,10 +239,10 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .programmalijn-arbeidsmarkt-en-mobiliteit #themablokken h3 { color: #ff964a; }
 .programmalijn-arbeidsmarkt-en-mobiliteit #themablokken ul li { color: #ff964a; }
 .programmalijn-arbeidsmarkt-en-mobiliteit #themablokken .blok { border-top: 20px solid #ff964a; border-bottom: 1px solid #ff964a; }
-.programmalijn-opleiding-en-professionalisering h1.programmalijn { color: #697cb4; }
-.programmalijn-opleiding-en-professionalisering #themablokken h3 { color: #697cb4; }
-.programmalijn-opleiding-en-professionalisering #themablokken ul li { color: #697cb4; }
-.programmalijn-opleiding-en-professionalisering #themablokken .blok { border-top: 20px solid #697cb4; border-bottom: 1px solid #697cb4; }
+.programmalijn-loopbaan-en-professionalisering h1.programmalijn { color: #697cb4; }
+.programmalijn-loopbaan-en-professionalisering #themablokken h3 { color: #697cb4; }
+.programmalijn-loopbaan-en-professionalisering #themablokken ul li { color: #697cb4; }
+.programmalijn-loopbaan-en-professionalisering #themablokken .blok { border-top: 20px solid #697cb4; border-bottom: 1px solid #697cb4; }
 .programmalijn-veilig-gezond-en-vitaal-werken h1.programmalijn { color: #a0ce99; }
 .programmalijn-veilig-gezond-en-vitaal-werken #themablokken h3 { color: #a0ce99; }
 .programmalijn-veilig-gezond-en-vitaal-werken #themablokken ul li { color: #a0ce99; }
@@ -242,15 +253,15 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 #programma-nieuws-en-cursussen .blokken ul { margin-bottom: 40px; }
 
 .programmalijn-arbeidsmarkt-en-mobiliteit .blokken { background: #ff964a; }
-.programmalijn-opleiding-en-professionalisering .blokken { background: #697cb4; }
+.programmalijn-loopbaan-en-professionalisering .blokken { background: #697cb4; }
 .programmalijn-veilig-gezond-en-vitaal-werken .blokken { background: #a0ce99; }
 
 
 .programmalijn-arbeidsmarkt-en-mobiliteit li.even,
 .in-programmalijn-arbeidsmarkt-en-mobiliteit li.even { background-color: #FF9F59 !important; }
 
-.programmalijn-opleiding-en-professionalisering li.even,
-.in-programmalijn-opleiding-en-professionalisering li.even { background-color: #7587BA !important; }
+.programmalijn-loopbaan-en-professionalisering li.even,
+.in-programmalijn-loopbaan-en-professionalisering li.even { background-color: #7587BA !important; }
 
 .programmalijn-veilig-gezond-en-vitaal-werken li.even,
 .in-programmalijn-veilig-gezond-en-vitaal-werken li.even { background-color: #A9D2A2 !important; }
@@ -263,7 +274,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 #programma-nieuws-en-cursussen .blokken li a span.cursussen_datum,
 #programma-nieuws-en-cursussen .blokken li a span.nieuws_datum { font-size: 10px; display: block; line-height: 12px; }
 #programma-nieuws-en-cursussen .cursussen-blok { margin: 0; }
-#programma-nieuws-en-cursussen a.btn { display: block; position: absolute; bottom: 10px; right: 10px; margin: 0; background: url(/img/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#programma-nieuws-en-cursussen a.btn { display: block; position: absolute; bottom: 10px; right: 10px; margin: 0; background: url(/Content/images/btn_rose.jpg) top right no-repeat; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #programma-nieuws-en-cursussen .wrap_breed { width: 100%; height: 1px; clear: both; float: left; }
 
 /*ONDERWERP*/
@@ -309,15 +320,15 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #onderwerp-tabsholder .knoppen { border-bottom: 1px solid #ff964a; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #onderwerp-tabsholder .knoppen li { background: #ff964a; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #onderwerp-tabsholder .knoppen li.active { border: 1px solid #ff964a; }
-.in-programmalijn-opleiding-en-professionalisering h1 { color: #697cb4; }
-.in-programmalijn-opleiding-en-professionalisering #titel_onderwerp { color: #697cb4; }
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-submenu > ul  { border-bottom: 1px solid #697cb4; }
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-submenu ul li { color: #697cb4; }
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-koppelingen .blok { background: #697CB4; }
+.in-programmalijn-loopbaan-en-professionalisering h1 { color: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #titel_onderwerp { color: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-submenu > ul  { border-bottom: 1px solid #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-submenu ul li { color: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-koppelingen .blok { background: #697CB4; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-tabsholder .knoppen { border-bottom: 1px solid #697cb4; }
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-tabsholder .knoppen li { background: #697cb4; }
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-tabsholder .knoppen li.active { border: 1px solid #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-tabsholder .knoppen { border-bottom: 1px solid #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-tabsholder .knoppen li { background: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-tabsholder .knoppen li.active { border: 1px solid #697cb4; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken h1 { color: #a0ce99; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_onderwerp { color: #a0ce99; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken #onderwerp-submenu > ul  { border-bottom: 1px solid #a0ce99; }
@@ -331,7 +342,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .wrapper-onderwerp-submenu h4 { padding: 2px 6px 2px 14px; font-size: 120%; height: auto !important; line-height: 1.5em !important; margin: 0!important; text-decoration: none!important; }
 
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .wrapper-onderwerp-submenu h4 { background: #ff964a!important; color: #fff!important; }
-.in-programmalijn-opleiding-en-professionalisering .wrapper-onderwerp-submenu h4 { background: #697cb4!important; color: #fff!important; }
+.in-programmalijn-loopbaan-en-professionalisering .wrapper-onderwerp-submenu h4 { background: #697cb4!important; color: #fff!important; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .wrapper-onderwerp-submenu h4 { background: #a0ce99!important; color: #fff!important; }
 
 
@@ -395,11 +406,11 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 #subonderwerp-koppelingen li { margin: 0 -10px !important; }
 
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #titel_programma_sub { color: #ff964a; }
-.in-programmalijn-opleiding-en-professionalisering #titel_programma_sub { color: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #titel_programma_sub { color: #697cb4; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_programma_sub { color: #a0ce99; }
 
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #subonderwerp-koppelingen .blok { background-color: #ff964a; }
-.in-programmalijn-opleiding-en-professionalisering #subonderwerp-koppelingen .blok { background-color: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #subonderwerp-koppelingen .blok { background-color: #697cb4; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken #subonderwerp-koppelingen .blok { background-color: #a0ce99; }
 
 
@@ -428,7 +439,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 
 #overzicht_publicaties li .in-programmalijn-algemeen-voion, #overzicht_publicaties li .in-programmalijn-algemeen-voion a { color: #d1174d; }
 #overzicht_publicaties li .in-programmalijn-arbeidsmarkt-en-mobiliteit, #overzicht_publicaties li .in-programmalijn-arbeidsmarkt-en-mobiliteit a { color: #ff7a1b; }
-#overzicht_publicaties li .in-programmalijn-opleiding-en-professionalisering, #overzicht_publicaties li .in-programmalijn-opleiding-en-professionalisering a { color: #4768c6; }
+#overzicht_publicaties li .in-programmalijn-loopbaan-en-professionalisering, #overzicht_publicaties li .in-programmalijn-loopbaan-en-professionalisering a { color: #4768c6; }
 #overzicht_publicaties li .in-programmalijn-veilig-gezond-en-vitaal-werken, #overzicht_publicaties li .in-programmalijn-veilig-gezond-en-vitaal-werken a { color: #69b85d; }
 
 .publicaties #filter { margin-bottom: 20px; overflow:hidden;}
@@ -467,29 +478,29 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 
 .in-programmalijn-algemeen-voion .ico_Algemeen { background-position: -704px -82px; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Algemeen { background-position: -940px -82px; }
-.in-programmalijn-opleiding-en-professionalisering .ico_Algemeen { background-position: -940px -10px; }
+.in-programmalijn-loopbaan-en-professionalisering .ico_Algemeen { background-position: -940px -10px; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Algemeen { background-position: -704px -10px; }
 .in-programmalijn-algemeen-voion .ico_Downloads { background-position: -645px -82px; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Downloads { background-position: -881px -82px; }
-.in-programmalijn-opleiding-en-professionalisering .ico_Downloads { background-position: -881px -10px; }
+.in-programmalijn-loopbaan-en-professionalisering .ico_Downloads { background-position: -881px -10px; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Downloads { background-position: -645px -10px; }
 .in-programmalijn-algemeen-voion .ico_Praktijkverhalen { background-position: -527px -82px; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Praktijkverhalen { background-position: -763px -82px; }
-.in-programmalijn-opleiding-en-professionalisering .ico_Praktijkverhalen { background-position: -763px -10px; }
+.in-programmalijn-loopbaan-en-professionalisering .ico_Praktijkverhalen { background-position: -763px -10px; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Praktijkverhalen { background-position: -527px -10px; }
 .in-programmalijn-algemeen-voion .ico_Multimedia { background-position: -586px -82px; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Multimedia { background-position: -822px -82px; }
-.in-programmalijn-opleiding-en-professionalisering .ico_Multimedia { background-position: -822px -10px; }
+.in-programmalijn-loopbaan-en-professionalisering .ico_Multimedia { background-position: -822px -10px; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Multimedia { background-position: -586px -10px; }
 
 .in-programmalijn-algemeen-voion .ico_Overige { background-position: -704px -82px; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Overige { background-position: -940px -82px; }
-.in-programmalijn-opleiding-en-professionalisering .ico_Overige { background-position: -940px -10px; }
+.in-programmalijn-loopbaan-en-professionalisering .ico_Overige { background-position: -940px -10px; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Overige { background-position: -704px -10px; }
 
 .in-programmalijn-algemeen-voion .ico_Onderzoeken { background-position: -586px -82px; }
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .ico_Onderzoeken { background-position: -822px -82px; }
-.in-programmalijn-opleiding-en-professionalisering .ico_Onderzoeken { background-position: -822px -10px; }
+.in-programmalijn-loopbaan-en-professionalisering .ico_Onderzoeken { background-position: -822px -10px; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .ico_Onderzoeken { background-position: -586px -10px; }
 
 .wrapper-publicatie-submenu { border-bottom: 1px solid #d1174d; margin: 0 0 20px 0; color: #000 !important; }
@@ -505,7 +516,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .publicatie-details h4 { font-weight: normal; font-size: 14px; margin: 6px 0 0 0; }
 .publicatie-details .in-programmalijn-algemeen-voion h4 { color: #d1174d; }
 .publicatie-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 { color: #ff7a1b; }
-.publicatie-details .in-programmalijn-opleiding-en-professionalisering h4 { color: #4768c6; }
+.publicatie-details .in-programmalijn-loopbaan-en-professionalisering h4 { color: #4768c6; }
 .publicatie-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 { color: #69b85d; }
 
 #publicatie-content .yui3-cssbase h2 { font-weight: normal !important; }
@@ -523,7 +534,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 
 #overzicht_instrumenten li .in-programmalijn-algemeen-voion, #overzicht_instrumenten li .in-programmalijn-algemeen-voion a { color: #d1174d; }
 #overzicht_instrumenten li .in-programmalijn-arbeidsmarkt-en-mobiliteit, #overzicht_instrumenten li .in-programmalijn-arbeidsmarkt-en-mobiliteit a { color: #ff7a1b; }
-#overzicht_instrumenten li .in-programmalijn-opleiding-en-professionalisering, #overzicht_instrumenten li .in-programmalijn-opleiding-en-professionalisering a { color: #4768c6; }
+#overzicht_instrumenten li .in-programmalijn-loopbaan-en-professionalisering, #overzicht_instrumenten li .in-programmalijn-loopbaan-en-professionalisering a { color: #4768c6; }
 #overzicht_instrumenten li .in-programmalijn-veilig-gezond-en-vitaal-werken, #overzicht_instrumenten li .in-programmalijn-veilig-gezond-en-vitaal-werken a { color: #69b85d; }
 
 .instrumenten #filter { margin-bottom: 20px; overflow: hidden;}
@@ -542,7 +553,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .instrument-details-titel .teaser { display: block; margin-top: 9px; }
 .instrument-details .in-programmalijn-algemeen-voion h4 { color: #d1174d; }
 .instrument-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 { color: #ff7a1b; }
-.instrument-details .in-programmalijn-opleiding-en-professionalisering h4 { margin-top: 0; color: #4768c6; }
+.instrument-details .in-programmalijn-loopbaan-en-professionalisering h4 { margin-top: 0; color: #4768c6; }
 .instrument-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 { color: #69b85d; }
 
 #instrument-content .yui3-cssbase h2 { font-weight: normal !important; }
@@ -596,8 +607,8 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .overzicht-nieuwsitems li .in-programmalijn-algemeen-voion a { color: #d1174d; }
 .overzicht-nieuwsitems li .in-programmalijn-arbeidsmarkt-en-mobiliteit,
 .overzicht-nieuwsitems li .in-programmalijn-arbeidsmarkt-en-mobiliteit a { color: #ff7a1b; }
-.overzicht-nieuwsitems li .in-programmalijn-opleiding-en-professionalisering,
-.overzicht-nieuwsitems li .in-programmalijn-opleiding-en-professionalisering a { color: #4768c6; }
+.overzicht-nieuwsitems li .in-programmalijn-loopbaan-en-professionalisering,
+.overzicht-nieuwsitems li .in-programmalijn-loopbaan-en-professionalisering a { color: #4768c6; }
 .overzicht-nieuwsitems li .in-programmalijn-veilig-gezond-en-vitaal-werken,
 .overzicht-nieuwsitems li .in-programmalijn-veilig-gezond-en-vitaal-werken a { color: #69b85d; }
 
@@ -610,7 +621,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 
 .nieuws .filter input { float: left; }
 .nieuws .filter label { height: 19px; display: block; float: left; padding: 1px 0 0 10px; font-weight: 400; }
-.nieuws .filter .btn { cursor: pointer; background: url(/img/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
+.nieuws .filter .btn { cursor: pointer; background: url(/Content/images/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
 .nieuws .filter .btnnieuwsbrief { cursor: pointer; background: url(/Content/images/btn_nieuwsbrief.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
 
 .nieuws #year { width: 100%; height: 25px; margin: 0 0 10px 0; }
@@ -621,7 +632,7 @@ h1.programmalijn { margin: 0 30px 0 0; font-size: 36px; font-family: 'Doppio One
 .nieuwsitem-details h4 { font-size: 14px; font-weight: normal; margin: 5px 0 20px 0; }
 .nieuwsitem-details .in-programmalijn-algemeen-voion h4 { color: #d1174d; }
 .nieuwsitem-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 { color: #ff7a1b; }
-.nieuwsitem-details .in-programmalijn-opleiding-en-professionalisering h4 { color: #4768c6; }
+.nieuwsitem-details .in-programmalijn-loopbaan-en-professionalisering h4 { color: #4768c6; }
 .nieuwsitem-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 { color: #69b85d; }
 
 #nieuwsitem-content { margin-bottom: 20px; overflow: hidden; }
@@ -666,7 +677,7 @@ span.w10 { font-size: 11px; }
 
 #overzicht_evenementen li .in-programmalijn-algemeen-voion, #overzicht_evenementen li .in-programmalijn-algemeen-voion a { color: #d1174d; }
 #overzicht_evenementen li .in-programmalijn-arbeidsmarkt-en-mobiliteit, #overzicht_evenementen li .in-programmalijn-arbeidsmarkt-en-mobiliteit a { color: #ff7a1b; }
-#overzicht_evenementen li .in-programmalijn-opleiding-en-professionalisering, #overzicht_evenementen li .in-programmalijn-opleiding-en-professionalisering a { color: #4768c6; }
+#overzicht_evenementen li .in-programmalijn-loopbaan-en-professionalisering, #overzicht_evenementen li .in-programmalijn-loopbaan-en-professionalisering a { color: #4768c6; }
 #overzicht_evenementen li .in-programmalijn-veilig-gezond-en-vitaal-werken, #overzicht_evenementen li .in-programmalijn-veilig-gezond-en-vitaal-werken a { color: #69b85d; }
 
 .agenda #filter { margin-bottom: 20px; overflow:hidden;}
@@ -684,7 +695,7 @@ span.w10 { font-size: 11px; }
 .evenement-details h4 { font-size: 14px; font-weight: normal; margin: 5px 0 20px 0; }
 .evenement-details .in-programmalijn-algemeen-voion h4 { color: #d1174d; }
 .evenement-details .in-programmalijn-arbeidsmarkt-en-mobiliteit h4 { color: #ff7a1b; }
-.evenement-details .in-programmalijn-opleiding-en-professionalisering h4 { color: #4768c6; }
+.evenement-details .in-programmalijn-loopbaan-en-professionalisering h4 { color: #4768c6; }
 .evenement-details .in-programmalijn-veilig-gezond-en-vitaal-werken h4 { color: #69b85d; }
 
 #evenement-content { margin-bottom: 20px; }
@@ -705,7 +716,7 @@ ul.mpFormTable .mpFormField input.mpMultipleInput { width: 10px; margin: 0 10px 
 ul.mpFormTable .mpFormField input[type="radio"] { display: inline-block; margin-right: 10px; width: 10px; }
 ul.mpFormTable .mpFormField textarea { width: 100%; font-family: Verdana; font-size: 14px; }
 ul.mpFormTable .mpFormField ul li { float: left; margin: 0 0 5px; width: 100%; }
-ul.mpFormTable input.submitButton { margin: 0; background: url(/img/btn_rose.jpg) top right no-repeat; width: auto; float: left; padding: 3px 28px 3px 7px; color: #fff; border: 0; font-family: 'Karla', Arial; font-size: 14px; font-weight: normal; text-transform: lowercase; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; cursor: pointer; }
+ul.mpFormTable input.submitButton { margin: 0; background: url(/Content/images/btn_rose.jpg) top right no-repeat; width: auto; float: left; padding: 3px 28px 3px 7px; color: #fff; border: 0; font-family: 'Karla', Arial; font-size: 14px; font-weight: normal; text-transform: lowercase; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; cursor: pointer; }
 ul.mpFormTable .sublabel { margin: 5px 0 0 0; }
 ul.mpFormTable .mpRadioButtonTable input { float: left; }
 ul.mpFormTable .mpRadioButtonTable label { display: block; width: 230px; float: left; }
@@ -723,7 +734,7 @@ iframe#mailplusiframe td { font-family: Arial !important; font-size: 14px; }
 .form_instrument .row { clear: both; float: left; margin: 0 0 10px 0; }
 .form_instrument label { width: 120px; float: left; }
 .form_instrument input { width: 150px; float: left; }
-.form_instrument .btn { background: url(/img/btn_rose.jpg) top right no-repeat; width: auto; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 0; }
+.form_instrument .btn { background: url(/Content/images/btn_rose.jpg) top right no-repeat; width: auto; padding: 3px 28px 3px 7px; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 0; }
 
 /*SITEMAP*/
 .sitemap h1 { font-family: 'Doppio One', Arial; line-height: 36px; font-weight: normal; font-size: 36px; color: #d1174d; margin: 10px 0 30px 0; }
@@ -769,7 +780,7 @@ a.s-ti:visited { color: #969; }
 .resultset .titel { margin: 2px 0 2px 0; }
 
 .resultset .arbeidsmarkt-en-mobiliteit { color: #ff7b1b; }
-.resultset .opleiding-en-professionalisering { color: #4868c7; }
+.resultset .loopbaan-en-professionalisering { color: #4868c7; }
 .resultset .veilig-gezond-en-vitaal-werken { color: #69b95d; }
 
 .contentelement .afbeelding.right { float: right; margin: 0 0 20px 20px; }
@@ -799,7 +810,7 @@ a.s-ti:visited { color: #969; }
 .default-filter #type2 label { background: url(/Content/images/ico_downloads.jpg) 8px 0 no-repeat; padding: 1px 0 0 30px; }
 .default-filter #type3 label { background: url(/Content/images/ico_praktijkverhalen.jpg) 8px 0 no-repeat; padding: 1px 0 0 30px; }
 .default-filter #type4 label { background: url(/Content/images/ico_multimedia.jpg) 8px 0 no-repeat; padding: 1px 0 0 30px; }
-.default-filter .btn { cursor: pointer; background: url(/img/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
+.default-filter .btn { cursor: pointer; background: url(/Content/images/btn_rose.jpg) top right; border: 0; color: #fff; font-family: 'Karla', Arial; padding: 3px 15px 3px 0; width: 130px; font-size: 14px; font-weight: normal; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; float: right; }
 
 .default-filter strong { display: block; margin: 10px; font-weight: normal; }
 .default-filter .labeledcheckbox { margin: 10px; padding: 1px 0; }
@@ -907,9 +918,9 @@ html.preview #preview-indicator { position: fixed; width: 100%; top: 0px; right:
 #pagina-downloads { background: #eee; }
 
 .in-programmalijn-arbeidsmarkt-en-mobiliteit .downloads-block { background: #ff964a!important; }
-.in-programmalijn-opleiding-en-professionalisering .downloads-block { background: #697cb4!important; }
-.in-programmalijn-opleiding-en-professionalisering .downloads-block h5,
-.in-programmalijn-opleiding-en-professionalisering .downloads-block p { color: #D6DBEB!important; }
+.in-programmalijn-loopbaan-en-professionalisering .downloads-block { background: #697cb4!important; }
+.in-programmalijn-loopbaan-en-professionalisering .downloads-block h5,
+.in-programmalijn-loopbaan-en-professionalisering .downloads-block p { color: #D6DBEB!important; }
 .in-programmalijn-veilig-gezond-en-vitaal-werken .downloads-block { background: #a0ce99!important; }
 
 .downloads-block h4 { color: #fff !important; font-family: 'Doppio One', Arial; font-weight: normal; font-size: 18px; line-height: 22px; text-transform: lowercase; }
@@ -941,8 +952,8 @@ html.preview #preview-indicator { position: fixed; width: 100%; top: 0px; right:
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #onderwerp-koppelingen .downloads-block,
 .in-programmalijn-arbeidsmarkt-en-mobiliteit #subonderwerp-koppelingen .downloads-block { background-color: #ff964a; }
 
-.in-programmalijn-opleiding-en-professionalisering #onderwerp-koppelingen .downloads-block,
-.in-programmalijn-opleiding-en-professionalisering #subonderwerp-koppelingen .downloads-block { background-color: #697cb4; }
+.in-programmalijn-loopbaan-en-professionalisering #onderwerp-koppelingen .downloads-block,
+.in-programmalijn-loopbaan-en-professionalisering #subonderwerp-koppelingen .downloads-block { background-color: #697cb4; }
 
 .in-programmalijn-veilig-gezond-en-vitaal-werken #onderwerp-koppelingen .downloads-block,
 .in-programmalijn-veilig-gezond-en-vitaal-werken #subonderwerp-koppelingen .downloads-block { background-color: #a0ce99; }
@@ -965,7 +976,7 @@ body.pagina.contact .contentelement h4 { background: #d1174d; color: #fff; paddi
 body.pagina.contact .content-form { margin: 20px 0 0 0; background: #fae7ed; padding: 1px; }
 .content-form form { margin: 20px; }
 body.pagina.contact label { color: #d1174d; font-style: italic; font-size: 14px; }
-body.pagina.contact .content-form input[type=submit] { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/img/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+body.pagina.contact .content-form input[type=submit] { cursor: pointer; border: 0; margin: 10px 0 0 0; width: 105px; height: 25px; padding: 0 28px 4px 7px; float: left; background: url(/Content/images/btn_rose.jpg) top right no-repeat; color: #fff; text-decoration: none; font-family: 'Karla', Arial; font-weight: bold; font-size: 14px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 
 .templateblok-clear { clear: both; margin: 10px 0; height: 1px; }
 #sitemap h2,
@@ -1043,6 +1054,7 @@ ul.praktijklokalen { margin-top:50px; margin-bottom:50px; }
 .praktijklokalen .item:last-child { margin-right:0;  }
 .praktijklokalen .practicum { background:  url(/Content/images/Veilig_practicum.png) no-repeat center center; }
 .praktijklokalen .pro { background:  url(/Content/images/pro.png) no-repeat center center; }
+.praktijklokalen .bouwen { background:  url(/Content/images/bouwen.png) no-repeat center center; }
 .praktijklokalen .leeg {width: 213px; background:  url(/Content/images/leeg.png) no-repeat center center; }
 
 .ec-circle { width: 200px; height: 200px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 50%; text-align: center; overflow: hidden; box-shadow: inset 0 0 0 0 #fff, inset 0 0 0 20px #fff, 0 0 20px #fff; transition: box-shadow 400ms ease-in-out; display: block; outline: none; position: absolute; top: 7px; left: 7px; }
@@ -1148,7 +1160,7 @@ ul.praktijklokalen { margin-top:50px; margin-bottom:50px; }
     h1.programmalijn, #titel_onderwerp, #titel_programma_sub {font-size:18px; background:#ff964a; color:#fff!important; margin:0 -15px; padding:5px 15px;}
     h2 {font-size:24px;}
 
-    .programmalijn-opleiding-en-professionalisering h1.programmalijn, .programmalijn-opleiding-en-professionalisering #titel_onderwerp, .programmalijn-opleiding-en-professionalisering #titel_programma_sub {background:#697cb4;}
+    .programmalijn-loopbaan-en-professionalisering h1.programmalijn, .programmalijn-loopbaan-en-professionalisering #titel_onderwerp, .programmalijn-loopbaan-en-professionalisering #titel_programma_sub {background:#697cb4;}
     .programmalijn-veilig-gezond-en-vitaal-werken h1.programmalijn, .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_onderwerp, .in-programmalijn-veilig-gezond-en-vitaal-werken #titel_programma_sub {background:#a0ce99;}
     #onderwerp-submenu ul li {line-height:22px!important;}
     #pagina-submenu {margin-top:0;}
@@ -1159,7 +1171,7 @@ ul.praktijklokalen { margin-top:50px; margin-bottom:50px; }
     .wrapper-onderwerp-submenu .toggleonmobile h4 {margin:0 -15px!important; padding:5px 15px!important;}
 
     .in-programmalijn-arbeidsmarkt-en-mobiliteit .wrapper-onderwerp-submenu h4 {background:rgba(255, 150, 74, 0.60)!important;}
-    .in-programmalijn-opleiding-en-professionalisering .wrapper-onderwerp-submenu h4 {background:rgba(105, 124, 180, 0.60)!important;}
+    .in-programmalijn-loopbaan-en-professionalisering .wrapper-onderwerp-submenu h4 {background:rgba(105, 124, 180, 0.60)!important;}
     .in-programmalijn-veilig-gezond-en-vitaal-werken .wrapper-onderwerp-submenu h4 {background:rgba(160, 206, 153, 0.70)!important;}
 
     #onderwerp-tabsholder .knoppen {border-bottom:0!important;}

@@ -14,7 +14,8 @@ class PearlsController extends Controller
      */
     public function index()
     {
-        //
+        $pearls = Pearl::get();
+        return view ('pearls.index', compact('pearls'));
     }
 
     /**
@@ -24,7 +25,7 @@ class PearlsController extends Controller
      */
     public function create()
     {
-        //
+        return view ('pearls.create');
     }
 
     /**
@@ -56,9 +57,9 @@ class PearlsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Pearl $pearl)
     {
-        //
+        return view ('pearls.edit', compact('pearl'));
     }
 
     /**
