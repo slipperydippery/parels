@@ -9697,16 +9697,16 @@ img {
   max-width: 100%; }
 
 .entree .overview--video {
-  margin: 0;
+  width: 80%;
+  margin: 0 auto;
   padding: 0; }
 
 .entree .overview--video row {
   margin: 0 !important; }
 
 .video-tabs-bottom {
-  display: inline-block;
   margin: 0;
-  width: 33.33%; }
+  padding: 0; }
 
 .overview--video img {
   width: 100%; }

@@ -2,7 +2,7 @@
     <div class="pearllistbuttons">
         <div 
             v-for="category in categories"
-            class="video-tabs-bottom"
+            class="video-tabs-bottom col-md-4"
         >
             <div 
                 class="btn"
