@@ -61,16 +61,28 @@
 	color: #fff;
 	background: #d2174e;
 	padding: 3px 0;
+	:hover {
+		background: darken( #d2174e, 10%) !important;
+		border: 1px solid red;
+	}
 }
 
+.singlepearle .btn:hover {
+	border: 1px solid blue;
+}
+
+
 .backicon {
-	margin: 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .icon--back{
 	fill: $color2;
 	width: 3rem;
 	height: auto;
+	:hover {
+		fill: darken( $color2, 10% );
+	}
 }
 
 .icons--social {

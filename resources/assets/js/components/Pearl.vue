@@ -1,6 +1,6 @@
 <template>
 	<a :href="PearlAdress(pearl)"
-		class="pearl col-xs-2"
+		class="pearl col-md-2 col-sm-4 col-xs-4"
 	>
 		<img :src="returnRoot + '/img/transparent.png'" alt="" class="tsquare">
 		<div 

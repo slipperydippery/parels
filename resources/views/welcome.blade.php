@@ -2,7 +2,9 @@
 
 @section('content')
     <div id="parelsuitderegio">
-        @include('pages.welcome')
+	    <div class="row">
+	        @include('pages.welcome')
+	    </div>
         <div class="row">
             <pearllist :pearlid=0></pearllist>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="pearllist">
+    <div class="pearllist col-xs-12">
         <h3 class="parels_head" v-if="pearlid">Gerelateerde Parels:</h3>
         <h3 class="parels_head" v-else>Parels:</h3>
         <pearl

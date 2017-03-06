@@ -1,11 +1,22 @@
 .singlepearl {
     margin: 2rem 0;
+	padding: 1.5rem 0 0 0;
 	background: #daeaea;
-	padding: 2rem 0;
+	.pearlinfo {
+		margin-top: 1rem;
+	}
+	.backicon__container {
+		margin: 0;
+	}
+
+	.icons {
+		padding: 0;
+		background: rgba(0,0,0,0.05);
+		// background: #f3f3f3;
+		border-top: 1px solid #cecece;
+	}
 }
 
-.pearlinfo {
-}
 
 .linkrow {
     margin: 3rem 0 0 !important;

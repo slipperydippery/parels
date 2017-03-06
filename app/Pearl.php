@@ -21,4 +21,9 @@ class Pearl extends Model
     {
     	return $this->belongsToMany('App\Video');
     }
+
+    public function pdfs()
+    {
+        return $this->belongsToMany('App\Pdf');
+    }
 }

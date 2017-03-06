@@ -9696,11 +9696,6 @@ a {
 img {
   max-width: 100%; }
 
-.entree .overview--video {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0; }
-
 .entree .overview--video row {
   margin: 0 !important; }
 
@@ -9971,14 +9966,22 @@ ul, li {
   color: #fff;
   background: #d2174e;
   padding: 3px 0; }
+  .singlepearl .btn :hover {
+    background: #a4123d !important;
+    border: 1px solid red; }
+
+.singlepearle .btn:hover {
+  border: 1px solid blue; }
 
 .backicon {
-  margin: 1rem 0; }
+  margin: 0 0 1rem 0; }
 
 .icon--back {
   fill: #697cb4;
   width: 3rem;
   height: auto; }
+  .icon--back :hover {
+    fill: #4e629c; }
 
 .icons--social {
   float: left; }
@@ -10012,8 +10015,16 @@ ul, li {
 
 .singlepearl {
   margin: 2rem 0;
-  background: #daeaea;
-  padding: 2rem 0; }
+  padding: 1.5rem 0 0 0;
+  background: #daeaea; }
+  .singlepearl .pearlinfo {
+    margin-top: 1rem; }
+  .singlepearl .backicon__container {
+    margin: 0; }
+  .singlepearl .icons {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.05);
+    border-top: 1px solid #cecece; }
 
 .linkrow {
   margin: 3rem 0 0 !important; }
