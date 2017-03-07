@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Pearl;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class PearlsController extends Controller
 {
@@ -71,8 +72,11 @@ class PearlsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        return 'hi';
-        return $request->all();
+        $pearl = PEARL::findOrFail($id);
+        $pearl->title = $request->title;
+        $pearl->description = $request->description;
+        $pearl->save();
+        return Redirect::route('pearls.index');
     }
 
     /**

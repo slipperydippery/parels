@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/app.css">
+        <link href="http://vjs.zencdn.net/5.17.0/video-js.css" rel="stylesheet">
     </head>
     <script>
         window.Laravel = { csrfToken: '{{ csrf_token() }}' };
@@ -58,5 +59,7 @@
             </div>
         </footer>
 <script src="/js/app.js"></script>
+<script src="http://vjs.zencdn.net/5.17.0/video.js"></script>
+<script src="/js/video.js"></script>
     </body>
 </html>

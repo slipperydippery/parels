@@ -9,7 +9,16 @@ img {
 		margin: 0 !important;
 	}
 }
-	.video-tabs-bottom {
-		margin: 0;
-		padding: 0;
-	}
+.video-tabs-bottom {
+	margin: 0;
+	padding: 0;
+}
+
+video, .video-js {
+	width: 100%;
+}
+
+.vjs-control-bar {
+	// display: none !important;
+}
+
