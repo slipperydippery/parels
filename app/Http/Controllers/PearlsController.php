@@ -36,7 +36,7 @@ class PearlsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $request->all();
     }
 
     /**
@@ -71,7 +71,8 @@ class PearlsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        return 'hi';
+        return $request->all();
     }
 
     /**

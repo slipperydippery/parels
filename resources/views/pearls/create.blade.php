@@ -5,4 +5,5 @@
     {!! Form::open(['route' => 'pearls.store']) !!}
     	@include('pearls.partials.form', ['submittext' => 'Creeer nieuwe parel'])
     {!! Form::close() !!}
+
 @stop
