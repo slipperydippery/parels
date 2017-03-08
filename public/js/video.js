@@ -24,8 +24,8 @@ overlay.onclick = function(){
 // video.LoadingSpinner(false);
 // video.loop(true);
 video.on('timeupdate', function () {
-	if ( this.currentTime() >= 32) {
-		video.currentTime(21);
+	if ( this.currentTime() >= 30) {
+		video.currentTime(23);
 	}
 	if ( this.currentTime() >= 15 ){
 		document.getElementById("videooverlay").style.display = "block";
