@@ -16,9 +16,11 @@
                     <video 
                         preload="auto" 
                         id="intro-video"
-                        class="video-js vjs-big-play-centered vjs-16-9 vjs-nofull" 
+                        class="video-js vjs-big-play-centered vjs-16-9" 
                         poster="/video/poster/introductie.png"
-                        data-setup="{}" controls
+                        data-setup="{}" 
+                        controls
+                        playsinline
                     >
                         <source src="/video/introductie.mp4" type="video/mp4">
                         <p class="vjs-no-js">
