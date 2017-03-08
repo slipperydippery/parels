@@ -6,7 +6,7 @@
 		<div 
 			class="ring"
 			:class="'ring-' + pearl.categories[0].id"
-            :style="{ backgroundImage: 'url(http://img.youtube.com/vi/' + pearl.videos[0].adress + '/sddefault.jpg)' }"
+            :style="{ backgroundImage: 'url(' + returnRoot + '/video/poster/parel' + pearl.id + '.png)' }"
 		>
             <img src="/img/playtrans.png" alt="" class="playicon center-block">
 		</div>

@@ -15,7 +15,7 @@
                 <div class="overview--video col-md-10 col-md-offset-1">
                     <video 
                         preload="auto" 
-                        id="my-video"
+                        id="intro-video"
                         class="video-js vjs-big-play-centered vjs-16-9" 
                         data-setup="{}" controls
                     >

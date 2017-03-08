@@ -17,13 +17,19 @@
                     </div>
                 </a>
             </div>
-            <div class="flex-video widescreen"> <!-- iframe width="283" height="159" -->
-                <iframe width="350" height="197" 
-                    src="https://www.youtube.com/embed/{{ $pearl->videos->first()->adress }}?rel=0&amp;showinfo=0" 
-                    frameborder="0" allowfullscreen
-                >
-                </iframe>
-            </div>
+            <video 
+                preload="auto" 
+                id="singlepearl-video"
+                class="video-js vjs-big-play-centered vjs-16-9" 
+                poster="/video/poster/parel{{ $pearl->id }}.png"
+                data-setup="{}" controls
+            >
+                <source src="/video/parel{{ $pearl->id }}.mp4" type="video/mp4" >,
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
         </div>
         <div class="col-lg-8 col-xs-12">
             <div class="row contentelement pearlinfo">

@@ -1,4 +1,4 @@
-var video = videojs('my-video');
+var video = videojs('intro-video');
 var overlay = document.getElementById('videooverlay');
 
 overlay.onclick = function(){
@@ -24,12 +24,10 @@ overlay.onclick = function(){
 // video.LoadingSpinner(false);
 // video.loop(true);
 video.on('timeupdate', function () {
-	console.log('hey');
 	if ( this.currentTime() >= 32) {
 		video.currentTime(21);
 	}
 	if ( this.currentTime() >= 15 ){
-			console.log('yo');
 		document.getElementById("videooverlay").style.display = "block";
 		// overlay.style.display = "block";
 	};
