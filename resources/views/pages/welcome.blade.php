@@ -16,7 +16,7 @@
                     <video 
                         preload="auto" 
                         id="intro-video"
-                        class="video-js vjs-big-play-centered vjs-16-9" 
+                        class="video-js vjs-big-play-centered vjs-16-9 vjs-nofull" 
                         poster="/video/poster/introductie.png"
                         data-setup="{}" controls
                     >

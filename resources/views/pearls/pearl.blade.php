@@ -20,7 +20,7 @@
             <video 
                 preload="auto" 
                 id="singlepearl-video"
-                class="video-js vjs-big-play-centered vjs-16-9" 
+                class="video-js vjs-big-play-centered vjs-16-9 vjs-nofull" 
                 poster="/video/poster/parel{{ $pearl->id }}.png"
                 data-setup="{}" controls
             >

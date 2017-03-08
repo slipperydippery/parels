@@ -25,12 +25,22 @@ class PearlsTableSeeder extends Seeder
             [
                 'id' => '2',
                 'title' => 'Slimmer Werken TV',
-                'description' => '',
+                'description' => '
+                <p><b>Slimmer Werken TV: 30 schoonmakers uit de SW gedetacheerd bij de Gooise Scholenfederatie</b></p>
+                <p>In 2013 is in het sociaal akkoord afgesproken dat de vo-sector 2026 mensen met een arbeidsbeperking in dienst zal nemen voor 20216. De Gooise Scholenfederatie koos ervoor om 30 schoonmakers te detacheren via de sociale werkvoorziening. De ervaring die GSF heeft opgedaan geeft u inzicht in de manier waarop het mogelijk is om ook mensen met een afstand tot de arbeidsmarkt in dienst te nemen. </p>
+                <p>Bekijk de animatie of lees een van de documenten hieronder voor de details van dit verhaal.</p>
+
+                ',
             ],
             [
                 'id' => '3',
                 'title' => 'Banenafspraak',
-                'description' => '',
+                'description' => '
+                <p><b>Banenafspraak: 30 schoonmakers uit de SW gedetacheerd bij de Gooise Scholenfederatie</b></p>
+                <p>In 2013 is in het sociaal akkoord afgesproken dat de vo-sector 2026 mensen met een arbeidsbeperking in dienst zal nemen voor 20216. De Gooise Scholenfederatie koos ervoor om 30 schoonmakers te detacheren via de sociale werkvoorziening. De ervaring die GSF heeft opgedaan geeft u inzicht in de manier waarop het mogelijk is om ook mensen met een afstand tot de arbeidsmarkt in dienst te nemen.</p>
+                <p>Bekijk de animatie of lees een van de documenten hieronder voor de details van dit verhaal. </p>
+
+                ',
             ],
         ];
 
