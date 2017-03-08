@@ -20,9 +20,7 @@ class Pagescontroller extends Controller
   		    $visited = true;
   		}
   		Session::put('visited', true);
-  		JavaScript::put([
-  		    'visited' => true
-  		]);
+
   	    return view('welcome');
   }
 }
