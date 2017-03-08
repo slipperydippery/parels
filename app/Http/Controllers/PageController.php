@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Session;
+use JavaScript;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -14,8 +16,13 @@ class PageController extends Controller
   public function welcome()
   {
   		$visited = false;
-
-
+  		if(Session::get('visited')){
+  		    $visited = true;
+  		}
+  		Session::put('visited', true);
+  		JavaScript::put([
+  		    'visited' => $visited
+  		]);
   	    return view('welcome');
   }
 }
