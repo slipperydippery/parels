@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', ['as' => 'welcome', 'uses' => 'PagesController@welcome']);
+Route::get('/', ['as' => 'welcome', 'uses' => 'PageController@welcome']);
 
 Route::get('/test', function () {
 	return view('test');
 });
 
-Route::get('factsheet', ['as' => 'factsheet', 'uses' => 'PagesController@factsheet']);
+Route::get('factsheet', ['as' => 'factsheet', 'uses' => 'PageController@factsheet']);
 Route::resource('pearls', 'PearlsController');
 // Route::resource('pearldescriptions', 'PearldescriptionsControler');
 // Route::resource('pearlfactsheets', 'PearlfactsheetsControler');
