@@ -9712,13 +9712,18 @@ video, .video-js {
   .overview--video img {
     width: 100%; }
 
+.vjs-control-bar {
+  display: none !important; }
+
 .videooverlay {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  padding-bottom: 56.25%; }
+  padding-bottom: 56.25%;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
   .videooverlay .videooverlay--content {
     position: absolute;
     top: 0;

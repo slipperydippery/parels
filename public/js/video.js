@@ -1,5 +1,9 @@
 var video = videojs('intro-video');
 var overlay = document.getElementById('videooverlay');
+if (visited) {
+		document.getElementById("videooverlay").style.display = "block";
+		document.getElementsByClassName("vjs-big-play-button")[0].style.display = "none";
+};
 
 overlay.onclick = function(){
 	togglePause();
@@ -9,6 +13,7 @@ overlay.onclick = function(){
 
  function togglePause(){
   if (video.paused()) {
+		document.getElementById("videooverlay").style.opacity = "0";
     video.play();
   }
   else {
@@ -24,11 +29,14 @@ overlay.onclick = function(){
 // video.LoadingSpinner(false);
 // video.loop(true);
 video.on('timeupdate', function () {
-	if ( this.currentTime() >= 30) {
-		video.currentTime(23);
+	if ( this.currentTime() < 15 && this.currentTime() > 0) {
+		document.getElementById("videooverlay").style.opacity = "0";
+	}
+	if ( this.currentTime() >= 40.12) {
+		video.currentTime(27.1);
 	}
 	if ( this.currentTime() >= 15 ){
-		document.getElementById("videooverlay").style.display = "block";
+		document.getElementById("videooverlay").style.opacity = "1";
 		// overlay.style.display = "block";
 	};
 });

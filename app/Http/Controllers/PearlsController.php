@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Pearl;
+use Session;
+use JavaScript;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
@@ -48,6 +50,14 @@ class PearlsController extends Controller
      */
     public function show(Pearl $pearl)
     {
+        $visited = false;
+        if(Session::get('visited')){
+            $visited = true;
+        }
+        Session::put('visited', true);
+        JavaScript::put([
+            'visited' => 'hello'
+        ]);
         $pearlid = $pearl->id;
         return view('pearls.pearl', compact('pearl', 'pearlid'));
     }

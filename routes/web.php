@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', ['as' => 'welcome', 'uses' => 'PagesController@welcome']);
+
 Route::get('/test', function () {
 	return view('test');
 });

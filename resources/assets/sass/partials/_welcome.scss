@@ -6,6 +6,10 @@
 	}
 }
 
+.vjs-control-bar {
+	display: none !important;
+}
+
 .videooverlay {
 	display: none;
 	position: absolute;
@@ -13,6 +17,7 @@
 	left: 0;
 	width: 100%;
 	padding-bottom: 56.25%;
+	transition: all .5s;
 	.videooverlay--content {
 		    position:absolute;
 		    top:0;
