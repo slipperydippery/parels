@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Session;
-use JavaScript;
 use Illuminate\Http\Request;
 
 class Pagescontroller extends Controller
