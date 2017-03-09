@@ -9712,7 +9712,7 @@ video, .video-js {
   .overview--video img {
     width: 100%; }
 
-.vjs-control-bar {
+#intro-video .vjs-control-bar {
   display: none !important; }
 
 .videooverlay {
