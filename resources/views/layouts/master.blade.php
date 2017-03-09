@@ -14,27 +14,27 @@
         <div id="container" class="container">
             <div id="header" class="row">
                 <div class="col-md-12">            
-                    <a href="/" title="VOION Arbeidsmarkt &amp; Opleidingsfonds voortgezet onderwijs" id="logolink"><img src="/img/logo_voion.jpg" alt="Voion, Arbeidsmarkt &amp; opleidingsfonds voortgezet onderwijs" id="logo" /></a>
+                    <a href="http://www.voion.nl/" title="VOION Arbeidsmarkt &amp; Opleidingsfonds voortgezet onderwijs" id="logolink"><img src="/img/logo_voion.jpg" alt="Voion, Arbeidsmarkt &amp; opleidingsfonds voortgezet onderwijs" id="logo" /></a>
                     <a href="#MainNav" id="hamburger" class="showmmenu"><em>MENU</em><span></span></a>
                     <a href="#MainNav" id="zoek" class="showmmenu"><em>ZOEK</em><span class="glyphicon glyphicon-search"></span></a>
                     <div id="utils">
                         <ul>
-                            <li><a href="/">home</a></li>
-                            <li><a href="/contact">contact</a></li>
-                            <li class="last"><a href="/sitemap">sitemap</a></li>
+                            <li><a href="http://www.voion.nl/">home</a></li>
+                            <li><a href="http://www.voion.nl/contact">contact</a></li>
+                            <li class="last"><a href="http://www.voion.nl/sitemap">sitemap</a></li>
                         </ul>
                     </div>
                     <nav id="MainNav">
                         <ul>
-                            <li><a href="/over-voion">Over Voion</a></li>
-                            <li><a href="/home">Programmalijnen</a><ul>
-                            <li><a href="/programmalijnen/arbeidsmarkt-en-mobiliteit">Arbeidsmarkt &amp; mobiliteit</a></li>
-                            <li><a href="/programmalijnen/opleiding-en-professionalisering">Opleiding &amp; professionalisering</a></li>
-                            <li><a href="/programmalijnen/veilig-gezond-en-vitaal-werken">Veilig, gezond &amp; vitaal werken</a></li></ul></li>
-                            <li><a href="/publicaties">Publicaties</a></li>
-                            <li><a href="/instrumenten">Instrumenten</a></li>
-                            <li><a href="/agenda">Agenda</a></li>
-                            <li><a href="/nieuws">Nieuws</a></li></ul>
+                            <li><a href="http://www.voion.nl/over-voion">Over Voion</a></li>
+                            <li><a href="http://www.voion.nl/home">Programmalijnen</a><ul>
+                            <li><a href="http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit">Arbeidsmarkt &amp; mobiliteit</a></li>
+                            <li><a href="http://www.voion.nl/programmalijnen/opleiding-en-professionalisering">Opleiding &amp; professionalisering</a></li>
+                            <li><a href="http://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken">Veilig, gezond &amp; vitaal werken</a></li></ul></li>
+                            <li><a href="http://www.voion.nl/publicaties">Publicaties</a></li>
+                            <li><a href="http://www.voion.nl/instrumenten">Instrumenten</a></li>
+                            <li><a href="http://www.voion.nl/agenda">Agenda</a></li>
+                            <li><a href="http://www.voion.nl/nieuws">Nieuws</a></li></ul>
                     </nav>
                 </div>
         </div>
