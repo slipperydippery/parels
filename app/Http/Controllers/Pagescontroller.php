@@ -6,7 +6,7 @@ use Session;
 use JavaScript;
 use Illuminate\Http\Request;
 
-class Pagescontroller extends Controller
+class PagesController extends Controller
 {
   public function factsheet()
   {
