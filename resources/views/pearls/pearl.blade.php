@@ -51,10 +51,10 @@
             </div>
         </div> 
         <div class="col-xs-12 icons icons--social">
-                <a href="#">
+                <a href="https://www.linkedin.com/company/3082156">
                     <div class="icon icon--social linkedin"></div>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/voion_aenofonds">
                     <div class="icon icon--social twitter"></div>
                 </a>
                 <a href="#">
