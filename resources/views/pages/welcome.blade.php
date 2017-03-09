@@ -30,18 +30,18 @@
                     </video>
                     <div class="videooverlay" id="videooverlay">
                         <div class="videooverlay--content">
-                            <a href="{{ URL::to('pearls/1')}}">
+                            <a href="{{ URL::to('pearls/1')}}" class="csspearl--link">
                                 <div class="csspearl csspearl-1"></div>
-                                <span class="csspearl--description">Tweedegraads PLUS</span>
                             </a>
-                            <a href="{{ URL::to('pearls/2')}}">
+                            <span class="csspearl--description">Tweedegraads PLUS</span>
+                            <a href="{{ URL::to('pearls/2')}}" class="csspearl--link">
                                 <div class="csspearl csspearl-2"></div>
-                                <span class="csspearl--description">Slimmer Werken TV</span>
                             </a>
-                            <a href="{{ URL::to('pearls/3')}}">
+                            <span class="csspearl--description">Slimmer Werken TV</span>
+                            <a href="{{ URL::to('pearls/3')}}" class="csspearl--link">
                                 <div class="csspearl csspearl-3"></div>
-                                <span class="csspearl--description">Banenafspraak</span>
                             </a>
+                            <span class="csspearl--description">Banenafspraak</span>
                         </div>
                     </div>
                     <pearllistfilter></pearllistfilter>
