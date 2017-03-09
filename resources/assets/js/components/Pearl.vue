@@ -10,7 +10,7 @@
 		>
             <img src="/img/playtrans.png" alt="" class="playicon center-block">
 		</div>
-		<span>{{ pearl.title }}</span>
+		<span v-html="pearl.title"></span>
 	</a>
 </template>
 

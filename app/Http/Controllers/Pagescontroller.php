@@ -23,6 +23,7 @@ class Pagescontroller extends Controller
   		JavaScript::put([
   		    'visited' => $visited
   		]);
+
   	    return view('welcome');
   }
 }

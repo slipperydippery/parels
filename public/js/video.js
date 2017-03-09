@@ -1,8 +1,8 @@
 var video = videojs('intro-video');
 var overlay = document.getElementById('videooverlay');
 if (visited) {
-		document.getElementById("videooverlay").style.display = "block";
-		document.getElementsByClassName("vjs-big-play-button")[0].style.display = "none";
+	document.getElementById("videooverlay").style.opacity = "1";
+	document.getElementsByClassName("vjs-big-play-button")[0].style.display = "none";
 };
 
 overlay.onclick = function(){

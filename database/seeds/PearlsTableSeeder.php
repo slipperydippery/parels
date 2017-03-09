@@ -16,7 +16,7 @@ class PearlsTableSeeder extends Seeder
         $pearls = [
             [
                 'id' => '1',
-                'title' => 'Tweedegraads PLUS',
+                'title' => 'Tweede&shy;graads PLUS',
                 'description' => '
                 <p><b>Tweedegraads PLUS: Doorscholing van tweedegraads docenten</b></p>
                 <p>De Rode Loper, een samenwerkingsverband van 41 scholen in de regio Den Haag, wil tweedegraads docenten stimuleren een eerstegraads bevoegdheid te halen. Zij ontwikkelde samen met de Hogeschool Utrecht Tweedegraads PLUS modules op masterniveau over uiteenlopende onderwerpen. </p>
@@ -34,7 +34,7 @@ class PearlsTableSeeder extends Seeder
             ],
             [
                 'id' => '3',
-                'title' => 'Banenafspraak',
+                'title' => 'Banen&shy;afspraak',
                 'description' => '
                 <p><b>Banenafspraak: 30 schoonmakers uit de SW gedetacheerd bij de Gooise Scholenfederatie</b></p>
                 <p>In 2013 is in het sociaal akkoord afgesproken dat de vo-sector 2026 mensen met een arbeidsbeperking in dienst zal nemen voor 2016. De Gooise Scholenfederatie koos ervoor om 30 schoonmakers te detacheren via de sociale werkvoorziening. De ervaring die GSF heeft opgedaan geeft u inzicht in de manier waarop het mogelijk is om ook mensen met een afstand tot de arbeidsmarkt in dienst te nemen.</p>
