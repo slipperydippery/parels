@@ -15,6 +15,9 @@ class CreatePearlmanualsTable extends Migration
     {
         Schema::create('pearlmanuals', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
+            $table->text('description');
+            $table->string('adress');
             $table->timestamps();
         });
     }

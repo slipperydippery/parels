@@ -3,12 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Pearl;
-use Session;
-use JavaScript;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redirect;
 
-class PearlsController extends Controller
+class VideosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,8 +14,7 @@ class PearlsController extends Controller
      */
     public function index()
     {
-        $pearls = Pearl::get();
-        return view ('pearls.index', compact('pearls'));
+        //
     }
 
     /**
@@ -28,7 +24,16 @@ class PearlsController extends Controller
      */
     public function create()
     {
-        return view ('pearls.create');
+        $pearllist = Pearl::pluck('title', 'id');
+        $selectid = 0;
+        return view ('videos.create', compact('pearllist', 'selectid'));
+    }
+
+    public function createForPearl(Pearl $pearl)
+    {
+        $pearllist = Pearl::pluck('title', 'id');
+        $selectid = $pearl->id;
+        return view ('videos.create', compact('pearllist', 'selectid'));
     }
 
     /**
@@ -39,7 +44,19 @@ class PearlsController extends Controller
      */
     public function store(Request $request)
     {
-        return $request->all();
+        $pearl = Pearl::findOrFail($request->pearl);
+        $file = request()->file('video');
+        $ext = $file->extension();
+        $file->storeAs('videos/' . $request->pearl, 'video.' . $ext);
+        if(! $pearl->videos->count()){
+            $video = new Video();
+            $pearl->videos()->store($video);
+        }
+        $video = $pearl->videos->first();
+        
+        return $video;
+
+        return back();
     }
 
     /**
@@ -48,10 +65,9 @@ class PearlsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Pearl $pearl)
+    public function show($id)
     {
-        $pearlid = $pearl->id;
-        return view('pearls.pearl', compact('pearl', 'pearlid'));
+        //
     }
 
     /**
@@ -60,9 +76,9 @@ class PearlsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Pearl $pearl)
+    public function edit($id)
     {
-        return view ('pearls.edit', compact('pearl'));
+        //
     }
 
     /**
@@ -74,11 +90,7 @@ class PearlsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $pearl = PEARL::findOrFail($id);
-        $pearl->title = $request->title;
-        $pearl->description = $request->description;
-        $pearl->save();
-        return Redirect::route('pearls.index');
+        //
     }
 
     /**

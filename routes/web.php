@@ -19,6 +19,8 @@ Route::get('/test', function () {
 
 Route::get('factsheet', ['as' => 'factsheet', 'uses' => 'PageController@factsheet']);
 Route::resource('pearls', 'PearlsController');
+Route::resource('videos', 'VideosController');
+Route::get('videos/createForPearl/{pearl}', ['as' => 'videos.createForPearl', 'uses' => 'VideosController@createForPearl']);
 // Route::resource('pearldescriptions', 'PearldescriptionsControler');
 // Route::resource('pearlfactsheets', 'PearlfactsheetsControler');
 // Route::resource('pearlmanuals', 'PearlmanualsControler');

@@ -9716,7 +9716,7 @@ video, .video-js {
   display: none !important; }
 
 .videooverlay {
-  display: none;
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
