@@ -9702,6 +9702,11 @@ a {
 img {
   max-width: 100%; }
 
+.inline_social_icon {
+  display: inline-block;
+  height: 1.2rem;
+  width: auto !important; }
+
 .entree .overview--video row {
   margin: 0 !important; }
 
