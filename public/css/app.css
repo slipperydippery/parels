@@ -9669,6 +9669,9 @@ h1.programmalijn {
 h4 {
   font-size: 1.7rem; }
 
+a:hover {
+  text-decoration: none; }
+
 .parel_ttl {
   color: #a0ce99;
   font-size: 36px;
@@ -9771,6 +9774,13 @@ video, .video-js {
   .videooverlay .csspearl-3 {
     left: 73.5%;
     bottom: 11.7%; }
+
+.video_sub_text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.08);
+  color: #4e4e4e;
+  padding: 2rem;
+  font-family: karla; }
 
 .factsheet--sidebar {
   padding-top: 5rem; }
@@ -9945,6 +9955,7 @@ ul, li {
   text-decoration: underline; }
 
 .pearls_head--back {
+  clear: both;
   cursor: pointer;
   font-style: italic;
   color: #016565; }

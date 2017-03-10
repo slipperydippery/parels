@@ -1,5 +1,5 @@
 <template>
-    <div class="pearllistbuttons">
+    <div class="pearllistbuttons clearfix">
         <div 
             v-for="category in categories"
             class="video-tabs-bottom col-md-4"

@@ -4,6 +4,11 @@
         <h3 class="pearls_head" v-else >
             Parels{{ nothing }}<span :class="['category-' + active.id, 'pearls_head--category'] " >{{active.title}}</span>:
         </h3>
+        <pearl
+            v-for="pearl in filteredpearls"
+            :pearl="pearl"
+        >
+        </pearl>
         <h4 
             v-if="active.id != null" 
             @click="reSetActive( )"
@@ -12,11 +17,6 @@
         >   
             terug naar alle parels
         </h4>
-        <pearl
-            v-for="pearl in filteredpearls"
-            :pearl="pearl"
-        >
-        </pearl>
     </div>
 </template>
 

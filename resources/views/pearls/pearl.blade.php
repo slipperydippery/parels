@@ -55,7 +55,8 @@
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//parelsuitderegio.nl/pearls/{{ $pearl->id}}&title={{ $pearl->title }}&summary={{ $pearl->subtitle }}&source=">
                     <div class="icon icon--social linkedin"></div>
                 </a>
-                <a href="https://twitter.com/voion_aenofonds">
+                <a href="https://twitter.com/home?status=Ik%20kwam%20dit%20verhaal%20van%20Voion%20op%20www.parelsuitderegio.nl/pearls/{{ $pearl->id}}%20tegen.%20Inspirerend%20voor%20iedereen%20die%20werkt%20in%20het%20voortgezet%20onderwijs!">
+
                     <div class="icon icon--social twitter"></div>
                 </a>
                 <a href="#">

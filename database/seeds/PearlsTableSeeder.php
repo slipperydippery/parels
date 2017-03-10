@@ -25,22 +25,17 @@ class PearlsTableSeeder extends Seeder
             [
                 'id' => '2',
                 'title' => 'Slimmer Werken TV',
-                'subtitle' => 'Doorscholing van tweedegraads docenten',
+                'subtitle' => 'Vernieuwende films om leraren aan het vak te binden',
                 'description' => '
-                <p>In 2013 is in het sociaal akkoord afgesproken dat de vo-sector 2026 mensen met een arbeidsbeperking in dienst zal nemen. De Gooise Scholenfederatie koos ervoor om 30 schoonmakers te detacheren via de sociale werkvoorziening. De ervaring die GSF heeft opgedaan geeft u inzicht in de manier waarop het mogelijk is om ook mensen met een afstand tot de arbeidsmarkt in dienst te nemen. </p>
-                <p>Bekijk de animatie of lees een van de documenten hieronder voor de details van dit verhaal.</p>
-
-                ',
+                <p>Het platform Noord-Holland-Noord  (Platform NHN) zocht naar een nieuwe manier om docenten aan het vak te binden. Daarom ontwikkelde het platform Slimmer Werken TV; een serie van 14 documentaires voor docenten. De films worden bij voorkeur in teamverband bekeken aan de hand van een speciaal ontwikkelde kijkmethode. Het doel is om docenten de kennis te kunnen laten toepassen in hun dagelijkse lespraktijk. De films zijn beschikbaar voor elke docent en school.</p>
+                <p>Wilt u weten hoe en waarom u Slimmer Werken TV kunt inzetten in uw organisatie? Bekijk de animatie of lees een van de documenten hieronder. </p> ',
             ],
             [
                 'id' => '3',
                 'title' => 'Banen&shy;afspraak',
                 'subtitle' => '30 schoonmakers uit de SW gedetacheerd bij de Gooise Scholenfederatie',
                 'description' => '
-                <p>In 2013 is in het sociaal akkoord afgesproken dat de vo-sector 2026 mensen met een arbeidsbeperking in dienst zal nemen voor 2016. De Gooise Scholenfederatie koos ervoor om 30 schoonmakers te detacheren via de sociale werkvoorziening. De ervaring die GSF heeft opgedaan geeft u inzicht in de manier waarop het mogelijk is om ook mensen met een afstand tot de arbeidsmarkt in dienst te nemen.</p>
-                <p>Bekijk de animatie of lees een van de documenten hieronder voor de details van dit verhaal. </p>
-
-                ',
+                <p>De Gooise Scholenfederatie (GSF) bestaat uit 8 samenwerkende scholen in de Gooi en Vechtstreek. Vier jaar geleden zochten zij een betere oplossing voor de schoonmaakwerkzaamheden van alle scholen. Zij kozen ervoor om 30 schoonmakers in dienst te nemen via het sociaal werkbedrijf. Dat levert een verrassend resultaat. Deze parel inspireert om banen te creëren voor mensen met een arbeidsbeperking. Benieuwd naar het verhaal van GSF? Bekijk de animatie of lees een van de documenten op deze pagina voor de details.</p> ',
             ],
         ];
 

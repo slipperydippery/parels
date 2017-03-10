@@ -45,6 +45,7 @@
                         </div>
                     </div>
                     <pearllistfilter></pearllistfilter>
+                    <div class="video_sub_text">Gedurende dit jaar vullen we de website doorlopend aan met nieuwe parels. Wilt u op de hoogte blijven van deze nieuwe verhalen? Volg ons dan via <a href="https://twitter.com/voion_aenofonds">Twitter (icoontje)</a> of <a href="">LinkedIN (icoontje)</a> of abonneer u op onze <a href="http://www.voion.nl/over-voion/nieuwsbrieven">gratis nieuwsbrief</a>. </div>
                 </div>
             </div>
         </div>
