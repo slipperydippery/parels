@@ -1,7 +1,7 @@
 <template>
     <div class="pearllist col-xs-12">
-        <h3 class="pearls_head" v-if="pearlid">Gerelateerde Parels:</h3>
-        <h3 class="pearls_head" v-else >
+        <h3 class="pearls_head" v-if="pearlid && filteredpearls.length > 0">Gerelateerde Parels:</h3>
+        <h3 class="pearls_head" v-if="! pearlid" >
             Parels{{ nothing }}<span :class="['category-' + active.id, 'pearls_head--category'] " >{{active.title}}</span>:
         </h3>
         <pearl
@@ -69,6 +69,7 @@
             },
 
             setRelatedPearls: function () {
+                console.log('setting related pearls');
                 var home = this;
                 for (var pearl in this.pearls){
                     if (this.pearls[pearl].id == home.pearlid) {
