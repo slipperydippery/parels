@@ -35,8 +35,8 @@
         <div class="col-lg-8 col-xs-12">
             <div class="row contentelement pearlinfo">
                 <h2>{{ $pearl->title }}  </h2> 
-
                 <div>
+                    <p><b> {{ $pearl->title }}: {{ $pearl->subtitle }} </b></p>
                     <span>{!! $pearl->description !!}</span>
                         <br>
                 </div>
@@ -52,7 +52,7 @@
             </div>
         </div> 
         <div class="col-xs-12 icons icons--social">
-                <a href="https://www.linkedin.com/company/3082156">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//parelsuitderegio.nl/pearls/{{ $pearl->id}}&title={{ $pearl->title }}&summary={{ $pearl->subtitle }}&source=">
                     <div class="icon icon--social linkedin"></div>
                 </a>
                 <a href="https://twitter.com/voion_aenofonds">
@@ -62,12 +62,6 @@
                 </a>
                 <a href="#">
                     <div class="icon icon--social facebook"></div>
-                </a>
-                <a href="http://voion.nl/contact">
-                    <div class="icon icon--social email"></div>
-                </a>
-                <a href="http://voion.nl/aanmelden">
-                    <div class="icon icon--social aanmelden"></div>
                 </a>
         </div>   
     </div>

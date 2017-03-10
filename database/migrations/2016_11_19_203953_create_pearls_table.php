@@ -16,6 +16,7 @@ class CreatePearlsTable extends Migration
         Schema::create('pearls', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
+            $table->string('subtitle');
             $table->text('description');
             $table->timestamps();
         });
