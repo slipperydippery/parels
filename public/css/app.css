@@ -10044,8 +10044,8 @@ ul, li {
 
 .icon--back {
   fill: #697cb4;
-  width: 3rem;
-  height: auto; }
+  width: 30px;
+  height: 30px; }
   .icon--back :hover {
     fill: #4e629c; }
 
