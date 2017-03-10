@@ -10067,6 +10067,15 @@ ul, li {
   .icon--back :hover {
     fill: #4e629c; }
 
+.icon--accompanyingtext {
+  top: -1rem;
+  left: 1rem;
+  position: relative;
+  /* font-weight: 500; */
+  color: #656565;
+  font-style: italic;
+  font-size: 1.6rem; }
+
 .icons--social {
   float: left; }
 
