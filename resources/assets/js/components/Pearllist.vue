@@ -1,7 +1,17 @@
 <template>
     <div class="pearllist col-xs-12">
-        <h3 class="parels_head" v-if="pearlid">Gerelateerde Parels:</h3>
-        <h3 class="parels_head" v-else>Parels:</h3>
+        <h3 class="pearls_head" v-if="pearlid">Gerelateerde Parels:</h3>
+        <h3 class="pearls_head" v-else >
+            Parels{{ nothing }}<span :class="['category-' + active.id, 'pearls_head--category'] " >{{active.title}}</span>:
+        </h3>
+        <h4 
+            v-if="active.id != null" 
+            @click="reSetActive( )"
+            class="pearls_head--back"
+            v-html="'<< terug naar alle parels'"
+        >   
+            terug naar alle parels
+        </h4>
         <pearl
             v-for="pearl in filteredpearls"
             :pearl="pearl"
@@ -35,6 +45,15 @@
         mounted() {
             this.getPearls();
             this.getCategories();
+        },
+
+        computed: {
+            nothing: function () {
+                if(this.active.id == null){
+                    return "";
+                }
+                return " ";
+            },
         },
 
         methods: {
@@ -83,6 +102,11 @@
                 this.filteredpearls = this.pearls.filter( function(pearl){
                     return pearl.categories[0].id == category.id;
                 })
+            },
+
+            reSetActive: function() {
+                this.filteredpearls = this.pearls;
+                this.active = {id: null};
             },
 
             nonActive(category) {

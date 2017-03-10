@@ -29,7 +29,7 @@
                             <li><a href="http://www.voion.nl/over-voion">Over Voion</a></li>
                             <li><a href="http://www.voion.nl/home">Programmalijnen</a><ul>
                             <li><a href="http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit">Arbeidsmarkt &amp; mobiliteit</a></li>
-                            <li><a href="http://www.voion.nl/programmalijnen/opleiding-en-professionalisering">Opleiding &amp; professionalisering</a></li>
+                            <li><a href="http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering">Loopbaan  &amp; professionalisering</a></li>
                             <li><a href="http://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken">Veilig, gezond &amp; vitaal werken</a></li></ul></li>
                             <li><a href="http://www.voion.nl/publicaties">Publicaties</a></li>
                             <li><a href="http://www.voion.nl/instrumenten">Instrumenten</a></li>

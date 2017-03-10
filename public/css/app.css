@@ -9666,6 +9666,9 @@ h1.programmalijn {
   width: 6rem;
   height: auto; }
 
+h4 {
+  font-size: 1.7rem; }
+
 .parel_ttl {
   color: #a0ce99;
   font-size: 36px;
@@ -9928,8 +9931,23 @@ ul, li {
 .pearls .row {
   margin: 0 0 2rem 0; }
 
-.parels_head {
+.pearls_head {
   margin-top: 0; }
+  .pearls_head .category-1 {
+    color: #ff964b; }
+  .pearls_head .category-2 {
+    color: #697cb4; }
+  .pearls_head .category-3 {
+    color: #a0ce99; }
+
+.pearls_head--category {
+  text-transform: lowercase;
+  text-decoration: underline; }
+
+.pearls_head--back {
+  cursor: pointer;
+  font-style: italic;
+  color: #016565; }
 
 .pearllist {
   margin: 0rem 0 4rem !important; }

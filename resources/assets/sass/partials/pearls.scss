@@ -13,8 +13,26 @@
     margin: 0 0 2rem 0;
 }
 
-.parels_head {
+.pearls_head {
 	margin-top: 0;
+	.category-1 {
+		color: $color1;
+	}
+	.category-2 {
+		color: $color2;
+	}
+	.category-3 {
+		color: $color3;
+	}
+}
+.pearls_head--category {
+	text-transform: lowercase;
+    text-decoration: underline;
+}
+.pearls_head--back {
+	cursor: pointer;
+	font-style: italic;
+	color: #016565;
 }
 
 .pearllist {
