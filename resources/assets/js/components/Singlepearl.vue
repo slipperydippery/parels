@@ -10,13 +10,13 @@
         <div class="col-md-4">
             <div class="flex-video widescreen">
                 <iframe width="350" height="197"
-                    :src="'https://www.youtube.com/embed/' + pearl.videos[0].adress + '?rel=0&amp;showinfo=0'" 
+                    :src="'https://www.youtube.com/embed/' + pearl.video[0].adress + '?rel=0&amp;showinfo=0'" 
                     frameborder="0" allowfullscreen
                     v-if="!isTablet"
                 >
                 </iframe>
                 <iframe width="283" height="159"
-                    :src="'https://www.youtube.com/embed/' + pearl.videos[0].adress + '?rel=0&amp;showinfo=0'" 
+                    :src="'https://www.youtube.com/embed/' + pearl.video[0].adress + '?rel=0&amp;showinfo=0'" 
                     frameborder="0" allowfullscreen
                     v-if="isTablet"
                 >

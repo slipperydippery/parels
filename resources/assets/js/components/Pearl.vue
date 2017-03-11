@@ -38,7 +38,7 @@
 
         computed: {
             thumbURL: function () {
-                return 'http://img.youtube.com/vi/' + this.pearl.videos[0].adress + '/sddefault.jpg'
+                return 'http://img.youtube.com/vi/' + this.pearl.video[0].adress + '/sddefault.jpg'
             },
 
             returnRoot: function () {

@@ -14,7 +14,7 @@ class ApiPearlsController extends Controller
      */
     public function index()
     {
-        return Pearl::with('categories')->with('videos')->with('links')->get();
+        return Pearl::with('categories')->with('video')->with('links')->get();
     }
 
     /**
