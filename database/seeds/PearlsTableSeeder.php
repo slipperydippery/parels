@@ -27,7 +27,7 @@ class PearlsTableSeeder extends Seeder
                 'title' => 'Slimmer Werken TV',
                 'subtitle' => 'Vernieuwende films om leraren aan het vak te binden',
                 'description' => '
-                <p>Het platform Noord-Holland-Noord  (Platform NHN) zocht naar een nieuwe manier om docenten aan het vak te binden. Daarom ontwikkelde het platform Slimmer Werken TV; een serie van 14 documentaires voor docenten. De films worden bij voorkeur in teamverband bekeken aan de hand van een speciaal ontwikkelde kijkmethode. Het doel is om docenten de kennis uit de films te kunnen laten toepassen in hun dagelijkse lespraktijk. De films zijn beschikbaar voor elke docent en school.</p>
+                <p>Het platform Noord-Holland-Noord  (Platform NHN) zocht naar een nieuwe manier om docenten aan het vak te binden. Daarom ontwikkelde het platform Slimmer Werken TV; een serie van 14 documentaires voor docenten. De films worden bij voorkeur in teamverband bekeken aan de hand van een speciaal ontwikkelde kijkmethode. Het doel is om docenten de kennis uit de films te kunnen laten gebruiken in hun dagelijkse lespraktijk. De films zijn beschikbaar voor elke docent en school.</p>
                 <p>Wilt u weten hoe en waarom u Slimmer Werken TV kunt inzetten in uw organisatie? Bekijk de animatie of lees een van de documenten hieronder. </p> ',
             ],
             [
