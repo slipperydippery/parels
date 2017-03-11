@@ -9,6 +9,6 @@ class Video extends Model
 {
     public function pearls()
     {
-    	return $this->belongsToMany('App\Pearl');
+    	return $this->belongsTo('App\Pearl');
     }
 }

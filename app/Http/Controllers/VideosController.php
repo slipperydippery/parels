@@ -47,15 +47,21 @@ class VideosController extends Controller
         $pearl = Pearl::findOrFail($request->pearl);
         $file = request()->file('video');
         $ext = $file->extension();
-        $file->storeAs('videos/' . $request->pearl, 'video.' . $ext);
-        if(! $pearl->videos->count()){
-            $video = new Video();
-            $pearl->videos()->store($video);
-        }
-        $video = $pearl->videos->first();
-        
-        return $video;
+        $file->storeAs('/public/videos/' . $request->pearl, 'video.' . $ext);
+        $pearl->video->adress = 'storage/videos/' . $request->pearl . '/video.' . $ext;
+        $pearl->video->save();
+        return back();
+    }
 
+    public function updatePoster(Request $request)
+    {
+        $pearl = Pearl::findOrFail($request->pearl);
+        $file = request()->file('poster');
+        $ext = $file->extension();
+        $file->storeAs('/public/videos/' . $request->pearl, 'poster.' . $ext);
+        $pearl->video->poster = 'storage/videos/' . $request->pearl . '/poster.' . $ext;
+        // return $pearl->video->poster;
+        $pearl->video->save();
         return back();
     }
 

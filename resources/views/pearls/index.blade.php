@@ -1,10 +1,10 @@
 @extends('layouts.master')
 
 @section('content')
-    <h1>here a pearl list</h1>
+    <h1>Alle parels</h1>
     @foreach ($pearls as $pearl) 
     	<a href="{{ URL::route('pearls.edit', $pearl->id) }}">
-			{{ $pearl->title }} <br>
+			<h3>{{ $pearl->title }} </h3>
 		</a>
     @endforeach
 @stop

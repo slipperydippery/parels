@@ -15,10 +15,12 @@ class CreateVideosTable extends Migration
     {
         Schema::create('videos', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('title');
+            $table->string('title')->default(' ');
             $table->text('description');
             $table->string('adress');
             $table->string('poster')->default('poster1.png');
+            $table->integer('pearl_id')->unsigned();
+            $table->foreign('pearl_id')->references('id')->on('pearls')->onDelete('cascade');
             $table->timestamps();
         });
     }

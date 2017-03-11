@@ -40,24 +40,32 @@
 
 	.csspearl:hover {
 		animation: none;
-        box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.1), inset 0 0 15px 1px rgba(255, 255, 255, 0.61);
+        // box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.1), inset 0 0 15px 1px rgba(255, 255, 255, 0.61);
+        box-shadow: 7px 0px 28px 28px rgba(255, 255, 255, 0.1), inset 0 0 26px 0px rgba(255, 255, 225, 0.87);
+	}
+
+	.csspearl:hover ~ .csspearl {
+		animation: none;
 	}
 
 	.csspearl--description {
 		opacity: 0;
-		cursor: default;
-		position: absolute;
-		top: 38%;
-		right: 7%;
-		color: #ffffff;
-		font-size: 3rem;
-		letter-spacing: 1px;
-		padding: 2rem 4rem;
-		background: rgba(210, 23, 78, 0.75);
-		font-family: karla;
-		font-weight: 100;
-		border: 1px solid #a4123d;
-		transition: all .5s;
+	    display: block;
+	    width: 60%;
+	    padding: 3rem 0;
+	    position: absolute;
+	    top: 38%;
+	    right: 0%;
+	    cursor: default;
+	    background: rgba(210, 23, 78, 0.75);
+	    border: 1px solid #a4123d;
+	    color: #ffffff;
+	    font-family: karla;
+	    font-size: 3rem;
+	    font-weight: 100;
+	    letter-spacing: 1px;
+		    text-align: center;
+	    transition: all .5s;
 	}
 
 	.csspearl--link:hover + .csspearl--description {

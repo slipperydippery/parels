@@ -21,6 +21,8 @@ Route::get('factsheet', ['as' => 'factsheet', 'uses' => 'PagesController@factshe
 Route::resource('pearls', 'PearlsController');
 Route::resource('videos', 'VideosController');
 Route::get('videos/createForPearl/{pearl}', ['as' => 'videos.createForPearl', 'uses' => 'VideosController@createForPearl']);
+Route::post('/videos/poster', ['as' => 'videos.updatePoster', 'uses' => 'VideosController@updatePoster']);
+
 // Route::resource('pearldescriptions', 'PearldescriptionsControler');
 // Route::resource('pearlfactsheets', 'PearlfactsheetsControler');
 // Route::resource('pearlmanuals', 'PearlmanualsControler');

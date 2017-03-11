@@ -17,9 +17,9 @@ class Pearl extends Model
     	return $this->belongsToMany('App\Category');
     }
 
-    public function videos()
+    public function video()
     {
-    	return $this->belongsToMany('App\Video');
+    	return $this->hasOne('App\Video');
     }
 
     public function pdfs()
