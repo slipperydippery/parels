@@ -101,7 +101,12 @@
                 }
                 this.active = category;
                 this.filteredpearls = this.pearls.filter( function(pearl){
-                    return pearl.categories[0].id == category.id;
+                    for (var thispearl in pearl.categories) {
+                        // console.log('is  ' . )
+                        if (pearl.categories[thispearl].id == category.id) {
+                            return true;
+                        }
+                    }
                 })
             },
 
@@ -119,11 +124,6 @@
                 return 'active';
             },
 
-            filterPearls: function() {
-                this.filteredpearls = this.pearls.filter( function(pearl){
-                    return pearl.categories[0].id == category.id;
-                })
-            }
         }
     }
 </script>

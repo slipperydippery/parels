@@ -39,12 +39,12 @@
             },
 
             setActive: function (category) {
-                if (category.id == this.active.id) {
-                    this.active = {};
-                }
-                else {
+                // if (category.id == this.active.id) {
+                //     this.active = {};
+                // }
+                // else {
                     this.active = category;
-                }
+                // }
                 Event.$emit('setcategory', this.active)
             },
 
