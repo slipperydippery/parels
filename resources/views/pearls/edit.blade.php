@@ -9,20 +9,26 @@
 
     <h2>Gerelateerde parels</h2>
     @foreach($pearl->links as $link)
-    	{{ $link->title }} <br>
+    {!! Form::open(['route' => ['pearls.removelink', $pearl->id, $link->id]]) !!}
+    	{!! Form::hidden('pearl', $pearl->id, null) !!}
+    	{!! Form::hidden('link', $link->id, null) !!}
+    	<span>{{ $link->title }} </span>
+    	<!-- Add Submit Field -->
+    	    {!! Form::submit('verwijder relatie', ['class' => 'btn']) !!}
+    {!! Form::close() !!}<br>
     @endforeach
     {!! Form::open(['route' => 'pearls.newlink']) !!}
     	<!-- voeg gerelateerde parel toe Form Input -->
 		{!! Form::hidden('pearl', $pearl->id, null) !!}
 
     	<div class="form-group">
-    	    {!! Form::label('related', 'voeg gerelateerde parel toe:') !!}
-    	    {!! Form::select('related', $unrelated, null, ['class' => 'form-control']) !!}
+    	    {!! Form::label('link', 'voeg gerelateerde parel toe:') !!}
+    	    {!! Form::select('link', $unrelated, null, ['class' => 'form-control']) !!}
     	</div>
 
     	<!-- Add Submit Field -->
     	<div class="form-group">
-    	    {!! Form::submit('Voeg gerelateerde parel toe', ['class' => 'btn form-control']) !!}
+    	    {!! Form::submit('Voeg gerelateerde parel toe', ['class' => 'btn']) !!}
     	</div>
     {!! Form::close() !!}
 
@@ -69,4 +75,8 @@
 		</div>
 	</div>
     
+@stop
+
+@section('additional_scripts')
+    <script src="http://vjs.zencdn.net/5.17.0/video.js"></script>
 @stop

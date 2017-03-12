@@ -95,16 +95,23 @@ class PearlsController extends Controller
                 $pearl->categories()->save($category);
             }
         }
-        return Redirect::route('pearls.index');
+        return back();
     }
 
     public function newlink(Request $request)
     {
         $pearl = Pearl::findOrFail($request->pearl);
-        $link = Pearl::findOrFail($request->related);
+        $link = Pearl::findOrFail($request->link);
         $pearl->links()->save($link);
         $link->links()->save($pearl);
 
+        return back();
+    }
+
+    public function removelink(Pearl $pearl, Pearl $link, Request $request)
+    {
+        $pearl->links()->detach($link);
+        $link->links()->detach($pearl);
         return back();
     }
 
@@ -119,3 +126,4 @@ class PearlsController extends Controller
         //
     }
 }
+ 

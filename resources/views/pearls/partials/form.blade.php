@@ -30,5 +30,5 @@
 
 <!-- Add Submit Field -->
 <div class="form-group">
-    {!! Form::submit($submittext, ['class' => 'btn form-control']) !!}
+    {!! Form::submit($submittext, ['class' => 'btn']) !!}
 </div>

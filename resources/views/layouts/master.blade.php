@@ -59,7 +59,6 @@
         </footer>
         @include ('footer')
         <script src="/js/app.js"></script>
-        <script src="http://vjs.zencdn.net/5.17.0/video.js"></script>
         @yield ('additional_scripts')
     </body>
 </html>

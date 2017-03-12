@@ -37,7 +37,14 @@
                 <h2>{{ $pearl->title }}  </h2> 
                 <div>
                     <p><b> {{ $pearl->title }}: {{ $pearl->subtitle }} </b></p>
-                    <span>{!! $pearl->description !!}</span>
+                    <?php 
+                        $paragraphs = explode(PHP_EOL, $pearl->description);
+                    ?>
+                    <span>
+                        @foreach($paragraphs as $paragraph)
+                            <p>{{{ $paragraph }}}</p>
+                        @endforeach
+                    </span>
                         <br>
                 </div>
             </div> 
@@ -70,4 +77,8 @@
 
 </div>
 
+@stop
+
+@section('additional_scripts')
+    <script src="http://vjs.zencdn.net/5.17.0/video.js"></script>
 @stop

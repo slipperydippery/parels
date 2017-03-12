@@ -31,7 +31,7 @@
 
         methods: {
             PearlAdress: function(pearl){
-                return this.returnRoot + '/pearls/' + pearl.id + '#singlepearl';
+                return this.returnRoot + '/pearls/' + pearl.id;
             }
         },
 
