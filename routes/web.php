@@ -28,3 +28,7 @@ Route::post('/videos/poster', ['as' => 'videos.updatePoster', 'uses' => 'VideosC
 // Route::resource('pearlfactsheets', 'PearlfactsheetsControler');
 // Route::resource('pearlmanuals', 'PearlmanualsControler');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

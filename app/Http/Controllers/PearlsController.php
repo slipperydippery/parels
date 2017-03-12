@@ -11,6 +11,12 @@ use Illuminate\Support\Facades\Redirect;
 
 class PearlsController extends Controller
 {
+    public function __construct()
+    {
+        // $this->middleware('csrf', ['except' => 'show']);
+        $this->middleware('auth', ['except' => 'show']);
+    }
+
     /**
      * Display a listing of the resource.
      *
