@@ -18,6 +18,7 @@ class CreatePearlsTable extends Migration
             $table->string('title');
             $table->string('subtitle');
             $table->text('description');
+            $table->integer('published')->default(1);
             $table->timestamps();
         });
     }

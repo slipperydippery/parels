@@ -10149,4 +10149,7 @@ ul, li {
 .linkrow {
   margin: 3rem 0 0 !important; }
 
+.video-js .vjs-poster {
+  background-size: cover; }
+
 /*# sourceMappingURL=app.css.map */
