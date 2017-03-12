@@ -10,3 +10,7 @@
         </div>
     </div>
 @stop
+
+@section('additional_scripts')
+	<script src="/js/video.js"></script>
+@stop

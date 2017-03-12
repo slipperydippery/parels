@@ -69,7 +69,6 @@
             },
 
             setRelatedPearls: function () {
-                console.log('setting related pearls');
                 var home = this;
                 for (var pearl in this.pearls){
                     if (this.pearls[pearl].id == home.pearlid) {
@@ -102,7 +101,6 @@
                 this.active = category;
                 this.filteredpearls = this.pearls.filter( function(pearl){
                     for (var thispearl in pearl.categories) {
-                        // console.log('is  ' . )
                         if (pearl.categories[thispearl].id == category.id) {
                             return true;
                         }

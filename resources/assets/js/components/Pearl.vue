@@ -17,7 +17,6 @@
 <script>
     export default {
         mounted() {
-            console.log('Parel ready ')
         },
 
         data: function() {
@@ -37,10 +36,6 @@
         },
 
         computed: {
-            thumbURL: function () {
-                return 'http://img.youtube.com/vi/' + this.pearl.video[0].adress + '/sddefault.jpg'
-            },
-
             returnRoot: function () {
                 return (window.location.protocol + "//" + window.location.host);
             },
