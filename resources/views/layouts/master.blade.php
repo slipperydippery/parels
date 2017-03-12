@@ -11,12 +11,12 @@
         window.Laravel = { csrfToken: '{{ csrf_token() }}' };
     </script>
     <body ontouchstart class="pagina over-voion" itemscope itemtype="http://schema.org/WebPage">
+    @include('layouts.partials.analytics')
         <div id="container" class="container">
             <div id="header" class="row">
                 <div class="col-md-12">            
                     <a href="http://www.voion.nl/" title="VOION Arbeidsmarkt &amp; Opleidingsfonds voortgezet onderwijs" id="logolink"><img src="/img/logo_voion.jpg" alt="Voion, Arbeidsmarkt &amp; opleidingsfonds voortgezet onderwijs" id="logo" /></a>
                     <a href="#MainNav" id="hamburger" class="showmmenu"><em>MENU</em><span></span></a>
-                    <a href="#MainNav" id="zoek" class="showmmenu"><em>ZOEK</em><span class="glyphicon glyphicon-search"></span></a>
                     <div id="utils">
                         <ul>
                             <li><a href="http://www.voion.nl/">home</a></li>
