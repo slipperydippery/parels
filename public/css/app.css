@@ -6072,9 +6072,6 @@ body {
 .pearls .introtext {
   display: none; }
 
-h1.programmalijn {
-  padding: 0 0 2rem 0; }
-
 .backheader {
   margin: 0 0 1rem 0; }
   .backheader a {
@@ -6146,8 +6143,10 @@ video, .video-js {
 @media (max-width: 992px) {
   #MainNav, #utils, #breadcrumbs {
     display: none; }
-  #zoek, #hamburger {
+  #hamburger {
     display: inline-block; }
+  .container #header {
+    height: 74px; }
   #headerimage {
     height: auto;
     margin: 0 0 20px 0; }
@@ -6162,13 +6161,13 @@ video, .video-js {
   #logo {
     display: none; }
   #logolink {
-    background: url(/Content/images/voion-logo-mobile.gif) 0 0 no-repeat;
+    background: url(/img/voion-logo-mobile.gif) 0 0 no-repeat;
     background-size: contain;
     width: 100px;
     height: 53px;
     display: inline-block;
     margin-top: 10px; }
-  #header {
+  .container #header {
     height: 74px; } }
 
 .overview--video {

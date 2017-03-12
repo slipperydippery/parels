@@ -2,8 +2,11 @@
 	#MainNav, #utils, #breadcrumbs {
 		display: none; 
 	}
-	#zoek, #hamburger {
+	#hamburger {
 		display: inline-block; 
+	}
+	.container #header {
+		height: 74px;
 	}
 	#headerimage {
 		height: auto;
@@ -25,14 +28,14 @@
 		display: none; 
 	}
 	#logolink {
-		background: url(/Content/images/voion-logo-mobile.gif) 0 0 no-repeat;
+		background: url(/img/voion-logo-mobile.gif) 0 0 no-repeat;
 		background-size: contain;
 		width: 100px;
 		height: 53px;
 		display: inline-block;
 		margin-top: 10px; 
 	}
-	#header {
+	.container #header {
 		height: 74px; 
 	}
 }
