@@ -7,6 +7,25 @@
     	@include('pearls.partials.form', ['submittext' => 'Sla wijzigingen op'])
     {!! Form::close() !!}
 
+    <h2>Gerelateerde parels</h2>
+    @foreach($pearl->links as $link)
+    	{{ $link->title }} <br>
+    @endforeach
+    {!! Form::open(['route' => 'pearls.newlink']) !!}
+    	<!-- voeg gerelateerde parel toe Form Input -->
+		{!! Form::hidden('pearl', $pearl->id, null) !!}
+
+    	<div class="form-group">
+    	    {!! Form::label('related', 'voeg gerelateerde parel toe:') !!}
+    	    {!! Form::select('related', $unrelated, null, ['class' => 'form-control']) !!}
+    	</div>
+
+    	<!-- Add Submit Field -->
+    	<div class="form-group">
+    	    {!! Form::submit('Voeg gerelateerde parel toe', ['class' => 'btn form-control']) !!}
+    	</div>
+    {!! Form::close() !!}
+
 	<div class="row">
 		<div class="col-md-6 col-xs-12">
 			    <h2>Video</h2>
@@ -14,7 +33,7 @@
 				    preload="auto" 
 				    id="singlepearl-video"
 				    class="video-js vjs-big-play-centered vjs-16-9 vjs-nofull" 
-				    poster="/video/poster/parel{{ $pearl->id }}.png"
+				    poster="{{ URL::to('/') }}/{{ $pearl->video->poster }}"
 				    data-setup="{}" controls
 				>
 				    <source src="{{ URL::to('/') }}/{{ $pearl->video->adress }}" type="video/mp4" >,

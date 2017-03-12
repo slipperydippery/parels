@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Pearl;
 use Session;
+use App\Pearl;
 use JavaScript;
+use App\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
@@ -62,7 +63,9 @@ class PearlsController extends Controller
      */
     public function edit(Pearl $pearl)
     {
-        return view ('pearls.edit', compact('pearl'));
+        $categories = Category::get();
+        $unrelated = Pearl::all()->diff($pearl->links)->except($pearl->id)->pluck('title', 'id');
+        return view ('pearls.edit', compact('pearl', 'categories', 'unrelated'));
     }
 
     /**
@@ -74,11 +77,29 @@ class PearlsController extends Controller
      */
     public function update(Request $request, $id)
     {
+        // return $request->all();
         $pearl = PEARL::findOrFail($id);
         $pearl->title = $request->title;
         $pearl->description = $request->description;
         $pearl->save();
+        foreach(Category::all() as $category){
+            if (in_array($category->id, $pearl->categories()->pluck('id')->toArray()) && ! in_array($category->id, $request->categories)) {
+                $pearl->categories()->detach($category);
+            } else if (! in_array($category->id, $pearl->categories()->pluck('id')->toArray()) && in_array($category->id, $request->categories)){
+                $pearl->categories()->save($category);
+            }
+        }
         return Redirect::route('pearls.index');
+    }
+
+    public function newlink(Request $request)
+    {
+        $pearl = Pearl::findOrFail($request->pearl);
+        $link = Pearl::findOrFail($request->related);
+        $pearl->links()->save($link);
+        $link->links()->save($pearl);
+
+        return back();
     }
 
     /**
