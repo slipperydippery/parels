@@ -31,8 +31,8 @@ class PearlsTableSeeder extends Seeder
             [
                 'id' => '3',
                 'title' => 'Banen&shy;afspraak',
-                'subtitle' => '30 schoonmakers uit de SW gedetacheerd bij de Gooise Scholenfederatie',
-                'description' => 'De Gooise Scholen Federatie (GSF) bestaat uit 8 samenwerkende scholen in de Gooi en Vechtstreek. Vier jaar geleden zochten zij een betere oplossing voor de schoonmaakwerkzaamheden van alle scholen. Zij kozen ervoor om 30 schoonmakers in dienst te nemen via het sociaal werkbedrijf. Dat levert een verrassend resultaat. Deze parel inspireert om banen te creëren voor mensen met een arbeidsbeperking. Benieuwd naar het verhaal van GSF? Bekijk de animatie of lees een van de documenten op deze pagina voor de details.',
+                'subtitle' => '30 schoonmakers uit de SW gedetacheerd bij de Gooise Scholen Federatie',
+                'description' => 'De Gooise Scholen Federatie (GSF) bestaat uit 8 samenwerkende scholen in de Gooi en Vechtstreek. Vijf jaar geleden zochten zij een betere oplossing voor de schoonmaakwerkzaamheden van alle scholen. Zij kozen ervoor om 30 schoonmakers in dienst te nemen via het sociaal werkbedrijf. Dat levert een verrassend resultaat. Deze parel inspireert om banen te creëren voor mensen met een arbeidsbeperking. Benieuwd naar het verhaal van GSF? Bekijk de animatie of lees een van de documenten op deze pagina voor de details.',
             ],
         ];
 
