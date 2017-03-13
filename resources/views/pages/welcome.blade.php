@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <pearllistfilter></pearllistfilter>
-                        <div class="video_sub_text">Gedurende dit jaar vullen we de website doorlopend aan met nieuwe parels. Wilt u op de hoogte blijven van deze nieuwe verhalen? Volg ons dan via <a href="https://twitter.com/voion_aenofonds">Twitter <img src="img/twitter.png" alt="twitter" class="inline_social_icon"></a> of <a href="https://www.linkedin.com/company/3082156">Linkedin <img src="img/linkedin.png" alt="linkedin" class="inline_social_icon"></a> of abonneer u op onze <a href="http://www.voion.nl/over-voion/nieuwsbrieven">gratis nieuwsbrief</a>. </div>
+                        <div class="video_sub_text">Gedurende dit jaar vullen we de website doorlopend aan met nieuwe parels. Wilt u op de hoogte blijven van deze nieuwe verhalen? Volg ons dan via <a href="https://twitter.com/voion_aenofonds">Twitter <img src="img/twitter.png" alt="twitter" class="inline_social_icon"></a> of <a href="https://www.linkedin.com/company/3082156">Linkedin <img src="img/linkedin.png" alt="linkedin" class="inline_social_icon"></a> of abonneer u op onze <a href="http://www.voion.nl/aanmelden">gratis nieuwsbrief</a>. </div>
                     </div>
                 </div>
             </div>

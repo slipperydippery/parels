@@ -6602,7 +6602,10 @@ ul, li {
 .linkrow {
   margin: 3rem 0 0 !important; }
 
-.video-js .vjs-poster {
+.video-js, .vjs-poster {
   background-size: cover; }
+
+.video-js.vjs-ended .vjs-poster {
+  display: block; }
 
 /*# sourceMappingURL=app.css.map */
