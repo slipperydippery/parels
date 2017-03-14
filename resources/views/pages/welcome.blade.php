@@ -1,4 +1,7 @@
         <div class="pearls">
+        @php
+            $autoplay = isset($_GET['autoplay']) ? $_GET['autoplay'] : '';
+        @endphp
             <div class=" entree" >
                 <div class="row">
                     <div class="col-xs-12 ">
@@ -22,6 +25,7 @@
                             class="video-js vjs-big-play-centered vjs-16-9" 
                             poster="/video/poster/introductie.png"
                             data-setup="{}" 
+                            <?= $autoplay?'autoplay':'' ?>
                             controls
                             playsinline
                         >
