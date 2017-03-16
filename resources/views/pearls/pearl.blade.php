@@ -2,6 +2,9 @@
 
 @section('content')
 
+@php
+    $autoplay = isset($_GET['autoplay']) ? $_GET['autoplay'] : '';
+@endphp
 
 <div id="parelsuitderegio" >
    <div class="row pearls singlepearl clearfix" name="singlepearl">
@@ -23,6 +26,7 @@
                 id="singlepearl-video"
                 class="video-js vjs-big-play-centered vjs-16-9 vjs-nofull" 
                 poster="/video/poster/parel{{ $pearl->id }}.png"
+                <?= $autoplay?'autoplay':'' ?>
                 data-setup="{}" controls
             >
                 <source src="/video/parel{{ $pearl->id }}.mp4" type="video/mp4" >,
