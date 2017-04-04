@@ -6250,6 +6250,9 @@ video, .video-js {
   .videooverlay .csspearl-3 {
     left: 73.5%;
     bottom: 11.7%; }
+  .videooverlay .csspearl-4 {
+    left: 46.8%;
+    bottom: 0.65%; }
 
 .video_sub_text {
   width: 100%;
@@ -6586,6 +6589,10 @@ ul, li {
 .icons .aanmelden {
   background-position: -139px 0; }
 
+#parelsuitderegio {
+  z-index: 100;
+  margin-bottom: 7rem; }
+
 .singlepearl {
   margin: 2rem 0;
   padding: 1.5rem 0 0 0;
@@ -6595,12 +6602,38 @@ ul, li {
   .singlepearl .backicon__container {
     margin: 0; }
   .singlepearl .icons {
+    height: 32px;
     padding: 0;
     background: rgba(0, 0, 0, 0.05);
     border-top: 1px solid #cecece; }
 
 .linkrow {
   margin: 3rem 0 0 !important; }
+
+ul.meerinfo {
+  display: inline-block;
+  background: #677CB3;
+  color: white;
+  margin: 0 1px;
+  width: 20rem;
+  text-align: center;
+  z-index: 1; }
+  ul.meerinfo a {
+    display: inline-block;
+    line-height: 32px;
+    width: 20rem;
+    color: white; }
+  ul.meerinfo li {
+    height: 0;
+    background: #9AA8CA;
+    z-index: 1;
+    -webkit-transition: all .5s;
+    transition: all .5s; }
+  ul.meerinfo li:hover {
+    background: #8999bf; }
+
+ul.meerinfo:hover li {
+  height: auto; }
 
 .video-js .vjs-poster {
   background-size: cover; }

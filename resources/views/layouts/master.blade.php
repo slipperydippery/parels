@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/app.css">
         <link href="http://vjs.zencdn.net/5.17.0/video-js.css" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     </head>
     <script>
         window.Laravel = { csrfToken: '{{ csrf_token() }}' };
@@ -31,6 +32,7 @@
                             <li><a href="http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit">Arbeidsmarkt &amp; mobiliteit</a></li>
                             <li><a href="http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering">Loopbaan  &amp; professionalisering</a></li>
                             <li><a href="http://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken">Veilig, gezond &amp; vitaal werken</a></li></ul></li>
+                            <li><a href="http://www.voion.nl/inspiratie">Inspiratie</a></li>
                             <li><a href="http://www.voion.nl/publicaties">Publicaties</a></li>
                             <li><a href="http://www.voion.nl/instrumenten">Instrumenten</a></li>
                             <li><a href="http://www.voion.nl/agenda">Agenda</a></li>

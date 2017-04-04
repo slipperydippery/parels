@@ -26,4 +26,9 @@ class Pearl extends Model
     {
         return $this->belongsToMany('App\Pdf');
     }
+
+    public function meerinfos()
+    {
+        return $this->hasMany('App\Meerinfo');
+    }
 }

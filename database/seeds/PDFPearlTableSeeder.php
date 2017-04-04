@@ -50,6 +50,14 @@ class PDFPearlTableSeeder extends Seeder
                 'pdf_id' => '9',
                 'pearl_id' => '3',
             ],
+            [
+                'pdf_id' => '10',
+                'pearl_id' => '4',
+            ],
+            [
+                'pdf_id' => '11',
+                'pearl_id' => '4',
+            ],
         ];
 
         DB::table('pdf_pearl')->insert($pdf_pearl);

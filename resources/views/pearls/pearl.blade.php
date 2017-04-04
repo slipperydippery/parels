@@ -6,7 +6,7 @@
     $autoplay = isset($_GET['autoplay']) ? $_GET['autoplay'] : '';
 @endphp
 
-<div id="parelsuitderegio" >
+<div id="parelsuitderegio" class="clearfix">
    <div class="row pearls singlepearl clearfix" name="singlepearl">
         <div class="col-lg-4 col-xs-12">
             <div class="row backicon__container">
@@ -73,6 +73,18 @@
                 <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//parelsuitderegio.nl/pearls/{{ $pearl->id }}/">
                     <div class="icon icon--social facebook"></div>
                 </a>
+                @if($pearl->meerinfos->count())
+                    <ul class="meerinfo">
+                        <a href="#">Meer info</a>
+                        @foreach($pearl->meerinfos as $meerinfo)
+                            @if($meerinfo->ismail == 0)
+                                <li> <a href="{{ $meerinfo->adress }}" target="_blank"> {{ $meerinfo->title }} </a></li>
+                            @else
+                                <li> <a href="mailto:{{ $meerinfo->adress }}" target="_blank"> {{ $meerinfo->title }} </a></li>
+                            @endif
+                        @endforeach
+                    </ul>
+                @endif
         </div>   
     </div>
     <div class="row">

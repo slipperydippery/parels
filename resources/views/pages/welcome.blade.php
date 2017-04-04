@@ -43,6 +43,8 @@
                                 <span class="csspearl--description">Slimmer Werken TV</span>
                                 <a href="{{ URL::to('pearls/3')}}" class="csspearl--link csspearl csspearl-3"> </a>
                                 <span class="csspearl--description">Banenafspraak</span>
+                                <a href="{{ URL::to('pearls/4')}}" class="csspearl--link csspearl csspearl-4"> </a>
+                                <span class="csspearl--description">Loopbaanscans</span>
                             </div>
                         </div>
                         <pearllistfilter></pearllistfilter>
