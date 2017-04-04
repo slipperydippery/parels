@@ -6620,7 +6620,7 @@ ul.meerinfo {
   z-index: 1; }
   ul.meerinfo a {
     display: inline-block;
-    line-height: 32px;
+    line-height: 31px;
     width: 20rem;
     color: white; }
   ul.meerinfo li {
