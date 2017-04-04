@@ -40,7 +40,7 @@
             <div class="row contentelement pearlinfo">
                 <h2>{{ $pearl->title }}  </h2> 
                 <div>
-                    <p><b> {{ $pearl->title }}: {{ $pearl->subtitle }} </b></p>
+                    <p><b> {{ $pearl->subtitle }} </b></p>
                     <?php 
                         $paragraphs = explode(PHP_EOL, $pearl->description);
                     ?>
