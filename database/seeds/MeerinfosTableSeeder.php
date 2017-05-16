@@ -50,7 +50,7 @@ class MeerinfosTableSeeder extends Seeder
                 'id' => '5',
                 'title' => 'Informatie professionaliseren', 
                 'alt' => 'Informatie professionaliseren',
-                'adress' => 'mm.vanderzanden@omo.nl',
+                'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering',
                 'ismail' => '0',
                 'pearl_id' => '5'
             ],
@@ -58,7 +58,7 @@ class MeerinfosTableSeeder extends Seeder
                 'id' => '6',
                 'title' => 'Contact Projectleider', 
                 'alt' => 'Marga van der Zanden',
-                'adress' => 'mm.vanderzanden@omo.nl',
+                'adress' => 'DBruinzeel@ja.nl',
                 'ismail' => '1',
                 'pearl_id' => '5'
             ],
