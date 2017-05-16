@@ -46,6 +46,22 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '1',
                 'pearl_id' => '4'
             ],
+            [
+                'id' => '5',
+                'title' => 'Informatie professionaliseren', 
+                'alt' => 'Informatie professionaliseren',
+                'adress' => 'mm.vanderzanden@omo.nl',
+                'ismail' => '0',
+                'pearl_id' => '5'
+            ],
+            [
+                'id' => '6',
+                'title' => 'Contact Projectleider', 
+                'alt' => 'Marga van der Zanden',
+                'adress' => 'mm.vanderzanden@omo.nl',
+                'ismail' => '1',
+                'pearl_id' => '5'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

@@ -41,6 +41,12 @@ class PearlsTableSeeder extends Seeder
                 'description' => 'Vereniging Ons Middelbaar Onderwijs (OMO) stimuleert al haar medewerkers om talenten te ontplooien en om het beste uit zich zelf te halen. Ter ondersteuning geeft de vereniging haar medewerkers de mogelijkheid om een loopbaanscan te doen. Zij koopt 75 scans in voor drie specifieke doelgroepen. In eerste instantie is er weinig animo. Maar met een nieuwe aanpak blijkt de vraag groter dan het aanbod.
 Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees het hele verhaal in de parelbeschrijving. Je vindt de details in de factsheet. ',
             ],
+            [
+                'id' => '5',
+                'title' => 'Veranderlandschap',
+                'subtitle' => 'Trektocht naar een excellent schoolklimaat ',
+                'description' => 'De ontwikkeling van De Christelijke Scholengemeenschap Jan Arentz (Jan Arentz) is in 2011 tot stilstand gekomen. Het aantal aanmeldingen loopt terug, de school heeft geen onderscheidend karakter en excelleert niet. Traditionele veranderstrategieën bieden geen duurzame oplossing. Daarom kiest Jan Arentz voor een tegendraadse benadering; teamleiders en het team worden eigenaar van het veranderproces en trekken samen door het veranderlandschap van Jan Arentz naar een excellent schoolklimaat. Met resultaat. Benieuwd naar dit opmerkelijke verhaal? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
