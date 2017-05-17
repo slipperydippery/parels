@@ -56,9 +56,9 @@ class MeerinfosTableSeeder extends Seeder
             ],
             [
                 'id' => '6',
-                'title' => 'Contact Projectleider', 
-                'alt' => 'Marga van der Zanden',
-                'adress' => 'DBruinzeel@ja.nl',
+                'title' => 'Contact', 
+                'alt' => 'Contact',
+                'adress' => 'directiesecretariaat@ja.nl',
                 'ismail' => '1',
                 'pearl_id' => '5'
             ],
