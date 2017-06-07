@@ -63,7 +63,7 @@ class MeerinfosTableSeeder extends Seeder
                 'pearl_id' => '5'
             ],
             [
-                'id' => '6',
+                'id' => '7',
                 'title' => ' Informatie loopbaan & professionalisering', 
                 'alt' => ' Informatie loopbaan & professionalisering',
                 'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering',
@@ -71,7 +71,7 @@ class MeerinfosTableSeeder extends Seeder
                 'pearl_id' => '6'
             ],
             [
-                'id' => '6',
+                'id' => '8',
                 'title' => ' Contact Voion', 
                 'alt' => ' Contact Voion',
                 'adress' => ' info@voion.nl',
