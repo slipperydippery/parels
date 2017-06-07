@@ -62,6 +62,22 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '1',
                 'pearl_id' => '5'
             ],
+            [
+                'id' => '6',
+                'title' => ' Informatie loopbaan & professionalisering', 
+                'alt' => ' Informatie loopbaan & professionalisering',
+                'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering',
+                'ismail' => '0',
+                'pearl_id' => '6'
+            ],
+            [
+                'id' => '6',
+                'title' => ' Contact Voion', 
+                'alt' => ' Contact Voion',
+                'adress' => ' info@voion.nl',
+                'ismail' => '1',
+                'pearl_id' => '6'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

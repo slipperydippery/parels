@@ -34,6 +34,10 @@ class PearlVideoTableSeeder extends Seeder
                 'pearl_id' => '5',
                 'video_id' => '5',
             ],
+            [
+                'pearl_id' => '6',
+                'video_id' => '6',
+            ],
         ];
 
         DB::table('pearl_video')->insert($pearl_video);

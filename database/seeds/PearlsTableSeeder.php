@@ -47,6 +47,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Trektocht naar een excellent schoolklimaat ',
                 'description' => 'De ontwikkeling van De Christelijke Scholengemeenschap Jan Arentsz (Jan Arentsz) is in 2012, tot stilstand gekomen. Het aantal aanmeldingen loopt terug, de school heeft geen onderscheidend karakter en excelleert niet. Traditionele veranderstrategieën bieden geen duurzame oplossing. Daarom kiest Jan Arentsz voor een tegendraadse benadering; teamleiders en het team worden eigenaar van het veranderproces en trekken samen door het veranderlandschap van Jan Arentsz naar een excellent schoolklimaat. Met resultaat. Benieuwd naar dit opmerkelijke verhaal? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
             ],
+            [
+                'id' => '6',
+                'title' => 'Professionaliseringsportaal',
+                'subtitle' => 'Professionaliseringsportaal voor duurzame ontwikkeling',
+                'description' => 'ORION is een onafhankelijk netwerk van 13 scholen in Zuidoost-Brabant. In samenwerking met Voion en een webontwikkelaar ontwikkelden zij een professionaliseringsportaal voor alle medewerkers. Het portaal bevat informatie over persoonlijke en professionele groei, talentontwikkeling, mobiliteit, werkplezier en vitaliteit. Het portaal geeft medewerkers van ORION zelf de regie over hun professionalisering en  biedt ondersteuning bij de gesprekkencyclus. Het portaal  is nu live en er ligt een blauwdruk voor andere scholen. Wil je weten waarom en hoe ORION het portaal heeft ontwikkeld? Klik dan op de animatiefilm of een van de informatiebuttons op deze pagina.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);

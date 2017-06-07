@@ -46,6 +46,14 @@ class CategoryPearlTableSeeder extends Seeder
                 'category_id' => '2',
                 'pearl_id' => '5',
             ],
+            [
+                'category_id' => '1',
+                'pearl_id' => '6',
+            ],
+            [
+                'category_id' => '2',
+                'pearl_id' => '6',
+            ],
         ];
 
         DB::table('category_pearl')->insert($category_pearl);

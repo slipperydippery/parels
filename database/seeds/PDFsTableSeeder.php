@@ -98,6 +98,18 @@ class PDFsTableSeeder extends Seeder
                 'description' => '',
                 'adress' => 'TipsAndTricksVeranderlandschap.pdf',
             ],
+            [
+                'id' => '15',
+                'title' => 'Parelbeschrijving', 
+                'description' => '',
+                'adress' => 'ParelbeschrijvingProfessionaliseringsportaal.pdf',
+            ],
+            [
+                'id' => '16',
+                'title' => 'Factsheet', 
+                'description' => '',
+                'adress' => 'FactsheetProfessionaliseringsportaal.pdf',
+            ],
         ];
         DB::table('pdfs')->insert($pdfs);
     }
