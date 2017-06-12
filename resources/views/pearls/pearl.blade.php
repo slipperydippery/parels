@@ -61,7 +61,9 @@
                     </div>
                 @endforeach
             </div>
-        </div> 
+        </div>       
+    </div>
+    <div class="row pearls row--social clearfix">
         <div class="col-xs-12 icons icons--social">
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//parelsuitderegio.nl/pearls/{{ $pearl->id}}&title={{ $pearl->title }}&summary={{ $pearl->subtitle }}&source=">
                     <div class="icon icon--social linkedin"></div>

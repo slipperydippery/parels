@@ -6600,7 +6600,7 @@ ul, li {
   margin-bottom: 7rem; }
 
 .singlepearl {
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
   padding: 1.5rem 0 0 0;
   background: #daeaea; }
   .singlepearl .pearlinfo {
@@ -6612,6 +6612,12 @@ ul, li {
     padding: 0;
     background: rgba(0, 0, 0, 0.05);
     border-top: 1px solid #cecece; }
+
+.row--social {
+  margin: 0;
+  padding: 0;
+  background: #CFDEDE;
+  border-top: 1px solid #cecece; }
 
 .linkrow {
   margin: 3rem 0 0 !important; }
