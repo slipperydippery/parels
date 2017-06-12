@@ -24,9 +24,12 @@
 }
 
 .row--social {
-    margin: 0;
+    margin: 0 0 2rem 0;
     padding: 0;
-	background: #CFDEDE;
+    background: url(/img/parelfooter.png);
+    background-size: 100% 37px;
+    background-repeat: no-repeat;
+	// background: #CFDEDE;
     border-top: 1px solid #cecece;
 }
 
