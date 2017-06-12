@@ -6640,7 +6640,8 @@ ul.meerinfo {
     background: #9AA8CA;
     z-index: 1;
     -webkit-transition: all .5s;
-    transition: all .5s; }
+    transition: all .5s;
+    overflow: hidden; }
   ul.meerinfo li:hover {
     background: #8999bf; }
 

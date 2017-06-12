@@ -55,6 +55,7 @@ ul.meerinfo {
 		background: #9AA8CA;
 		z-index: 1;
 		transition: all .5s;
+		overflow: hidden;
 	}
 	li:hover {
 		background: #8999bf;
