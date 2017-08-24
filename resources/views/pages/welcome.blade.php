@@ -49,6 +49,8 @@
                                 <span class="csspearl--description">Veranderlandschap</span>
                                 <a href="{{ URL::to('pearls/6')}}" class="csspearl--link csspearl csspearl-6"> </a>
                                 <span class="csspearl--description">Professionaliseringsportaal</span>
+                                <a href="{{ URL::to('pearls/7')}}" class="csspearl--link csspearl csspearl-7"> </a>
+                                <span class="csspearl--description">Job Twinning.</span>
                             </div>
                         </div>
                         <pearllistfilter></pearllistfilter>
