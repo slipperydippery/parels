@@ -53,12 +53,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Professionaliseringsportaal voor duurzame ontwikkeling',
                 'description' => 'ORION is een onafhankelijk netwerk van 13 scholen in Zuidoost-Brabant. In samenwerking met Voion en een webontwikkelaar ontwikkelden zij een professionaliseringsportaal voor alle medewerkers. Het portaal bevat informatie over persoonlijke en professionele groei, talentontwikkeling, mobiliteit, werkplezier en vitaliteit. Het portaal geeft medewerkers van ORION zelf de regie over hun professionalisering en  biedt ondersteuning bij de gesprekkencyclus. Het portaal  is nu live en er ligt een blauwdruk voor andere scholen. Wil je weten waarom en hoe ORION het portaal heeft ontwikkeld? Klik dan op de animatiefilm of een van de informatiebuttons op deze pagina.',
             ],
-            // [
-            //     'id' => '7',
-            //     'title' => 'Job Twinning',
-            //     'subtitle' => 'Job Twinning als tussenstap naar hybride docentschap',
-            //     'description' => 'In september 2015 startte een pilot Job Twinning: een laagdrempelige professionaliseringsactiviteit waarbij docenten en professionals uit het bedrijfsleven voor een aantal weken aan elkaar gekoppeld werden om van en met elkaar te leren. Wil je meer weten over Job Twinning en de resultaten van de pilot? Op deze pagina vindt je alle details.',
-            // ],
+            [
+                'id' => '7',
+                'title' => 'Job Twinning',
+                'subtitle' => 'Job Twinning als tussenstap naar hybride docentschap',
+                'description' => 'In september 2015 startte een pilot Job Twinning: een laagdrempelige professionaliseringsactiviteit waarbij docenten en professionals uit het bedrijfsleven voor een aantal weken aan elkaar gekoppeld werden om van en met elkaar te leren. Wil je meer weten over Job Twinning en de resultaten van de pilot? Op deze pagina vindt je alle details.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);

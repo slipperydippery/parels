@@ -57,13 +57,13 @@ class VideosTableSeeder extends Seeder
                 'adress' => 'XXdfvsQHcTU',
                 'pearl_id' => '6',
             ],
-            // [
-            //     'id' => '7',
-            //     'title' => 'Veilig, gezond & vitaal werken', 
-            //     'description' => '',
-            //     'adress' => 'XXdfvsQHcTU',
-            //     'pearl_id' => '7',
-            // ],
+            [
+                'id' => '7',
+                'title' => 'Veilig, gezond & vitaal werken', 
+                'description' => '',
+                'adress' => 'XXdfvsQHcTU',
+                'pearl_id' => '7',
+            ],
         ];
         DB::table('videos')->insert($videos);
     }

@@ -78,14 +78,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '1',
                 'pearl_id' => '6'
             ],
-            // [
-            //     'id' => '9',
-            //     'title' => 'Contact ', 
-            //     'alt' => 'Contact ',
-            //     'adress' => 'info@jobtwinning.nl',
-            //     'ismail' => '1',
-            //     'pearl_id' => '7'
-            // ],
+            [
+                'id' => '9',
+                'title' => 'Contact ', 
+                'alt' => 'Contact ',
+                'adress' => 'info@jobtwinning.nl',
+                'ismail' => '1',
+                'pearl_id' => '7'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }
