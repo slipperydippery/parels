@@ -86,6 +86,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '1',
                 'pearl_id' => '7'
             ],
+            [
+                'id' => '10',
+                'title' => 'Info professionaliseren ', 
+                'alt' => 'Info professionaliseren ',
+                'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/professionaliseren-in-school/professionaliseren-in-school',
+                'ismail' => '0',
+                'pearl_id' => '8'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

@@ -50,7 +50,9 @@
                                 <a href="{{ URL::to('pearls/6')}}" class="csspearl--link csspearl csspearl-6"> </a>
                                 <span class="csspearl--description">Professionaliseringsportaal</span>
                                 <a href="{{ URL::to('pearls/7')}}" class="csspearl--link csspearl csspearl-7"> </a>
-                                <span class="csspearl--description">Job Twinning.</span>
+                                <span class="csspearl--description">Job Twinning</span>
+                                <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-8"> </a>
+                                <span class="csspearl--description">Meridiaan College</span>
                             </div>
                         </div>
                         <pearllistfilter></pearllistfilter>

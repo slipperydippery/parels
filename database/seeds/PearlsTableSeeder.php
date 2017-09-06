@@ -59,6 +59,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Job Twinning als tussenstap naar hybride docentschap',
                 'description' => 'In september 2015 startte een pilot Job Twinning: een laagdrempelige professionaliseringsactiviteit waarbij docenten en professionals uit het bedrijfsleven voor een aantal weken aan elkaar gekoppeld werden om van en met elkaar te leren. Wil je meer weten over Job Twinning en de resultaten van de pilot? Op deze pagina vindt je alle details.',
             ],
+            [
+                'id' => '8',
+                'title' => 'Meridiaan College',
+                'subtitle' => 'De ontwikkeling van een strategisch plan via co-creatie',
+                'description' => 'Het Meridiaan College wilde een strategisch beleidsplan maken dat echt van de school is. Want, zo redeneerde het College van Bestuur, een plan waarvan iedereen eigenaar is, zal ook beter te realiseren zijn. Daarom is gekozen om het strategisch  plan 2017-2021 via co-creatie te ontwikkelen. Het CvB organiseerde een dag waarop alle betrokkenen van de vier scholen van het Meridiaan College volgens een strak format met elkaar in gesprek gingen. Samen hebben zij de bouwstenen gelegd voor de komende jaren. Benieuwd naar dit mooie verhaal? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
