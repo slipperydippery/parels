@@ -94,6 +94,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '8'
             ],
+            [
+                'id' => '11',
+                'title' => 'informatie over arbobeleid ', 
+                'alt' => 'informatie over arbobeleid ',
+                'adress' => 'http://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/wetgeving-en-beleid/arbobeleid',
+                'ismail' => '0',
+                'pearl_id' => '9'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

@@ -65,6 +65,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Een gedragen strategisch beleidsplan ',
                 'description' => 'Het Meridiaan College wilde een strategisch beleidsplan maken dat echt van de school is. Want, zo redeneerde het College van Bestuur, een plan waarvan iedereen zich eigenaar voelt , zal ook beter te realiseren zijn. Daarom is gekozen om het strategisch  plan 2017-2021 via co-creatie te ontwikkelen. Het CvB organiseerde een dag waarop alle betrokkenen van de vier scholen van het Meridiaan College volgens een strak format met elkaar in gesprek gingen. Samen legden zij de bouwstenen  voor de komende jaren. Benieuwd naar dit mooie verhaal? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
             ],
+            [
+                'id' => '9',
+                'title' => 'Winkler Prins',
+                'subtitle' => 'Arbo aanpakken werkt in je voordeel',
+                'description' => 'Acht jaar geleden had Winkler Prins weinig grip op de veiligheids- en gezondheidsrisico’s in school. Het bestuur zette Arbo daarom op de agenda, richtte de arbo-organisatie anders in en medewerkers werden goed opgeleid. De problemen werden stap-voor-stap opgelost en de school is nu veilig en gezond. Benieuwd naar de aanpak van Winkler Prins? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
