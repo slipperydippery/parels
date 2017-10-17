@@ -73,8 +73,8 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
             [
                 'id' => '10',
-                'title' => 'Zin in Lesgeven',
-                'subtitle' => 'Identiteit vertalen naar werkvloer',
+                'title' => 'Identiteit vertalen',
+                'subtitle' => 'Van papier naar werkvloer',
                 'description' => 'Greijdanus is een schoolbestuur met een gereformeerde identiteit. Via de gesprekkencyclus tracht Greijdanus haar identiteit, kernwaarden en doelen te vertalen naar de werkvloer. Daarbij is leren en ontwikkelen door zelfevaluatie op basis van feedback het uitgangspunt. Nieuwsgierig naar de aanpak van Greijdanus? Bekijk de animatie of een van de documenten op deze pagina.',
             ],
         ];
