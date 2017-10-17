@@ -52,7 +52,11 @@
                                 <a href="{{ URL::to('pearls/7')}}" class="csspearl--link csspearl csspearl-7"> </a>
                                 <span class="csspearl--description">Job Twinning</span>
                                 <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-8"> </a>
-                                <span class="csspearl--description">Meridiaan College</span>
+                                <span class="csspearl--description">Strategisch Beleidsplan</span>
+                                <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-9"> </a>
+                                <span class="csspearl--description">Arbo Aanpak</span>
+                                <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-10"> </a>
+                                <span class="csspearl--description">Zin in Lesgeven</span>
                             </div>
                         </div>
                         <pearllistfilter></pearllistfilter>

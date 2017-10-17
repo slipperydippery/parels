@@ -102,6 +102,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '9'
             ],
+            [
+                'id' => '12',
+                'title' => 'gesprekkencyclus', 
+                'alt' => 'gesprekkencyclus',
+                'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/loopbaanbeleid-en-ontwikkeling/gesprekkencyclus',
+                'ismail' => '0',
+                'pearl_id' => '10'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

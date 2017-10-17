@@ -71,6 +71,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Arbo aanpakken werkt in je voordeel',
                 'description' => 'Acht jaar geleden had Winkler Prins weinig grip op de veiligheids- en gezondheidsrisico’s in school. Het bestuur zette Arbo daarom op de agenda, richtte de arbo-organisatie anders in en medewerkers werden goed opgeleid. De problemen werden stap-voor-stap opgelost en de school is nu veilig en gezond. Benieuwd naar de aanpak van Winkler Prins? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
             ],
+            [
+                'id' => '10',
+                'title' => 'Zin in Lesgeven',
+                'subtitle' => 'Identiteit vertalen naar werkvloer',
+                'description' => 'Greijdanus is een schoolbestuur met een gereformeerde identiteit. Via de gesprekkencyclus tracht Greijdanus haar identiteit, kernwaarden en doelen te vertalen naar de werkvloer. Daarbij is leren en ontwikkelen door zelfevaluatie op basis van feedback het uitgangspunt. Nieuwsgierig naar de aanpak van Greijdanus? Bekijk de animatie of een van de documenten op deze pagina.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
