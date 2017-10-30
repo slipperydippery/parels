@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        @include('layouts.partials.tagmanagerhead')
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +13,7 @@
         window.Laravel = { csrfToken: '{{ csrf_token() }}' };
     </script>
     <body ontouchstart class="pagina over-voion" itemscope itemtype="http://schema.org/WebPage">
+        @include('layouts.partials.tagmanagerbody')
     @include('layouts.partials.analytics')
         <div id="container" class="container">
             <div id="header" class="row">
