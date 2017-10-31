@@ -124,7 +124,7 @@ class MeerinfosTableSeeder extends Seeder
                 'alt' => 'Zin in lesgeven',
                 'adress' => 'https://www.windesheim.nl/werk-en-studie/opleidingen-en-cursussen/educatie/school-en-docentontwikkeling/leraar4life/studieprogramma/',
                 'ismail' => '0',
-                'pearl_id' => '10'
+                'pearl_id' => '11'
             ],
             [
                 'id' => '15',
@@ -132,7 +132,7 @@ class MeerinfosTableSeeder extends Seeder
                 'alt' => 'Wordleraarinhetvo.nl',
                 'adress' => 'http://wordleraarinhetvo.nl/',
                 'ismail' => '0',
-                'pearl_id' => '10'
+                'pearl_id' => '11'
             ],
             [
                 'id' => '16',
@@ -140,7 +140,7 @@ class MeerinfosTableSeeder extends Seeder
                 'alt' => 'Subsidie zij-instroom',
                 'adress' => 'http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/werken-in-het-voortgezet-onderwijs/zij-instroom',
                 'ismail' => '0',
-                'pearl_id' => '10'
+                'pearl_id' => '11'
             ]
         ];
         DB::table('meerinfos')->insert($meerinfos);
