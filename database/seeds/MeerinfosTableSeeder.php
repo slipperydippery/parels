@@ -104,6 +104,14 @@ class MeerinfosTableSeeder extends Seeder
             ],
             [
                 'id' => '12',
+                'title' => 'meer schoolvoorbeelden', 
+                'alt' => 'meer schoolvoorbeelden',
+                'adress' => 'http://www.arbocatalogus-vo.nl/arbobeleid/',
+                'ismail' => '0',
+                'pearl_id' => '9'
+            ],
+            [
+                'id' => '13',
                 'title' => 'gesprekkencyclus', 
                 'alt' => 'gesprekkencyclus',
                 'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/loopbaanbeleid-en-ontwikkeling/gesprekkencyclus',
