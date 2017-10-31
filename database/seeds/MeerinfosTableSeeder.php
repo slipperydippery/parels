@@ -96,28 +96,52 @@ class MeerinfosTableSeeder extends Seeder
             ],
             [
                 'id' => '11',
-                'title' => 'informatie over arbobeleid ', 
-                'alt' => 'informatie over arbobeleid ',
+                'title' => 'Informatie over arbobeleid ', 
+                'alt' => 'Informatie over arbobeleid ',
                 'adress' => 'http://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/wetgeving-en-beleid/arbobeleid',
                 'ismail' => '0',
                 'pearl_id' => '9'
             ],
             [
                 'id' => '12',
-                'title' => 'meer schoolvoorbeelden', 
-                'alt' => 'meer schoolvoorbeelden',
+                'title' => 'Meer schoolvoorbeelden', 
+                'alt' => 'Meer schoolvoorbeelden',
                 'adress' => 'http://www.arbocatalogus-vo.nl/arbobeleid/',
                 'ismail' => '0',
                 'pearl_id' => '9'
             ],
             [
                 'id' => '13',
-                'title' => 'gesprekkencyclus', 
-                'alt' => 'gesprekkencyclus',
+                'title' => 'Gesprekkencyclus', 
+                'alt' => 'Gesprekkencyclus',
                 'adress' => 'http://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/loopbaanbeleid-en-ontwikkeling/gesprekkencyclus',
                 'ismail' => '0',
                 'pearl_id' => '10'
             ],
+            [
+                'id' => '14',
+                'title' => 'Zin in lesgeven', 
+                'alt' => 'Zin in lesgeven',
+                'adress' => 'https://www.windesheim.nl/werk-en-studie/opleidingen-en-cursussen/educatie/school-en-docentontwikkeling/leraar4life/studieprogramma/',
+                'ismail' => '0',
+                'pearl_id' => '10'
+            ],
+            [
+                'id' => '15',
+                'title' => 'Wordleraarinhetvo.nl', 
+                'alt' => 'Wordleraarinhetvo.nl',
+                'adress' => 'http://wordleraarinhetvo.nl/',
+                'ismail' => '0',
+                'pearl_id' => '10'
+            ],
+            [
+                'id' => '16',
+                'title' => 'Subsidie zij-instroom', 
+                'alt' => 'Subsidie zij-instroom',
+                'adress' => 'http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/werken-in-het-voortgezet-onderwijs/zij-instroom',
+                'ismail' => '0',
+                'pearl_id' => '10'
+            ]
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

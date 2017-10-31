@@ -77,6 +77,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Van papier naar werkvloer',
                 'description' => 'Greijdanus is een schoolbestuur met een gereformeerde identiteit. Via de gesprekkencyclus tracht Greijdanus haar identiteit, kernwaarden en doelen te vertalen naar de werkvloer. Daarbij is leren en ontwikkelen door zelfevaluatie op basis van feedback het uitgangspunt. Nieuwsgierig naar de aanpak van Greijdanus? Bekijk de animatie of een van de documenten op deze pagina.',
             ],
+            [
+                'id' => '11',
+                'title' => 'Zin in lesgeven',
+                'subtitle' => 'Route naar leraarschap voor zij-instromers',
+                'description' => 'Mensen die vanuit een andere baan willen gaan lesgeven in het voortgezet onderwijs, zij-instromers, hebben niet altijd een goed beeld van het docentvak. Met de cursus ‘zin in lesgeven’ kunnen zij zich serieus oriënteren op werken in het voortgezet onderwijs. Na een aantal dagen weet de kandidaat of lesgeven iets voor hem is. Wil je meer weten over deze cursus? Bekijk de animatie of een van de documenten op deze pagina.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);

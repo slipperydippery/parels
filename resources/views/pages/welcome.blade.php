@@ -53,9 +53,11 @@
                                 <span class="csspearl--description">Job Twinning</span>
                                 <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-8"> </a>
                                 <span class="csspearl--description">Strategisch Beleidsplan</span>
-                                <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-9"> </a>
+                                <a href="{{ URL::to('pearls/9')}}" class="csspearl--link csspearl csspearl-9"> </a>
                                 <span class="csspearl--description">Arbo Aanpak</span>
-                                <a href="{{ URL::to('pearls/8')}}" class="csspearl--link csspearl csspearl-10"> </a>
+                                <a href="{{ URL::to('pearls/10')}}" class="csspearl--link csspearl csspearl-10"> </a>
+                                <span class="csspearl--description">Identiteit Vertalen</span>
+                                <a href="{{ URL::to('pearls/11')}}" class="csspearl--link csspearl csspearl-11"> </a>
                                 <span class="csspearl--description">Zin in Lesgeven</span>
                             </div>
                         </div>

@@ -46,6 +46,14 @@ class LinkPearlTableSeeder extends Seeder
                 'link_id' => '5',
                 'pearl_id' => '10',
             ],
+            [
+                'link_id' => '11',
+                'pearl_id' => '7',
+            ],
+            [
+                'link_id' => '7',
+                'pearl_id' => '11',
+            ],
         ];
 
         DB::table('link_pearl')->insert($link_pearl);

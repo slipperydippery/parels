@@ -164,6 +164,24 @@ class PDFsTableSeeder extends Seeder
                 'description' => '',
                 'adress' => 'TipsAndTricksGreijdanus.pdf',
             ],
+            [
+                'id' => '26',
+                'title' => 'Parelbeschrijving', 
+                'description' => '',
+                'adress' => 'ParelbeschrijvingZij-instromers.pdf',
+            ],
+            [
+                'id' => '27',
+                'title' => 'Factsheet', 
+                'description' => '',
+                'adress' => 'FactsheetZij-instromers.pdf',
+            ],
+            [
+                'id' => '28',
+                'title' => 'Stappenplan', 
+                'description' => '',
+                'adress' => 'StappenplanZij-instromers.pdf',
+            ],
         ];
         DB::table('pdfs')->insert($pdfs);
     }
