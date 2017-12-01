@@ -146,7 +146,7 @@ class MeerinfosTableSeeder extends Seeder
                 'id' => '17',
                 'title' => 'regionale samenwerking', 
                 'alt' => 'regionale samenwerking',
-                'adress' => 'http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/samenwerking-netwerken/samen-aan-de-slag-met-arbeidsmarktvraagstukke',
+                'adress' => 'http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/samenwerking-netwerken/samen-aan-de-slag-met-arbeidsmarktvraagstukken',
                 'ismail' => '0',
                 'pearl_id' => '12'
             ],
