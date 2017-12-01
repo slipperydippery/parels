@@ -83,6 +83,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Route naar leraarschap voor zij-instromers',
                 'description' => 'Mensen die vanuit een andere baan willen gaan lesgeven in het voortgezet onderwijs, zij-instromers, hebben niet altijd een goed beeld van het docentvak. Met de cursus ‘zin in lesgeven’ kunnen zij zich serieus oriënteren op werken in het voortgezet onderwijs. Na een aantal dagen weet de kandidaat of lesgeven iets voor hem is. Wil je meer weten over deze cursus? Bekijk de animatie of een van de documenten op deze pagina.',
             ],
+            [
+                'id' => '12',
+                'title' => 'PLANA',
+                'subtitle' => 'Bovenbestuurlijke samenwerking werkt bij PLANA',
+                'description' => 'PLANA, een samenwerkingsverband van vier schoolbesturen, werd ooit opgezet om het lerarentekort op de arbeidsmarkt aan te pakken. Inmiddels werken de schoolbesturen succesvol samen op het gebied van instroom, strategische personeelsplanning, mobiliteit, professionalisering en opleiding. Meer weten over deze bovenbestuurlijke samenwerking? Bekijk de animatie of een van de documenten op deze pagina.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);

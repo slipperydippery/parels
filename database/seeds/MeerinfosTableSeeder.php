@@ -142,6 +142,14 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '11'
             ]
+            [
+                'id' => '16',
+                'title' => 'regionale samenwerking', 
+                'alt' => 'regionale samenwerking',
+                'adress' => 'http://www.voion.nl/programmalijnen/arbeidsmarkt-en-mobiliteit/samenwerking-netwerken/samen-aan-de-slag-met-arbeidsmarktvraagstukke',
+                'ismail' => '0',
+                'pearl_id' => '12'
+            ]
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }
