@@ -85,13 +85,13 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
             [
                 'id' => '12',
-                'title' => 'PLANA',
+                'title' => 'Bovenbestuurlijke samenwerking',
                 'subtitle' => 'Bovenbestuurlijke samenwerking werkt bij PLANA',
                 'description' => 'PLANA, een samenwerkingsverband van vier schoolbesturen, werd ooit opgezet om het lerarentekort op de arbeidsmarkt aan te pakken. Inmiddels werken de schoolbesturen succesvol samen op het gebied van instroom, strategische personeelsplanning, mobiliteit, professionalisering en opleiding. Meer weten over deze bovenbestuurlijke samenwerking? Bekijk de animatie of een van de documenten op deze pagina.',
             ],
             [
                 'id' => '13',
-                'title' => 'SOML',
+                'title' => 'Sociale en fysieke veiligheid',
                 'subtitle' => 'SOML neemt cursusaanbod sociale en fysieke veiligheid in eigen hand',
                 'description' => 'Bij SOML, een schoolbestuur met vier scholengemeenschappen in Midden Limburg, staat veiligheid hoog op de agenda. Sinds 2016 organiseert zij cursussen voor sociale en fysieke veiligheid intern. Dat biedt verschillende voordelen.',
             ],
