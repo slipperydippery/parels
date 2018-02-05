@@ -218,6 +218,24 @@ class PDFsTableSeeder extends Seeder
                 'description' => '',
                 'adress' => 'TipsAndTricksSOML.pdf',
             ],
+            [
+                'id' => '35',
+                'title' => 'Parelbeschrijving', 
+                'description' => '',
+                'adress' => 'ParelbeschrijvingEsprit.pdf',
+            ],
+            [
+                'id' => '36',
+                'title' => 'Factsheet', 
+                'description' => '',
+                'adress' => 'FactsheetEsprit.pdf',
+            ],
+            [
+                'id' => '37',
+                'title' => 'Stappenplan', 
+                'description' => '',
+                'adress' => 'StappenplanEsprit.pdf',
+            ],
 
             
         ];

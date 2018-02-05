@@ -166,6 +166,22 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '13'
             ],
+            [
+                'id' => '20',
+                'title' => 'strategisch HRM', 
+                'alt' => 'strategisch HRM',
+                'adress' => 'https://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/professionaliseren-in-school/professionaliseren-in-school/strategisch-hrm',
+                'ismail' => '0',
+                'pearl_id' => '14'
+            ],
+            [
+                'id' => '20',
+                'title' => 'financieringsmiddelen', 
+                'alt' => 'financieringsmiddelen',
+                'adress' => 'https://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/financieringsmiddelen-voor-professionalisering/financieringsmiddelen-voor-professionalisering',
+                'ismail' => '0',
+                'pearl_id' => '14'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

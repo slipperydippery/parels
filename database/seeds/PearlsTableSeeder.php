@@ -95,6 +95,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'SOML neemt cursusaanbod sociale en fysieke veiligheid in eigen hand',
                 'description' => 'Bij SOML, een schoolbestuur met vier scholengemeenschappen in Midden Limburg, staat veiligheid hoog op de agenda. Sinds 2016 organiseert zij cursussen voor sociale en fysieke veiligheid intern. Dat biedt verschillende voordelen.',
             ],
+            [
+                'id' => '14',
+                'title' => 'Esprit Scholen',
+                'subtitle' => 'Esprit Scholen investeert in professionalisering op alle niveaus',
+                'description' => 'Professionalisering van medewerkers is van groot belang bij het bereiken van strategische doelen. Een goede aansluiting van het professionaliseringsbeleid op het strategisch beleid is daarom essentieel. Esprit Scholen, een scholengroep van 12 scholen in Amsterdam, slaagt er in om hun strategische missie en visie te vertalen in passend professionaliseringsbeleid voor al het personeel.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
