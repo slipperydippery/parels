@@ -175,7 +175,7 @@ class MeerinfosTableSeeder extends Seeder
                 'pearl_id' => '14'
             ],
             [
-                'id' => '20',
+                'id' => '21',
                 'title' => 'financieringsmiddelen', 
                 'alt' => 'financieringsmiddelen',
                 'adress' => 'https://www.voion.nl/programmalijnen/loopbaan-en-professionalisering/financieringsmiddelen-voor-professionalisering/financieringsmiddelen-voor-professionalisering',
