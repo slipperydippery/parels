@@ -97,7 +97,7 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
             [
                 'id' => '14',
-                'title' => 'Esprit Scholen',
+                'title' => 'Professionaliseringsbeleid',
                 'subtitle' => 'Esprit Scholen investeert in professionalisering op alle niveaus',
                 'description' => 'Professionalisering van medewerkers is van groot belang bij het bereiken van strategische doelen. Een goede aansluiting van het professionaliseringsbeleid op het strategisch beleid is daarom essentieel. Esprit Scholen, een scholengroep van 12 scholen in Amsterdam, slaagt er in om hun strategische missie en visie te vertalen in passend professionaliseringsbeleid voor al het personeel.',
             ],
