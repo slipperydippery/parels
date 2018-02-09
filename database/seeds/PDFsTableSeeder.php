@@ -66,7 +66,7 @@ class PDFsTableSeeder extends Seeder
                 'id' => '9',
                 'title' => 'Tips & Tricks', 
                 'description' => '',
-                'adress' => 'ParelbeschrijvingBanenafspraak.pdf',
+                'adress' => 'TipsAndTricksBanenafspraak.pdf',
             ],
             [
                 'id' => '10',
