@@ -101,6 +101,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Esprit Scholen investeert in professionalisering op alle niveaus',
                 'description' => 'Professionalisering van medewerkers is van groot belang bij het bereiken van strategische doelen. Een goede aansluiting van het professionaliseringsbeleid op het strategisch beleid is daarom essentieel. Esprit Scholen, een scholengroep van 12 scholen in Amsterdam, slaagt er in om hun strategische missie en visie te vertalen in passend professionaliseringsbeleid voor al het personeel.',
             ],
+            [
+                'id' => '15',
+                'title' => 'Opscholingstraject',
+                'subtitle' => 'Van bekwaam naar bevoegd',
+                'description' => 'Meer dan 10% van alle lessen in het vo en het beroepsonderwijs wordt verzorgd door docenten die (nog) niet of onvoldoende bevoegd zijn. Vooral in de tekortvakken op het VMBO blijkt dat geregeld leraren met een afgeronde Pabo-opleiding worden aangesteld. Deze leraren zijn weliswaar zeer bekwaam, maar nog niet officieel bevoegd. Verschillende hogescholen bieden een verkorte leerweg waarmee deze docenten een beperkte bevoegdheid kunnen halen. Benieuwd naar de ervaringen van deelnemers en de mogelijkheden om een verkort leertraject te volgen? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
