@@ -107,6 +107,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Van bekwaam naar bevoegd',
                 'description' => 'Meer dan 10% van alle lessen in het vo en het beroepsonderwijs wordt verzorgd door docenten die (nog) niet of onvoldoende bevoegd zijn. Vooral in de tekortvakken op het VMBO blijkt dat geregeld leraren met een afgeronde Pabo-opleiding worden aangesteld. Deze leraren zijn weliswaar zeer bekwaam, maar nog niet officieel bevoegd. Verschillende hogescholen bieden een verkorte leerweg waarmee deze docenten een beperkte bevoegdheid kunnen halen. Benieuwd naar de ervaringen van deelnemers en de mogelijkheden om een verkort leertraject te volgen? Bekijk de animatie of een van de documenten op deze pagina voor de details.',
             ],
+            [
+                'id' => '16',
+                'title' => 'Banenmarkt',
+                'subtitle' => 'Comenius College zoekt Comenius Collega',
+                'description' => 'In 2016 kampte het Comenius College met een groot aantal onvervulde vacatures. De traditionele werving- en selectieprocedure leverde niet voldoende op. Daarom organiseerde het Comenius College een banenmarkt, voornamelijk gericht op de tekortvakken. In deze parel leest u over de organisatie van de banenmarkt en de resultaten en krijgt u tips om zelf een banenmarkt te organiseren.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
