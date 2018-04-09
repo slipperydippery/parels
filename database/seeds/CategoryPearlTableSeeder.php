@@ -103,7 +103,7 @@ class CategoryPearlTableSeeder extends Seeder
                 'pearl_id' => '17',
             ],
         ];
-
+ 
         DB::table('category_pearl')->insert($category_pearl);
     }
 }

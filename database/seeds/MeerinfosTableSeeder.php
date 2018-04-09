@@ -198,7 +198,7 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '17'
             ],
-        ];
+        ]; 
         DB::table('meerinfos')->insert($meerinfos);
     }
 }

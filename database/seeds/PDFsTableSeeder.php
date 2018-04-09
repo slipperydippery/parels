@@ -284,7 +284,7 @@ class PDFsTableSeeder extends Seeder
                 'description' => '',
                 'adress' => 'FactsheetJokeSmit.pdf',
             ],
-            
+             
         ];
         DB::table('pdfs')->insert($pdfs);
     }

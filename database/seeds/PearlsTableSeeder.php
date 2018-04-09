@@ -121,6 +121,7 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
             ],
         ];
 
+          
         DB::table('pearls')->insert($pearls);
     }
 }
