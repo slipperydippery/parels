@@ -182,6 +182,22 @@ class MeerinfosTableSeeder extends Seeder
                 'ismail' => '0',
                 'pearl_id' => '14'
             ],
+            [
+                'id' => '22',
+                'title' => 'sociale veiligheid', 
+                'alt' => 'sociale veiligheid',
+                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/sociale-veiligheid/sociale-veiligheid',
+                'ismail' => '0',
+                'pearl_id' => '17'
+            ],
+            [
+                'id' => '23',
+                'title' => 'fysieke veiligheid', 
+                'alt' => 'fysieke veiligheid',
+                'adress' => 'https://www.voion.nl/programmalijnen/veilig-gezond-en-vitaal-werken/fysieke-veiligheid/veilig-werken ',
+                'ismail' => '0',
+                'pearl_id' => '17'
+            ],
         ];
         DB::table('meerinfos')->insert($meerinfos);
     }

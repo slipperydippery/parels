@@ -113,6 +113,12 @@ Nieuwsgierig waarom en hoe OMO dit heeft aangepakt? Bekijk de animatie of lees h
                 'subtitle' => 'Comenius College zoekt Comenius Collega',
                 'description' => 'In 2016 kampte het Comenius College met een groot aantal onvervulde vacatures. De traditionele werving- en selectieprocedure leverde niet voldoende op. Daarom organiseerde het Comenius College een banenmarkt, voornamelijk gericht op de tekortvakken. In deze parel leest u over de organisatie van de banenmarkt en de resultaten en krijgt u tips om zelf een banenmarkt te organiseren.',
             ],
+            [
+                'id' => '17',
+                'title' => 'Trainees voor de klas',
+                'subtitle' => 'Trainees voor de klas',
+                'description' => 'In 2008 was de gemiddelde leeftijd van het lerarenkorps van het Joke Smit College 55 jaar. Daarom startte de school met het project Student wordt docent en met traineeships om het team te verjongen. De gemiddelde leeftijd op het Joke Smit College is inmiddels gedaald naar 35 jaar. Maar naast de verjonging hebben de activiteiten ook een positief effect op de dynamiek in de school: het Joke Smit College is een lerende organisatie geworden waarin medewerkers zich blijven ontwikkelen.',
+            ],
         ];
 
         DB::table('pearls')->insert($pearls);
